@@ -1,0 +1,4 @@
+﻿  Template.cpp
+i:\bit学习\myc_plus\template\template\template.cpp(37): warning C4305: “初始化”: 从“double”到“float”截断
+i:\bit学习\myc_plus\template\template\template.cpp(50): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+  Template.vcxproj -> I:\bit学习\myc_plus\Template\Debug\Template.exe
