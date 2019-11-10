@@ -18,5 +18,8 @@
     <ClCompile Include="reserve_string.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Find_longest_sub_Num_String.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

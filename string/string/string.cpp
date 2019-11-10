@@ -269,15 +269,15 @@ void TextUsuall()
 
 
 
-int main()
-{
-	//Makestring();
-	//TextIterators();
-	//TextCapacity();
-	//TextElement();
-	//TextInsert();
-	//TextAssign();
-	TextUsuall();
-	system("pause");
-	return 0;
-}
+//int main()
+//{
+//	//Makestring();
+//	//TextIterators();
+//	//TextCapacity();
+//	//TextElement();
+//	//TextInsert();
+//	//TextAssign();
+//	TextUsuall();
+//	system("pause");
+//	return 0;
+//}
