@@ -4,6 +4,34 @@
 #include<string>
 #include<iostream>
 using namespace std;
+
+char* StrStr(char* dest, char* src)
+{
+	char* pdest = dest;
+	char* psrc = src;
+	while (*pdest)
+	{
+		if (*pdest == *psrc)
+		{
+			char* mdest = pdest;
+			char* msrc = psrc;
+			while (*mdest && *msrc)
+			{
+				if (*mdest != *msrc)
+					break;
+				mdest++;
+				msrc++;
+			}
+			if (*msrc == '\0')
+				return pdest;
+		}
+		++pdest;
+	}
+	return nullptr;
+}
+
+
+
 class String
 {
 public:
@@ -227,7 +255,53 @@ public:
 		_size += sz;
 	}
 
-	void erase(size_t pos, int len);
+	void erase(size_t pos, int len)
+	{
+		assert(pos < _size);
+		if (pos + len >= _size)
+		{
+			_size = pos;
+			_str[_size] = '\0';
+			return;
+		}
+		size_t start = pos + len;
+		//从前向后挪动
+		while (start <= _size)
+		{
+			_str[start - len] = _str[start];
+			++start;
+		}
+		_size -= len;
+	}
+
+	void erase(iterator it)
+	{
+		assert(it < end() && it >= begin());
+		while (it != end())
+		{
+			*it = *(it + 1);
+			++it;
+		}
+		--_size;
+	}
+
+	size_t find(const char* str, size_t pos = 0)
+	{
+		char* start = strstr(_str + pos, str);
+		if (start == nullptr)
+			return npos;
+		return start - _str;
+	}
+
+	size_t find(char ch, size_t pos = 0)
+	{
+		for (int i = pos; i < _size; ++i)
+		{
+			if (ch == _str[i])
+				return i;
+		}
+		return npos;
+	}
 
 	friend ostream& operator<<(ostream& _cout, const String& str)
 	{
@@ -238,17 +312,24 @@ public:
 		cout << endl;
 	}
 private:
+	static const size_t npos;
 	char* _str;
 	size_t _size;
 	size_t _capacity;
 };
 
+const size_t String::npos = -1;
+
 void text()
 {
+	char str1[] = "abcdabcde";
+	char str2[] = "abcde";
+	StrStr(str1, str2);
 	String s1 = "hello";
 	String s2 = "world";
 	String copy(s2);
 }
+
 
 int main()
 {
