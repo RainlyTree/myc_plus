@@ -45,3 +45,69 @@
 //}
 
 
+//¿¼À­ÓÐn ¸ö×Ö·û´®
+//#include<iostream>
+//#include<string>
+//#include<vector>
+//using namespace std;
+//
+//bool Get(vector<string> str)
+//{
+//	int length = str.size() - 1;
+//	for (int i = 0; i < length; ++i)
+//	{
+//		string::iterator begin1 = str[i].begin();
+//		string::iterator begin2 = str[i + 1].begin();
+//		while (begin1 != str[i].end() && begin2 != str[i + 1].end())
+//		{
+//			if (*begin1 > *begin2)
+//				return false;
+//			begin1++;
+//			begin2++;
+//		}
+//	}
+//	return true;
+//}
+//
+//bool len(vector<string> str)
+//{
+//	int length = str.size() - 1;
+//	for (int i = 0; i < length; ++i)
+//	{
+//		if (str[i].size() > str[i + 1].size())
+//			return false;
+//	}
+//	return true;
+//}
+//
+//int main()
+//{
+//	int num = 0;
+//	cin >> num;
+//	vector<string> str;
+//	str.reserve(num + 1);
+//	str.resize(num);
+//	for (int i = 0; i < num; ++i)
+//	{
+//		cin >> str[i];
+//	}
+//	bool lex = Get(str);
+//	bool leng = len(str);
+//	if (lex && leng)
+//		cout << "both";
+//	else if (!lex && leng)
+//		cout << "lengths";
+//	else if (lex && !leng)
+//		cout << "lexicographically";
+//	else
+//		cout << "none";
+//	return 0;
+//}
+
+
+int main()
+{
+	printf("a\ta");
+	system("pause");
+	return 0;
+}
