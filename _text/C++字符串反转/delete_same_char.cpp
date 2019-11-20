@@ -25,4 +25,12 @@ int main()
 	}
 
 	//遍历str1,将hashtable中为0的写入新的表中
+	string ret;
+	for (size_t i = 0; i < str1.size(); ++i)
+	{
+		if (hashtable[str1[i]] == 0)
+			ret += str1[i];
+	}
+	cout << ret << endl;
+	return 0;
 }
