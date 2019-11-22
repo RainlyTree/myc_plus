@@ -1,3 +1,3 @@
-﻿  text1.cpp
-Debug\text1.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
-  测试.vcxproj -> I:\bit学习\测试\Debug\测试.exe
+﻿  text1.c
+i:\bit学习\myc_plus\测试\测试\text1.c(234): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
+  测试.vcxproj -> I:\bit学习\myc_plus\测试\Debug\测试.exe

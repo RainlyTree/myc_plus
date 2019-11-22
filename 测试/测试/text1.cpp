@@ -7,7 +7,7 @@
 using namespace std;
 
 //实现一个类 计算程序中穿件出了多少个类对象
-class A
+/*class A
 {
 public:
 	A(int x = 0)
@@ -17,7 +17,7 @@ public:
 	}
 	A(const A& t)
 	{
-		++_count;/*
+		++_count;
 		cout << " A + " << endl;
 	}
 	static int GetACount()

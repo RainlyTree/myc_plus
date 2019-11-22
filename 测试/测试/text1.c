@@ -95,108 +95,108 @@
 //}
 
 
-int mergeStones(int* stones, int stonesSize, int K) {
-	int num = (stonesSize / K) + (stonesSize % K);
-	while (num > K)
-		num = (stonesSize / K) + (stonesSize % K);
-	if (num == K || stonesSize == K)
-	{
-		int x1 = 0;
-		int min = 0x8000000;
-		int tmp;
-		for (int i = 0; i < (stonesSize - K + 1); i++)
-		{
-			tmp = stones[i];
-			for (int j = i + 1; j < i + K; j++)
-			{
-				tmp += stones[j];
-			}
-			if (min > tmp)
-			{
-				x1 = i;
-				min = tmp;
-			}
-		}
-		stones[x1] = min;
-		int i;
-		for (i = x1 + 1; i < stonesSize - K + 1; i++)
-		{
-			stones[i] = stones[i + K - 1];
-		}
-		stones[stonesSize - 1] = stones[x1];
-		stonesSize = stonesSize - K + 1;
-		if (stonesSize != 1)
-		{
-			mergeStones(stones, stonesSize, K);
-		}
-		int sum = 0;
-		for (i = 0; i < stonesSize + K - 1; i = i + K - 1)
-		{
-			sum += stones[i];
-		}
-		sum = sum - stones[K - 1];
-		return sum;
-	}
-	return -1;
-}
-
-
-struct TreeNode {
-	int val;
-	struct TreeNode *left;
-	struct TreeNode *right;
-};
-
-struct TreeNode;
-typedef struct TreeNode TreeNode;
-
-void _treestr(TreeNode* t, char* str)
-{
-	//如果是空，直接返回
-	if (t == NULL)
-		return;
-	//将节点转化为字符
-	char buff[10];
-	sprintf(buff, "%d", t->val);
-	strcat(str, buff);
-
-	//处理左侧
-	if (t->left == NULL)
-	{
-		if (t->right == NULL)
-			return;
-		else
-		{
-			strcat(str, "()");
-		}
-	}
-	else
-	{
-		strcat(str, "(");
-		_treestr(t->left, str);
-		strcat(str, ")");
-	}
-
-	//处理右子树
-	if (t->right == NULL)
-	{
-		return;
-	}
-	else
-	{
-		strcat(str, "(");
-		_treestr(t->right, str);
-		strcat(str, ")");
-	}
-
-}
-
-char *tree2str(struct TreeNode* t) {
-	char *str = (char*)malloc(sizeof(char)*1000000);
-	str[0] = '\0';
-	_treestr(t, str);
-	return str;
-}
+//int mergeStones(int* stones, int stonesSize, int K) {
+//	int num = (stonesSize / K) + (stonesSize % K);
+//	while (num > K)
+//		num = (stonesSize / K) + (stonesSize % K);
+//	if (num == K || stonesSize == K)
+//	{
+//		int x1 = 0;
+//		int min = 0x8000000;
+//		int tmp;
+//		for (int i = 0; i < (stonesSize - K + 1); i++)
+//		{
+//			tmp = stones[i];
+//			for (int j = i + 1; j < i + K; j++)
+//			{
+//				tmp += stones[j];
+//			}
+//			if (min > tmp)
+//			{
+//				x1 = i;
+//				min = tmp;
+//			}
+//		}
+//		stones[x1] = min;
+//		int i;
+//		for (i = x1 + 1; i < stonesSize - K + 1; i++)
+//		{
+//			stones[i] = stones[i + K - 1];
+//		}
+//		stones[stonesSize - 1] = stones[x1];
+//		stonesSize = stonesSize - K + 1;
+//		if (stonesSize != 1)
+//		{
+//			mergeStones(stones, stonesSize, K);
+//		}
+//		int sum = 0;
+//		for (i = 0; i < stonesSize + K - 1; i = i + K - 1)
+//		{
+//			sum += stones[i];
+//		}
+//		sum = sum - stones[K - 1];
+//		return sum;
+//	}
+//	return -1;
+//}
+//
+//
+//struct TreeNode {
+//	int val;
+//	struct TreeNode *left;
+//	struct TreeNode *right;
+//};
+//
+//struct TreeNode;
+//typedef struct TreeNode TreeNode;
+//
+//void _treestr(TreeNode* t, char* str)
+//{
+//	//如果是空，直接返回
+//	if (t == NULL)
+//		return;
+//	//将节点转化为字符
+//	char buff[10];
+//	sprintf(buff, "%d", t->val);
+//	strcat(str, buff);
+//
+//	//处理左侧
+//	if (t->left == NULL)
+//	{
+//		if (t->right == NULL)
+//			return;
+//		else
+//		{
+//			strcat(str, "()");
+//		}
+//	}
+//	else
+//	{
+//		strcat(str, "(");
+//		_treestr(t->left, str);
+//		strcat(str, ")");
+//	}
+//
+//	//处理右子树
+//	if (t->right == NULL)
+//	{
+//		return;
+//	}
+//	else
+//	{
+//		strcat(str, "(");
+//		_treestr(t->right, str);
+//		strcat(str, ")");
+//	}
+//
+//}
+//
+//char *tree2str(struct TreeNode* t) {
+//	char *str = (char*)malloc(sizeof(char)*1000000);
+//	str[0] = '\0';
+//	_treestr(t, str);
+//	return str;
+//}
 //int main()
 //{
 //	TreeNode *text = (TreeNode*)malloc(sizeof(TreeNode));
@@ -225,3 +225,13 @@ char *tree2str(struct TreeNode* t) {
 //	return 0;
 //}
 
+int main()
+{
+	int a = 10;
+	int *p = &a;
+	printf("%d\n", a);
+	printf("%d\n", *p);
+	printf("%d", p);
+	system("pause");
+	return 0;
+}
