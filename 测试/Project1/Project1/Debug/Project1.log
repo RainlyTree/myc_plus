@@ -1,0 +1,4 @@
+﻿  contact.c
+i:\bit学习\测试\project1\project1\contact.c(28): warning C4477: “scanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“short *”
+  i:\bit学习\测试\project1\project1\contact.c(28): note: 请考虑在格式字符串中使用“%hd”
+  Project1.vcxproj -> I:\bit学习\测试\Project1\Debug\通讯录.exe
