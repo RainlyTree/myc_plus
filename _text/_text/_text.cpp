@@ -1,7 +1,4 @@
 #define _CRT_SECURE_NO_WARNINGS 1
-#include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
 //
 //
 //#include<iostream>
@@ -103,11 +100,3 @@
 //		cout << "none";
 //	return 0;
 //}
-
-
-int main()
-{
-	printf("a\ta");
-	system("pause");
-	return 0;
-}
