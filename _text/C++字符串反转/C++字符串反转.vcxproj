@@ -119,6 +119,7 @@
     <ClCompile Include="delete_same_char.cpp" />
     <ClCompile Include="Find_longest_sub_Num_String.cpp" />
     <ClCompile Include="reserve_string.cpp" />
+    <ClCompile Include="排序子序列.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
