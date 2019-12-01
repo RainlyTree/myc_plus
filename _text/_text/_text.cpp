@@ -125,3 +125,4 @@ int main()
 	s.SetStudentInfo("Peter", "ÄÐ", 18);
 	return 0;
 }
+#include<vector>
