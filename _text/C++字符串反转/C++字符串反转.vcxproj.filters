@@ -27,5 +27,8 @@
     <ClCompile Include="排序子序列.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="字符串去重.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

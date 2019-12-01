@@ -18,5 +18,8 @@
     <ClCompile Include="排队问题.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="查找元素.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
