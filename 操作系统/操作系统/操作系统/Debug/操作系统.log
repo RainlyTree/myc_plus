@@ -1,8 +1,10 @@
 ﻿  调度算法.cpp
 i:\bit学习\myc_plus\操作系统\操作系统\操作系统\调度算法.cpp(282): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
-i:\bit学习\myc_plus\操作系统\操作系统\操作系统\调度算法.cpp(283): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-i:\bit学习\myc_plus\操作系统\操作系统\操作系统\调度算法.cpp(294): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-i:\bit学习\myc_plus\操作系统\操作系统\操作系统\调度算法.cpp(300): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
-i:\bit学习\myc_plus\操作系统\操作系统\操作系统\调度算法.cpp(302): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-i:\bit学习\myc_plus\操作系统\操作系统\操作系统\调度算法.cpp(379): warning C4551: 缺少参数列表的函数调用
+i:\bit学习\myc_plus\操作系统\操作系统\操作系统\调度算法.cpp(284): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+i:\bit学习\myc_plus\操作系统\操作系统\操作系统\调度算法.cpp(296): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+i:\bit学习\myc_plus\操作系统\操作系统\操作系统\调度算法.cpp(302): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
+i:\bit学习\myc_plus\操作系统\操作系统\操作系统\调度算法.cpp(305): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+i:\bit学习\myc_plus\操作系统\操作系统\操作系统\调度算法.cpp(341): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
+i:\bit学习\myc_plus\操作系统\操作系统\操作系统\调度算法.cpp(342): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
+i:\bit学习\myc_plus\操作系统\操作系统\操作系统\调度算法.cpp(398): warning C4551: 缺少参数列表的函数调用
   操作系统.vcxproj -> I:\bit学习\myc_plus\操作系统\操作系统\Debug\操作系统.exe

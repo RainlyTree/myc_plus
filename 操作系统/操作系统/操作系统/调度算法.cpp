@@ -280,7 +280,9 @@ void RR(int num, vector<Node*> job)//RR算法
 	Arrive_sort(num, job);
 	//开始时间为第一个作业的到达时间
 	time = job[0]->Tarrive;
+	//设置第一个开始时间
 	job[0]->Tstart = time;
+	//将第一个任务入队
 	job_que.push(job[0]);
 	job[0]->flag = true;
 	while (!job_que.empty())
@@ -298,6 +300,7 @@ void RR(int num, vector<Node*> job)//RR算法
 		{
 			//时间加上当前剩余时间
 			time += tmp_job->Tsurplus;
+			tmp_job->Tsurplus = 0;
 			//设置完成时间
 			tmp_job->Taccomplish = time;
 		}
@@ -323,10 +326,25 @@ void RR(int num, vector<Node*> job)//RR算法
 	}
 	for (int i = 0; i < num; ++i)
 	{
-		job[i]->Taccomplish = job[i]->Tstart + job[i]->Tservice;
+		//job[i]->Taccomplish = job[i]->Tstart + job[i]->Tservice;
 		job[i]->TZz = job[i]->Taccomplish - job[i]->Tarrive;
 		job[i]->TDqZz = job[i]->TZz / job[i]->Tservice;
 	}
+}
+
+void ave_time(int num, vector<Node*>& job)
+{
+	int ave_t1 = 0;
+	int ave_t2 = 0;
+	for (int i = 0; i < num; ++i)
+	{
+		ave_t1 += job[i]->TZz;
+		ave_t2 += job[i]->TDqZz;
+	}
+	ave_t1 /= num;
+	ave_t2 /= num;
+	cout << "平均周转周期" << "\t\t" << "平均带权周转周期" << endl;
+	cout << "\t" << ave_t1 << "\t\t" << ave_t2 << endl;
 }
 
 //输出函数
@@ -341,6 +359,7 @@ void print(int num, vector<Node*>& job)
 			<< "\t\t"  << job[i]->Tstart << "\t\t" << job[i]->Taccomplish
 			<< "\t\t" << job[i]->TZz << "\t\t"  << job[i]->TDqZz << endl;
 	}
+	ave_time(num, job);
 }
 
 
@@ -383,6 +402,8 @@ void display(int num,vector<Node*> job)
 		}
 	} while (ch != 5);
 }
+
+
 
 int main()
 {
