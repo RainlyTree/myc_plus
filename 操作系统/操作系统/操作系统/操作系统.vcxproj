@@ -115,8 +115,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="内存动态分区分配.cpp" />
+    <ClCompile Include="内存动态分区分配算法.cpp" />
     <ClCompile Include="调度算法.cpp" />
-    <ClCompile Include="进程调度算法.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
