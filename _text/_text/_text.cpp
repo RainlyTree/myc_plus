@@ -102,27 +102,24 @@
 //}
 
 #include<iostream>
+#include<vector>
 using namespace std;
-struct Student
-{
-	void SetStudentInfo(const char* name, const char* gender, int age)
-	{
-		strcpy(_name, name);
-		strcpy(_gender, gender);
-		_age = age;
-	}
-	void PrintStudentInfo()
-	{
-		cout << _name << " " << _gender << " " << _age << endl;
-	}
-	char _name[20];
-	char _gender[3];
-	int _age;
-};
+
 int main()
 {
-	Student s;
-	s.SetStudentInfo("Peter", "ÄÐ", 18);
+	int num;
+	
+	while (cin >> num)
+	{
+		int n = 0;
+		if (num == 0)
+			break;
+		while (num / 2)
+		{
+			++n;
+			num /= 2;
+		}
+		cout << n << endl;
+	}
 	return 0;
 }
-#include<vector>
