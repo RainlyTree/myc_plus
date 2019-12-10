@@ -101,25 +101,28 @@
 //	return 0;
 //}
 
-#include<iostream>
-#include<vector>
-using namespace std;
+//#include<iostream>
+//#include<vector>
+//using namespace std;
+//
+//int main()
+//{
+//	int num;
+//	
+//	while (cin >> num)
+//	{
+//		int n = 0;
+//		if (num == 0)
+//			break;
+//		while (num / 2)
+//		{
+//			++n;
+//			num /= 2;
+//		}
+//		cout << n << endl;
+//	}
+//	return 0;
+//}
 
-int main()
-{
-	int num;
-	
-	while (cin >> num)
-	{
-		int n = 0;
-		if (num == 0)
-			break;
-		while (num / 2)
-		{
-			++n;
-			num /= 2;
-		}
-		cout << n << endl;
-	}
-	return 0;
-}
+// write your code here cpp
+
