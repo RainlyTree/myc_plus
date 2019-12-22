@@ -23,8 +23,8 @@ typedef struct Link //double linked list
 	struct Link *next;  //后继指针
 }Link;
 
-Link* block_follow = block_first;	//跟随节点
 Link* block_first; //头结点
+Link* block_follow = block_first;	//跟随节点
 Link* block_last;  //尾结点
 
 bool Initblock()//开创带头结点的内存空间链表
@@ -185,11 +185,12 @@ bool Worse_fit(int ID, int request)
 	}
 }
 
+//------------------ 循环首次适应算法 -----------------------
 bool Re_First_fit(int ID, int request)
 {
 	//为申请作业开辟新空间且初始化
 	Link* temp = (Link*)malloc(sizeof(Link));
-	temp->data.ID = ID;
+ 	temp->data.ID = ID;
 	temp->data.size = request;
 	temp->data.state = true;
 
@@ -225,6 +226,7 @@ bool Re_First_fit(int ID, int request)
 	}
 	return false;
 }
+
 
 //-----------------------   内 存 回 收   --------------------
 bool free(int ID)
@@ -299,6 +301,7 @@ bool free(int ID)
 //----------------------- 分 配 内 存 -------------------------
 bool alloc()
 {
+	block_follow = block_first;
 	int ch;//算法选择标记
 	cout << "       内存动态分区分配与回收       \n";
 	cout << "************************************\n";
@@ -342,6 +345,10 @@ bool alloc()
 				cout << "内存不足，分配失败！" << endl;
 			break;
 		case 4:
+			if (Re_First_fit(ID, request) == true)
+				cout << "分配成功！" << endl;
+			else
+				cout << "内存不足，分配失败！" << endl;
 			break;
 		default:
 			break;
@@ -375,7 +382,7 @@ void show()
 	}
 }
 
-void main()
+int main()
 {
 	Initblock(); //开创空间表
 	int choice;  //操作选择标记
