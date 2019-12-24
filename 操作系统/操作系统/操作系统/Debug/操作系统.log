@@ -1,2 +1,4 @@
 ﻿E:\VisualStudio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  内存动态分区分配算法.cpp
+d:\myc_plus\myc_plus\操作系统\操作系统\操作系统\内存动态分区分配算法.cpp(358): warning C4715: “alloc”: 不是所有的控件路径都返回值
   操作系统.vcxproj -> D:\myc_plus\myc_plus\操作系统\操作系统\操作系统\10.0.10240.0\操作系统.exe

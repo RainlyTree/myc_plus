@@ -35,6 +35,7 @@ bool Initblock()//开创带头结点的内存空间链表
 	block_first->prior = NULL;
 	block_first->data.ID = -1;
 	block_first->next = block_last;
+	block_first->data.state = true;
 	//尾节点设置(尾节点为当前的第一个节点)
 	block_last->prior = block_first;
 	block_last->next = NULL;
@@ -213,7 +214,7 @@ bool Re_First_fit(int ID, int request)
 			p->prior = temp;
 			p->data.address = temp->data.address + temp->data.size;
 			p->data.size -= request;
-			block_follow = p->next;
+			block_follow = p;
 			return true;
 		}
 		p = p->next;
@@ -247,6 +248,7 @@ bool free(int ID)
 					_head->next = _next->next;
 					_next->prior = p->prior;
 					_head->data.size += p->data.size + _next->data.size;
+					free(p->next);
 					free(p);
 				}
 				else if (p->prior->data.state == false)//与前面的空闲块相连
@@ -301,7 +303,7 @@ bool free(int ID)
 //----------------------- 分 配 内 存 -------------------------
 bool alloc()
 {
-	block_follow = block_first;
+	
 	int ch;//算法选择标记
 	cout << "       内存动态分区分配与回收       \n";
 	cout << "************************************\n";
@@ -385,6 +387,7 @@ void show()
 int main()
 {
 	Initblock(); //开创空间表
+	block_follow = block_first;
 	int choice;  //操作选择标记
 		cout << "********************************************\n";
 		cout << "**    1: 分配内存        2: 回收内存      **\n";
@@ -397,7 +400,7 @@ int main()
 			case 0:
 				break;
 			case 1:
-				// 分配内存
+				 //分配内存
 				alloc();
 				break;
 			case 2:
