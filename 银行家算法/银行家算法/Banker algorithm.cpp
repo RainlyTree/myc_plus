@@ -43,7 +43,6 @@ int Safe()
 			{
 				if (Need[i][j] > Work[j])
 				{
-					cout << "第" << i << "不符合";
 					break;
 				}
 			}
@@ -191,11 +190,13 @@ void need_soursce(char* Flag)
 			
 		}
 
+		int tmp = 0;
 		for (i = 0; i < n; i++)
 		{
 			Available[i] -= Request[mi][i];
 			Allocation[mi][i] += Request[mi][i];
 			Need[mi][i] -= Request[mi][i];
+			tmp = 1;
 		}
 
 		//判断是否还安全
@@ -209,12 +210,23 @@ void need_soursce(char* Flag)
 				Available[i] += Request[mi][i];
 				Allocation[mi][i] -= Request[mi][i];
 				Need[mi][i] += Request[mi][i];
+				tmp = 0;
 			}
 		}
 		//返回状态
 		for (i = 0; i < m; i++)
 			Finish[i] = 0;
 
+		if (tmp = 1)
+		{
+			for (i = 0; i < n; i++)
+			{
+				Available[i] += Request[mi][i];
+				Allocation[mi][i] -= Request[mi][i];
+				Need[mi][i] += Request[mi][i];
+			}
+		}
+		
 
 		cout << "是否再次请求分配？是请按Y/y，否请按N/n" << endl;
 		while (1)
