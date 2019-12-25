@@ -415,28 +415,28 @@ void display(int num,vector<Node*> job)
 	} while (ch != 5);
 }
 
-//int main()
-//{
-//	int num;
-//	cout << "请输入进程个数：" << endl;
-//	cin >> num;
-//	//开num个存放Node指针的数组
-//	vector<Node*> job;
-//	job.resize(num);
-//	for (int i = 0; i < num; i++)
-//	{
-//		job[i] = new Node;
-//		cout << "请输入进程名、到达时间、服务时间、优先级" << endl;
-//		//获取进程名
-//		cin >> job[i]->name;
-//		//获取到达时间
-//		cin >> job[i]->Tarrive;
-//		//获取服务时间
-//		cin >> job[i]->Tservice;
-//		//获取优先级
-//		cin >> job[i]->prio;
-//	}
-//	display(num, job);
-//	system("pasue");
-//	return 0;
-//}
+int main()
+{
+	int num;
+	cout << "请输入进程个数：" << endl;
+	cin >> num;
+	//开num个存放Node指针的数组
+	vector<Node*> job;
+	job.resize(num);
+	for (int i = 0; i < num; i++)
+	{
+		job[i] = new Node;
+		cout << "请输入进程名、到达时间、服务时间、优先级" << endl;
+		//获取进程名
+		cin >> job[i]->name;
+		//获取到达时间
+		cin >> job[i]->Tarrive;
+		//获取服务时间
+		cin >> job[i]->Tservice;
+		//获取优先级
+		cin >> job[i]->prio;
+	}
+	display(num, job);
+	system("pasue");
+	return 0;
+}
