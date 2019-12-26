@@ -145,7 +145,8 @@ bool Init()
 	{
 		for (j = 0; j < n; ++j)
 		{
-			Available[j] -= Max[i][j];
+			//Available[j] -= Max[i][j];
+			Available[j] -= Allocation[i][j];
 			if (Available[j] < 0)
 			{
 				cout << "输入的值有问题，无法进行计算" << endl;
