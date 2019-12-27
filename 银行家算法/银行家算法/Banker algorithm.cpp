@@ -70,34 +70,6 @@ int Safe()
 			}
 			cout << endl;
 
-			cout << "进程名" << "     " << "Max" << "     " <<
-				"Allocation" << "     " << "Need" << "     "<< 
-				"Finish" << endl;
-			for (i = 0; i < m; ++i)
-			{
-				cout << "  " << "P" << i;
-				cout << "       ";
-				for (j = 0; j < n; ++j)
-				{
-					cout << Max[i][j] << ' ';
-				}
-				cout << "     ";
-				for (j = 0; j < n; ++j)
-				{
-					cout << Allocation[i][j] << ' ';
-				}
-				cout << "     ";
-				for (j = 0; j < n; ++j)
-				{
-					cout << Need[i][j] << ' ';
-				}
-				cout << "     ";
-
-				cout << Finish[i] << ' ';
-				
-				cout << endl;
-			}
-			cout << endl;
 			return 1;
 		}
 	}
@@ -168,6 +140,41 @@ void need_soursce(char* Flag)
 	int i, mi = 0;
 	while (1)
 	{
+
+		cout << "进程名" << "     " << "Max" << "     " <<
+			"Allocation" << "     " << "Need" << "     " <<
+			"Finish" << endl;
+
+		int j;
+		for (i = 0; i < m; ++i)
+		{
+			cout << "  " << "P" << i;
+			cout << "       ";
+			for (int j = 0; j < n; ++j)
+			{
+				cout << Max[i][j] << ' ';
+			}
+			cout << "     ";
+			for (j = 0; j < n; ++j)
+			{
+				cout << Allocation[i][j] << ' ';
+			}
+			cout << "     ";
+			for (j = 0; j < n; ++j)
+			{
+				cout << Need[i][j] << ' ';
+			}
+			cout << "     ";
+
+			cout << Finish[i] << ' ';
+
+			cout << endl;
+		}
+		cout << endl;
+
+
+
+
 		cout << "输入要申请的资源的进程号：（第一个进程号为0，第二个进程号为1，依此类推）" << endl;
 		cin >> mi;
 
@@ -191,13 +198,11 @@ void need_soursce(char* Flag)
 			
 		}
 
-		int tmp = 0;
 		for (i = 0; i < n; i++)
 		{
 			Available[i] -= Request[mi][i];
 			Allocation[mi][i] += Request[mi][i];
 			Need[mi][i] -= Request[mi][i];
-			tmp = 1;
 		}
 
 		//判断是否还安全
@@ -211,22 +216,37 @@ void need_soursce(char* Flag)
 				Available[i] += Request[mi][i];
 				Allocation[mi][i] -= Request[mi][i];
 				Need[mi][i] += Request[mi][i];
-				tmp = 0;
 			}
 		}
 		//返回状态
 		for (i = 0; i < m; i++)
 			Finish[i] = 0;
 
-		if (tmp = 1)
+
+		for (i = 0; i < m; i++)
 		{
-			for (i = 0; i < n; i++)
+			int sum = 0;
+			for (int j = 0; j < n; ++j)
+			{ 
+				sum += Need[i][j];
+			}
+			if (0 == sum)
 			{
-				Available[i] += Request[mi][i];
-				Allocation[mi][i] -= Request[mi][i];
-				Need[mi][i] += Request[mi][i];
+				for (int j = 0; j < n; ++j)
+				{
+					Available[j] += Allocation[i][j];
+					Allocation[i][j] = 0;
+				}
 			}
 		}
+		
+		cout << "当前剩余资源量为 ：";
+		//获取当前的可用资源数组
+		for (i = 0; i < n; i++)
+			cout << Available[i] << " ";
+
+		cout << endl;
+
 		
 
 		cout << "是否再次请求分配？是请按Y/y，否请按N/n" << endl;
