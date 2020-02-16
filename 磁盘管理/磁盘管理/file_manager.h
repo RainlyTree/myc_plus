@@ -9,10 +9,8 @@ class file_manager
 public:
 	//对当前盘下内容扫描
 	void scanning(const std::string & path);
-
 	//填充MD5 ---> file
 	void MD5_File();
-
 	//填充file -->MD5
 	void File_MD5();
 
@@ -20,7 +18,7 @@ public:
 	void delete_name(const std::string& name);
 	//相同MD5值删除
 	void delete_MD5(const std::string& md5);
-
+	//删除所有重复的文件
 	void deleteAllSame();
 	//删除包含有matchName的文件
 	void delete_match_name(const std::string& matchName);
