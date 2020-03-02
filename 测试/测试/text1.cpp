@@ -12,11 +12,19 @@ int Add(double right, int left)
 	return left + right;
 }
 
+
+//²âÊÔÄ£°å
+template<class T>
+T Add(const T& A, const T& B)
+{
+	return A + B;
+}
+
 int main()
 {
-	int left = 1;
-	double right = 1;
-	cout << Add(left, right) << endl;
-	cout << Add(right, left) << endl;
+	int a = 10, b = 20;
+	double a1 = 10, b1 = 1;
+	cout << Add(a, b) << endl;
+	cout << Add(a1, b1) << endl;
 	return 0;
 }
