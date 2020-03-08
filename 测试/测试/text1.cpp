@@ -22,6 +22,13 @@ T Add(const T& A, const T& B)
 	return A + B;
 }
 
+typedef void(*test)(int);
+
+void print(int)
+{
+	cout << "123" << endl;
+}
+
 
 
 int orangesRotting(vector<vector<int>>& grid) {
@@ -101,9 +108,11 @@ int orangesRotting(vector<vector<int>>& grid) {
 	}
 	return num;
 }
+
 int main()
 {
-	vector<vector<int>> arr = { {1,2,0,2,1,1,0,2,2 }};
-	orangesRotting(arr);
+	test arr = print;
+	//vector<vector<int>> arr = { {1,2,0,2,1,1,0,2,2 }};
+	//orangesRotting(arr);
 	return 0;
 }
