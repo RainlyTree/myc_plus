@@ -109,10 +109,65 @@ int orangesRotting(vector<vector<int>>& grid) {
 	return num;
 }
 
+
+bool canThreePartsEqualSum(vector<int>& A) {
+	int sum = 0;
+	int size = A.size();
+	for (int i = 0; i < size; ++i)
+	{
+		sum += A[i];
+	}
+	if (sum % 3 != 0)
+		return false;
+	sum /= 3;
+	int i = 0;
+	int j = size - 1;
+	int sumi = 0, sumj = 0;
+	while (i < j)
+	{
+		if (sumi != sum)
+		{
+			sumi += A[i];
+			++i;
+		}
+		if (sumj != sum)
+		{
+			sumj += A[j];
+			--j;
+		}
+		if (sumi == sumj)
+			break;
+	}
+	if (i < j)
+	{
+		int sum_ = 0;
+		for (; i <= j; ++i)
+		{
+			sum_ += A[i];
+		}
+		if (sum_ == sumi)
+			return true;
+	}
+	return false;
+}
+
+int add(int a, int b) {
+	while (b != 0)
+	{
+		int sum = a ^ b;
+		unsigned int go_ = (a & b) << 1;
+		a = sum;
+		b = go_;
+	}
+	return a;
+}
+
 int main()
 {
-	test arr = print;
-	//vector<vector<int>> arr = { {1,2,0,2,1,1,0,2,2 }};
+	//vector<int> arr = { 1,-1,1,-1 };
+	//canThreePartsEqualSum(arr);
 	//orangesRotting(arr);
+	add(-1, 2);
+	unsigned int a = (unsigned int)-1;
 	return 0;
 }
