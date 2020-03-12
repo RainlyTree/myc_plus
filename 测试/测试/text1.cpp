@@ -162,12 +162,40 @@ int add(int a, int b) {
 	return a;
 }
 
+
+class B
+{
+public:
+	int b;
+};
+
+class C1 : public B
+{
+public:
+	int c1;
+};
+
+class C2 : public B
+{
+public:
+	int c2;
+};
+
+class D : public C1, public C2
+{
+public:
+	int d;
+};
+
+
 int main()
 {
 	//vector<int> arr = { 1,-1,1,-1 };
 	//canThreePartsEqualSum(arr);
 	//orangesRotting(arr);
-	add(-1, 2);
-	unsigned int a = (unsigned int)-1;
+	//add(-1, 2);
+	//f();
+	D d;
+	cout << sizeof(d) << endl;
 	return 0;
 }
