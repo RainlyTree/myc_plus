@@ -109,7 +109,6 @@ int orangesRotting(vector<vector<int>>& grid) {
 	return num;
 }
 
-
 bool canThreePartsEqualSum(vector<int>& A) {
 	int sum = 0;
 	int size = A.size();
@@ -163,30 +162,6 @@ int add(int a, int b) {
 }
 
 
-class B
-{
-public:
-	int b;
-};
-
-class C1 : public B
-{
-public:
-	int c1;
-};
-
-class C2 : public B
-{
-public:
-	int c2;
-};
-
-class D : public C1, public C2
-{
-public:
-	int d;
-};
-
 
 int main()
 {
@@ -195,7 +170,6 @@ int main()
 	//orangesRotting(arr);
 	//add(-1, 2);
 	//f();
-	D d;
-	cout << sizeof(d) << endl;
+	
 	return 0;
 }
