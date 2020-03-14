@@ -161,15 +161,47 @@ int add(int a, int b) {
 	return a;
 }
 
+class Base
+{
+public:
+	virtual void fun()
+	{
+		cout << "func()" << endl;
+	}
+
+	virtual void fun1()
+	{
+		cout << "func1()" << endl;
+	}
+
+	void fun2()
+	{
+		cout << "fun2()" << endl;
+	}
+private:
+	int b = 1;
+};
+
+class Derive : public Base
+{
+public:
+	virtual void fun()
+	{
+		cout << "dre  :: fun()" << endl;
+	}
+private:
+	int d = 2;
+};
 
 
 int main()
 {
-	//vector<int> arr = { 1,-1,1,-1 };
-	//canThreePartsEqualSum(arr);
-	//orangesRotting(arr);
-	//add(-1, 2);
-	//f();
+	Base b;
+
+	cout << sizeof(Base) << endl;
+	cout << sizeof(Derive) << endl;
 	
+	Derive d;
+
 	return 0;
 }
