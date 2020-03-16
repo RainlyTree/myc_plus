@@ -22,14 +22,89 @@ T Add(const T& A, const T& B)
 	return A + B;
 }
 
-typedef void(*test)(int);
-
 void print(int)
 {
 	cout << "123" << endl;
 }
 
+//虚表
 
+class Base
+{
+public:
+	virtual void fun1()
+	{
+		cout << "base::func1" << endl;
+	}
+	virtual void fun2()
+	{
+		cout << "base::func2" << endl;
+	}
+private:
+	int a;
+};
+class Derive : public Base
+{
+public:
+	virtual void fun1()override
+	{
+		cout << "Derve::func1" << endl;
+	}
+	virtual void func3()
+	{
+		cout << "derve::func3" << endl;
+	}
+	virtual void func4()
+	{
+		cout << "derve::func4" << endl;
+	}
+private:
+	int b;
+};
+typedef void(*VFpter) ();
+void PrintVT(VFpter table[])
+{
+	cout << "虚表地址 : " << table << endl;
+	for (int i = 0; table[i] != nullptr; ++i)
+	{
+		printf("第 %d 个虚函数地址 : %x", i, table[i]);
+		VFpter f = table[i];
+		f();
+	}
+	cout << endl;
+}
+
+//菱形继承与虚机表
+class A
+{
+public:
+	int a;
+};
+class B : virtual public A
+{
+public:
+	int b;
+};
+class C : virtual public A
+{
+public:
+	int c;
+};
+class D : public B, public C
+{
+public:
+	int d;
+};
+
+void test()
+{
+	D d;
+	d.B::a = 1;
+	d.C::a = 2;
+	d.b = 3;
+	d.c = 4;
+	d.d = 5;
+}
 
 int orangesRotting(vector<vector<int>>& grid) {
 	int num = 0;
@@ -161,37 +236,6 @@ int add(int a, int b) {
 	return a;
 }
 
-class Base
-{
-public:
-	virtual void fun()
-	{
-		cout << "func()" << endl;
-	}
-
-	virtual void fun1()
-	{
-		cout << "func1()" << endl;
-	}
-
-	void fun2()
-	{
-		cout << "fun2()" << endl;
-	}
-private:
-	int b = 1;
-};
-
-class Derive : public Base
-{
-public:
-	virtual void fun()
-	{
-		cout << "dre  :: fun()" << endl;
-	}
-private:
-	int d = 2;
-};
 
 
 int lengthOfLIS(vector<int>& nums) {
@@ -265,7 +309,6 @@ int dfs(vector<vector<int>>& grid, int cur_i, int cur_j)
 
 int main()
 {
-	vector<vector<int>> fin = { {1,1,0,0,0},{1,1,0,0,0},{0,0,0,1,1},{0,0,0,1,1} };
-	maxAreaOfIsland(fin);
+	test();
 	return 0;
 }

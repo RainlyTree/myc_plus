@@ -1,6 +1,7 @@
 ﻿  text1.cpp
 d:\代码文件\myc_plus\测试\测试\text1.cpp(9): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
 d:\代码文件\myc_plus\测试\测试\text1.cpp(14): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
-d:\代码文件\myc_plus\测试\测试\text1.cpp(202): warning C4018: “<”: 有符号/无符号不匹配
-d:\代码文件\myc_plus\测试\测试\text1.cpp(239): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+d:\代码文件\myc_plus\测试\测试\text1.cpp(70): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“VFpter”
+d:\代码文件\myc_plus\测试\测试\text1.cpp(246): warning C4018: “<”: 有符号/无符号不匹配
+d:\代码文件\myc_plus\测试\测试\text1.cpp(283): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
   测试.vcxproj -> D:\代码文件\myc_plus\测试\Debug\测试.exe
