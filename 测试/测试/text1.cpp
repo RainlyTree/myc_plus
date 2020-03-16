@@ -95,7 +95,6 @@ class D : public B, public C
 public:
 	int d;
 };
-
 void test()
 {
 	D d;
@@ -292,7 +291,7 @@ int dfs(vector<vector<int>>& grid, int cur_i, int cur_j)
 	}
 	return ans;
 }
-	int maxAreaOfIsland(vector<vector<int>>& grid) {
+int maxAreaOfIsland(vector<vector<int>>& grid) {
 		int row = grid[0].size();
 		int col = grid.size();
 		int len = 0;
@@ -306,9 +305,30 @@ int dfs(vector<vector<int>>& grid, int cur_i, int cur_j)
 		return len;
 	}
 
+class base
+{
+public:
+	virtual void fun()
+	{
+		cout << "base::func" << endl;
+	}
+};
+
+class device : public base
+{
+public:
+	virtual void fun()
+	{
+		cout << "devers::func()" << endl;
+	}
+};
 
 int main()
 {
-	test();
+	base* b = new base();
+	device d;
+	b->fun();
+	b = &d;
+	b->fun();
 	return 0;
 }
