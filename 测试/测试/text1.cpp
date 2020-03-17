@@ -358,9 +358,77 @@ public:
 	}
 };
 
+
+vector<int> spiralOrder(vector<vector<int>>& matrix) {
+	vector<int> fin;
+	if (matrix.empty() == 1)
+		return fin;
+	int row = matrix[0].size();
+	int col = matrix.size();
+	//mini 限制 i , minj 限制 j
+	int mini = 0, minj = 0;
+	int i = 0, j = 0;
+	while (1)
+	{
+		if (row - 1 < minj && col - 1 < mini)
+		{
+			fin.push_back(matrix[i][j]);
+			break;
+		}
+		//如果只有一行
+		if (col - mini == 1)
+		{
+			for (int k = minj; k < row; ++k)
+			{
+				fin.push_back(matrix[mini][k]);
+			}
+			break;
+		}
+		if (row - minj == 1)
+		{
+			for (int k = mini; j < col; ++k)
+			{
+				fin.push_back(matrix[k][minj]);
+			}
+			break;
+		}
+		while (j < row)
+		{
+			fin.push_back(matrix[i][j]);
+			++j;
+		}
+		--j;
+		++i;
+		while (i < col)
+		{
+			fin.push_back(matrix[i][j]);
+			++i;
+		}
+		--i;
+		--j;
+		while (j >= minj)
+		{
+			fin.push_back(matrix[i][j]);
+			--j;
+		}
+		++j;
+		while (i > mini + 1)
+		{
+			--i;
+			fin.push_back(matrix[i][j]);
+		}
+		row--;
+		col--;
+		i = ++mini;
+		j = ++minj;
+	}
+	return fin;
+}
+
+
 int main(int argc, char* argv[])
 {
-	A*p = new B;
-	p->test();
+	vector<vector<int>> fin = { {1,2,3,4,5,6,7,8,9,10},{11,12,13,14,15,16,17,18,19,20 } };
+	spiralOrder(fin);
 	return 0;
 }
