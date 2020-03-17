@@ -74,36 +74,39 @@ void PrintVT(VFpter table[])
 	cout << endl;
 }
 
+
+
+
 //菱形继承与虚机表
-class A
-{
-public:
-	int a;
-};
-class B : virtual public A
-{
-public:
-	int b;
-};
-class C : virtual public A
-{
-public:
-	int c;
-};
-class D : public B, public C
-{
-public:
-	int d;
-};
-void test()
-{
-	D d;
-	d.B::a = 1;
-	d.C::a = 2;
-	d.b = 3;
-	d.c = 4;
-	d.d = 5;
-}
+//class A
+//{
+//public:
+//	int a;
+//};
+//class B : virtual public A
+//{
+//public:
+//	int b;
+//};
+//class C : virtual public A
+//{
+//public:
+//	int c;
+//};
+//class D : public B, public C
+//{
+//public:
+//	int d;
+//};
+//void test()
+//{
+//	D d;
+//	d.B::a = 1;
+//	d.C::a = 2;
+//	d.b = 3;
+//	d.c = 4;
+//	d.d = 5;
+//}
 
 int orangesRotting(vector<vector<int>>& grid) {
 	int num = 0;
@@ -305,30 +308,59 @@ int maxAreaOfIsland(vector<vector<int>>& grid) {
 		return len;
 	}
 
-class base
+//class A
+//{
+//public:
+//	void f1() { cout << "A::f1()" << endl; }
+//	virtual void f2() { cout << "A::f2()" << endl; }
+//	virtual void f3() { cout << "A::f3()" << endl; }
+//};
+//
+//class B : public A
+//{
+//public:
+//	virtual void f1() { cout << "B::f1()" << endl; }
+//	virtual void f2() { cout << "B::f2()" << endl; }
+//	void f3() { cout << "B::f3()" << endl; }
+//};
+
+class A
 {
 public:
-	virtual void fun()
+	A() :m_iVal(0) 
+	{ 
+		test(); 
+	}
+
+	virtual void func() 
+	{ 
+		std::cout << m_iVal << " "; 
+	}
+	void test() 
+	{ 
+		func(); 
+	}
+public:
+	int m_iVal;
+};
+
+class B : public A
+{
+public:
+	B() 
+	{ 
+		test(); 
+	}
+	virtual void func()
 	{
-		cout << "base::func" << endl;
+		++m_iVal;
+		std::cout << m_iVal << " ";
 	}
 };
 
-class device : public base
+int main(int argc, char* argv[])
 {
-public:
-	virtual void fun()
-	{
-		cout << "devers::func()" << endl;
-	}
-};
-
-int main()
-{
-	base* b = new base();
-	device d;
-	b->fun();
-	b = &d;
-	b->fun();
+	A*p = new B;
+	p->test();
 	return 0;
 }
