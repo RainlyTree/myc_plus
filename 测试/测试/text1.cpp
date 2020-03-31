@@ -324,39 +324,7 @@ int maxAreaOfIsland(vector<vector<int>>& grid) {
 //	void f3() { cout << "B::f3()" << endl; }
 //};
 
-class A
-{
-public:
-	A() :m_iVal(0) 
-	{ 
-		test(); 
-	}
 
-	virtual void func() 
-	{ 
-		std::cout << m_iVal << " "; 
-	}
-	void test() 
-	{ 
-		func(); 
-	}
-public:
-	int m_iVal;
-};
-
-class B : public A
-{
-public:
-	B() 
-	{ 
-		test(); 
-	}
-	virtual void func()
-	{
-		++m_iVal;
-		std::cout << m_iVal << " ";
-	}
-};
 
 
 vector<int> spiralOrder(vector<vector<int>>& matrix) {
@@ -425,10 +393,50 @@ vector<int> spiralOrder(vector<vector<int>>& matrix) {
 	return fin;
 }
 
+//∂‡Ã¨≤‚ ‘
+class base
+{
+public:
+	virtual void show()
+	{
+		cout << "base" << endl;
+	}
+};
+
+class base1
+{
+public:
+	virtual void show1()
+	{
+		cout << "base1" << endl;
+	}
+};
+
+class A : public base ,public base1
+{
+public:
+	virtual void show () override
+	{
+		cout << "A" << endl;
+	}
+	virtual void show1()
+	{
+		cout << "a1" << endl;
+	}
+	virtual void show2()
+	{
+		cout << "a2" << endl;
+	}
+};
+
+void fun(base& A)
+{
+	A.show();
+}
 
 int main(int argc, char* argv[])
 {
-	vector<vector<int>> fin = { {1,2,3,4,5,6,7,8,9,10},{11,12,13,14,15,16,17,18,19,20 } };
-	spiralOrder(fin);
+	A a;
+	base& pt = a;
 	return 0;
 }
