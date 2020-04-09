@@ -95,6 +95,7 @@ public:
 		//要删除的元素 的左边没有任何元素的情况
 		if (cur->_left == nullptr)
 		{
+			//删除位置不为根
 			if (cur != _root)
 			{
 				//更新父节点
@@ -105,9 +106,46 @@ public:
 			}
 			else
 				_root = cur->_right;
+			delete cur;
+			cur = nullptr;
 		}
-		delete cur;
-		cur = nullptr;
+		//要删除的元素 的右边没有任何元素的情况
+		else if (cur->_right == nullptr)
+		{
+			if (cur != _root)
+			{
+				if (parent->_left == cur)
+					parent->_left = cur->_left;
+				else
+					parent->_right = cur->_left;
+			}
+			else
+				_root = cur->_left;
+			delete cur;
+			cur = nullptr;
+		}
+		//要删除的元素 左右都有元素的情况
+		else
+		{
+			//找左子树的最右节点
+			pNode pNext = cur->_left;
+			pNode parent = cur;
+			while (pNext->_right)
+			{
+				parent = pNext;
+				pNext = pNext->_right;
+			}
+			//交换删除值与当前节点
+			cur->_value = pNext->_value;
+			if (parent->_left == pNext)
+				parent->_left = pNext->_left;
+			else
+				parent->_right = pNext->_left;
+			//删除最后的节点
+			delete pNext;
+			pNext = nullptr;
+		}
+		return true;
 	}
 
 
