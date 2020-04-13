@@ -116,16 +116,3 @@ private:
 	size_t _size;
 };
 
-
-
-int main()
-{
-	vector<int> arr;
-	arr.push_back(1);
-	arr.push_back(2);
-	arr.push_back(4);
-	arr.push_back(3);
-	arr.resize(1);
-	cout << arr.size() << endl;
-	return 0;
-}

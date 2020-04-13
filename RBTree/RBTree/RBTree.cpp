@@ -3,7 +3,8 @@
 #include<utility>
 #include<iostream>
 using namespace std;
-
+namespace RBT
+{
 enum COLOR
 {
 	BLACK,
@@ -83,7 +84,7 @@ public:
 		//调整和更新(颜色)
 		while (cur != _header->_parent && cur->_parent->_color == RED)
 		{
-			parent = _cur->_parent;
+			parent = cur->_parent;
 			pNode gfather = parent->_parent;
 			//叔叔在右边
 			if (gfather->_left == parent)
@@ -135,7 +136,7 @@ public:
 			}
 		}
 
-		_header->_parent = BLACK;
+		_header->_parent->_color = BLACK;
 
 		//更新_header->_left , _right;
 		_header->_left = leftMost();
@@ -167,7 +168,7 @@ public:
 		else
 		{
 			_header->_parent = subL;
-			subL->_parent = nullptr;
+			subL->_parent = _header;
 		}
 
 		parent->_parent = subL;
@@ -198,7 +199,7 @@ public:
 		else
 		{
 			_header->_parent = subR;
-			subR->_parent = nullptr;
+			subR->_parent = _header;
 		}
 		parent->_parent = subR;
 	}
@@ -210,7 +211,7 @@ public:
 		{
 			cur = cur->_left;
 		}
-		return cur
+		return cur;
 	}
 
 	pNode rightMost()
@@ -220,14 +221,60 @@ public:
 		{
 			cur = cur->_right;
 		}
-		return cur
+		return cur;
+	}
+
+	bool isRBTree()
+	{
+		pNode root = _header->_parent;
+		if (root == nullptr)
+			return ture;
+		if (root->_color == RED)
+		{
+			cout << "根节点必须是黑色的" << endl;
+			return false;
+		}
+		//判断每个路径黑色个数相同
+		pNode cur = root;
+		int blackCount = 0;
+		while (cur)
+		{
+			if (cur->_color == BLACK)
+				++blackCount;
+			cur = cur->_right;
+		}
+
+		int k = 0;
+		return _isRBTree(root, k, blackCount);
+	}
+
+	bool _isRBTree(pNode root, int curBlackCount, int totalBlack)
+	{
+		
+		if (root == nullptr)
+			if (curBlackCount != totalBlack)
+			{
+				cout << "黑色节点个数不同" << endl;
+				return false;
+			}
+			else
+				return true;
+
+		if (root->_color == BLACK)
+			++curBlackCount;
+
+		pNode parent = root->_parent;
+		if (parent && parent->_color == RED && root->_color == RED)
+		{
+			cout << "有红色连续节点" << endl;
+			return false;
+		}
+
+		return _isRBTree(root->_left, curBlackCount, totalBlack)
+			&& _isRBTree(root->_right, curBlackCount, totalBlack);
 	}
 
 private:
 	pNode _header;
 };
-
-int main()
-{
-	return 0;
 }
