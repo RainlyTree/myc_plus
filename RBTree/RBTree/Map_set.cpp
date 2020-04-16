@@ -449,8 +449,3 @@ void testMap()
 	mp.insert(make_pair(4, 4));
 }
 
-int main()
-{
-	testMap();
-	return 0;
-}

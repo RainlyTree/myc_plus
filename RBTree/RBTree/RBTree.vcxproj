@@ -119,6 +119,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="HashBucket.cpp" />
     <ClCompile Include="Map_set.cpp" />
     <ClCompile Include="RBTree.cpp" />
   </ItemGroup>
