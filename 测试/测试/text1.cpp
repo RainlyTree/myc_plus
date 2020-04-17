@@ -1,6 +1,7 @@
 #include<iostream>
 #include<vector>
 #include<queue>
+#include<unordered_map>
 using namespace std;
 
 
@@ -51,10 +52,10 @@ int findLen(string& fir, string& sec)
 
 int main()
 {
-	string fir, sec;
-	while (cin >> fir >> sec)
+	vector<int> arr = { 5, 4, 3, 2, 1 };
+	for (auto e : arr)
 	{
-		cout << findLen(fir, sec) << endl;
+		cout << e << endl;
 	}
 	return 0;
 }

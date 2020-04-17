@@ -325,8 +325,3 @@ private:
 	HashBucket<K, K, SetKeyOfValue, HFun> _hb;
 };
 
-
-int main()
-{
-	return 0;
-}
