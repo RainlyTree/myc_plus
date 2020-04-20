@@ -1,61 +1,52 @@
-#include<iostream>
-#include<vector>
-#include<queue>
-#include<unordered_map>
-using namespace std;
-
-
-class A
-{
-public:
-	virtual void show()
-	{
-		cout << "A" << endl;
-	}
-};
-
-class B : public A
-{
-public:
-	virtual void show() override
-	{
-		cout << "B" << endl;
-	}
-};
-
+// write your code here cpp
 #include<iostream>
 #include<string>
+#include<vector>
 using namespace std;
-
-int findLen(string& fir, string& sec)
-{
-	int len = 0;
-	for (int i = 0; i < fir.size(); ++i)
-	{
-		int tmpi = i;
-		int j = 0;
-		for (j = 0; j < sec.size(); ++j)
-		{
-			if (fir[tmpi] == sec[j])
-				++tmpi;
-			else
-				break;
-		}
-		if (j == sec.size())
-		{
-			++len;
-			i += j;
-		}
-	}
-	return len;
-}
 
 int main()
 {
-	vector<int> arr = { 5, 4, 3, 2, 1 };
-	for (auto e : arr)
+	vector<string> name;
+	string f1, f2;
+	while (getline(cin, f1))
 	{
-		cout << e << endl;
+		getline(cin, f2);
+		string tmp = "";
+		for (int i = 0; i < f1.size(); ++i)
+		{
+			if (f1[i] == '\"')
+			{
+				++i;
+				while (f1[i] != '\"')
+				{
+					tmp += f1[i];
+					++i;
+				}
+				name.push_back(tmp);
+				tmp = "";
+				continue;
+			}
+			if (f1[i] != ',')
+			{
+				tmp += f1[i];
+			}
+			else if (tmp != "")
+			{
+				name.push_back(tmp);
+				tmp = "";
+			}
+		}
+		int i;
+		for (i = 0; i < name.size(); ++i)
+		{
+			if (name[i].compare(f2) == 0)
+			{
+				cout << "Ignore" << endl;
+				break;
+			}	
+		}
+		if (i == name.size())
+			cout << "Important!" << endl;
 	}
 	return 0;
 }
