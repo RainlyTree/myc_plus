@@ -1,52 +1,64 @@
-// write your code here cpp
 #include<iostream>
+#include<set>
 #include<string>
-#include<vector>
+#include<algorithm>
 using namespace std;
+
+void mkdir(set<string>& fin)
+{
+	for (auto e : fin)
+	{
+		cout << "mkdir " << "-p " << e << endl;
+	}
+}
 
 int main()
 {
-	vector<string> name;
-	string f1, f2;
-	while (getline(cin, f1))
+	int x = 1;
+	int num = 0;
+	while (cin >> num)
 	{
-		getline(cin, f2);
-		string tmp = "";
-		for (int i = 0; i < f1.size(); ++i)
+		set<string> fin;
+		cin.get();
+		for (int i = 0; i < num; ++i)
 		{
-			if (f1[i] == '\"')
+			bool flag = false;
+			string str = "";
+			getline(cin, str);
+			for (auto e : fin)
 			{
-				++i;
-				while (f1[i] != '\"')
+				int idx = e.find(str);
+				string tmp = e;
+				if (idx != string::npos && idx == 0 && tmp[str.size()] == '/')
 				{
-					tmp += f1[i];
-					++i;
+					flag = true;
+					break;
 				}
-				name.push_back(tmp);
-				tmp = "";
-				continue;
+				idx = str.find(e);
+				tmp = str;
+				if (idx != string::npos && idx == 0 && tmp[e.size()] == '/')
+				{
+					fin.insert(str);
+					fin.erase(e);
+					flag = true;
+					break;
+				}
 			}
-			if (f1[i] != ',')
+			if (flag == false)
 			{
-				tmp += f1[i];
-			}
-			else if (tmp != "")
-			{
-				name.push_back(tmp);
-				tmp = "";
+				fin.insert(str);
 			}
 		}
-		int i;
-		for (i = 0; i < name.size(); ++i)
+		if (x == 1)
 		{
-			if (name[i].compare(f2) == 0)
-			{
-				cout << "Ignore" << endl;
-				break;
-			}	
+			mkdir(fin);
+			++x;
 		}
-		if (i == name.size())
-			cout << "Important!" << endl;
+
+		else
+		{
+			cout << endl;
+			mkdir(fin);
+		}
 	}
-	return 0;
 }
