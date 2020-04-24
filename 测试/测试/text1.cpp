@@ -1,64 +1,36 @@
+// write your code here cpp
 #include<iostream>
-#include<set>
 #include<string>
+#include<cstring>
 #include<algorithm>
 using namespace std;
 
-void mkdir(set<string>& fin)
+int getln(string& m, string& n)
 {
-	for (auto e : fin)
+	int ms = m.size() + 1, ns = n.size() + 1;
+	int dp[20][20];
+	memset(dp, 0, sizeof(dp));
+	for (int i = 0; i <= m.size(); ++i)
 	{
-		cout << "mkdir " << "-p " << e << endl;
+		for (int j = 0; j <= n.size(); ++j)
+		{
+			if (i == 0 || j == 0)
+				dp[i][j] = 0;
+			if (m[i - 1] == n[j - 1])
+				dp[i][j] = dp[i - 1][j - 1] + 1;
+			else
+				dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);
+		}
 	}
+	return dp[m.size()][n.size()];
 }
 
 int main()
 {
-	int x = 1;
-	int num = 0;
-	while (cin >> num)
+	string m, n;
+	while (cin >> m >> n)
 	{
-		set<string> fin;
-		cin.get();
-		for (int i = 0; i < num; ++i)
-		{
-			bool flag = false;
-			string str = "";
-			getline(cin, str);
-			for (auto e : fin)
-			{
-				int idx = e.find(str);
-				string tmp = e;
-				if (idx != string::npos && idx == 0 && tmp[str.size()] == '/')
-				{
-					flag = true;
-					break;
-				}
-				idx = str.find(e);
-				tmp = str;
-				if (idx != string::npos && idx == 0 && tmp[e.size()] == '/')
-				{
-					fin.insert(str);
-					fin.erase(e);
-					flag = true;
-					break;
-				}
-			}
-			if (flag == false)
-			{
-				fin.insert(str);
-			}
-		}
-		if (x == 1)
-		{
-			mkdir(fin);
-			++x;
-		}
-
-		else
-		{
-			cout << endl;
-			mkdir(fin);
-		}
+		cout << getln(m, n) << endl;
 	}
+	return 0;
 }
