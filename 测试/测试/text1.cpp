@@ -1,36 +1,94 @@
 // write your code here cpp
 #include<iostream>
-#include<string>
-#include<cstring>
-#include<algorithm>
+#include<vector>
 using namespace std;
 
-int getln(string& m, string& n)
+void test(vector<vector<char>>& fin)
 {
-	int ms = m.size() + 1, ns = n.size() + 1;
-	int dp[20][20];
-	memset(dp, 0, sizeof(dp));
-	for (int i = 0; i <= m.size(); ++i)
+	for (int i = 0; i < 20; ++i)
 	{
-		for (int j = 0; j <= n.size(); ++j)
+		for (int j = 0; j < 20; ++j)
 		{
-			if (i == 0 || j == 0)
-				dp[i][j] = 0;
-			if (m[i - 1] == n[j - 1])
-				dp[i][j] = dp[i - 1][j - 1] + 1;
+			if (fin[i][j] == '.')
+				continue;
 			else
-				dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);
+			{
+				int tmpi = i;
+				int tmpj = j;
+				int num = 1;
+				//向右
+				while (tmpj + 1 < 20 && fin[tmpi][tmpj] == fin[tmpi][tmpj + 1])
+				{
+					++tmpj;
+					++num;
+					if (num == 5)
+					{
+						cout << "Yes" << endl;
+						return;
+					}
+				}
+				num == 0;
+				//向下
+				while ((tmpi + 1) < 20 && fin[tmpi][tmpj] == fin[tmpi + 1][tmpj])
+				{
+					++tmpi;
+					++num;
+					if (num == 5)
+					{
+						cout << "Yes" << endl;
+						return;
+					}
+				}
+				num == 0;
+				//右下
+				while (tmpi + 1 < 20 && tmpj + 1 < 20 && fin[tmpi][tmpj] == fin[tmpi + 1][tmpj + 1])
+				{
+					++tmpj;
+					++tmpi;
+					++num;
+					if (num == 5)
+					{
+						cout << "Yes" << endl;
+						return;
+					}
+				}
+				num == 0;
+				//左下
+				while (tmpi + 1 < 20 && tmpj - 1 >= 0 && fin[tmpi][tmpj] == fin[tmpi + 1][tmpj - 1])
+				{
+					--tmpj;
+					++tmpi;
+					++num;
+					if (num == 5)
+					{
+						cout << "Yes" << endl;
+						return;
+					}
+				}
+			}
 		}
 	}
-	return dp[m.size()][n.size()];
+
+	cout << "No" << endl;
 }
 
 int main()
 {
-	string m, n;
-	while (cin >> m >> n)
+	vector<vector<char>> fin(20, vector<char>(20));
+	char c;
+	while ((c = getchar()) != EOF)
 	{
-		cout << getln(m, n) << endl;
+		ungetc(c, stdin);
+		for (int i = 0; i < 20; ++i)
+		{
+			for (int j = 0; j < 20; ++j)
+			{
+				c = getchar();
+				fin[i][j] = c;
+			}
+			getchar();
+		}
+		test(fin);
 	}
 	return 0;
 }
