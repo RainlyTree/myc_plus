@@ -1,5 +1,2 @@
 ﻿  text1.cpp
-d:\代码文件\myc_plus\测试\测试\text1.cpp(30): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
-d:\代码文件\myc_plus\测试\测试\text1.cpp(42): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
-d:\代码文件\myc_plus\测试\测试\text1.cpp(55): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
   测试.vcxproj -> D:\代码文件\myc_plus\测试\Debug\测试.exe
