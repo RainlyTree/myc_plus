@@ -15,7 +15,7 @@ int main(int argc, char** argv)
 	}
 	imshow("input image", image);
 
-	//均值 方差
+	//均值      标准差差
 	Mat means, stddev;
 	meanStdDev(image, means, stddev);
 	cout << "means rows:" << means.rows << " "
@@ -35,7 +35,7 @@ int main(int argc, char** argv)
 
 	cout << "==================================" << endl;
 	cout << "cov: " << endl;
-	cout << cov << endl;
+	cout << cov / 5 << endl;
 
 	cout << "means: " << endl;
 	cout << mu << endl;
