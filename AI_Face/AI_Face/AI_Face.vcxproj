@@ -69,7 +69,14 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\My_file\opencv4.1\opencv-bulild\install\include;D:\My_file\opencv4.1\opencv-bulild\install\include\opencv2;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\My_file\opencv4.1\opencv-bulild\install\x86\vc15\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>D:\My_file\opencv4.1\opencv-bulild\install\include;D:\My_file\opencv4.1\opencv-bulild\install\include\opencv2;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\My_file\opencv4.1\opencv-bulild\install\x86\vc15\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -78,6 +85,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>opencv_aruco410d.lib;opencv_bgsegm410d.lib;opencv_bioinspired410d.lib;opencv_calib3d410d.lib;opencv_ccalib410d.lib;opencv_core410d.lib;opencv_datasets410d.lib;opencv_dnn410d.lib;opencv_dnn_objdetect410d.lib;opencv_dpm410d.lib;opencv_face410d.lib;opencv_features2d410d.lib;opencv_flann410d.lib;opencv_fuzzy410d.lib;opencv_gapi410d.lib;opencv_hfs410d.lib;opencv_highgui410d.lib;opencv_imgcodecs410d.lib;opencv_imgproc410d.lib;opencv_img_hash410d.lib;opencv_line_descriptor410d.lib;opencv_ml410d.lib;opencv_objdetect410d.lib;opencv_optflow410d.lib;opencv_phase_unwrapping410d.lib;opencv_photo410d.lib;opencv_plot410d.lib;opencv_quality410d.lib;opencv_reg410d.lib;opencv_rgbd410d.lib;opencv_saliency410d.lib;opencv_shape410d.lib;opencv_stereo410d.lib;opencv_structured_light410d.lib;opencv_superres410d.lib;opencv_surface_matching410d.lib;opencv_text410d.lib;opencv_tracking410d.lib;opencv_video410d.lib;opencv_videoio410d.lib;opencv_videostab410d.lib;opencv_ximgproc410d.lib;opencv_xobjdetect410d.lib;opencv_xphoto410d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -102,6 +110,7 @@
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opencv_aruco410.lib;opencv_bgsegm410.lib;opencv_bioinspired410.lib;opencv_calib3d410.lib;opencv_ccalib410.lib;opencv_core410.lib;opencv_datasets410.lib;opencv_dnn410.lib;opencv_dnn_objdetect410.lib;opencv_dpm410.lib;opencv_face410.lib;opencv_features2d410.lib;opencv_flann410.lib;opencv_fuzzy410.lib;opencv_gapi410.lib;opencv_hfs410.lib;opencv_highgui410.lib;opencv_imgcodecs410.lib;opencv_imgproc410.lib;opencv_img_hash410.lib;opencv_line_descriptor410.lib;opencv_ml410.lib;opencv_objdetect410.lib;opencv_optflow410.lib;opencv_phase_unwrapping410.lib;opencv_photo410.lib;opencv_plot410.lib;opencv_quality410.lib;opencv_reg410.lib;opencv_rgbd410.lib;opencv_saliency410.lib;opencv_shape410.lib;opencv_stereo410.lib;opencv_stitching410.lib;opencv_structured_light410.lib;opencv_superres410.lib;opencv_surface_matching410.lib;opencv_text410.lib;opencv_tracking410.lib;opencv_video410.lib;opencv_videoio410.lib;opencv_videostab410.lib;opencv_xfeatures2d410.lib;opencv_ximgproc410.lib;opencv_xobjdetect410.lib;opencv_xphoto410.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -119,7 +128,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="camera1.cpp" />
     <ClCompile Include="face.cpp" />
+    <ClCompile Include="FisherFace.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="special_face.cpp" />
   </ItemGroup>

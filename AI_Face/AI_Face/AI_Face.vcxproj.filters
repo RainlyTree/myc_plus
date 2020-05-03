@@ -24,5 +24,14 @@
     <ClCompile Include="special_face.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="FisherFace.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="camera1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
