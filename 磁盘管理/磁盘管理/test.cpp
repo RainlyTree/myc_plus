@@ -19,6 +19,7 @@ void menu()
 	cout << "6.delete all same file by name" << endl;
 	cout << "7.delete match name file " << endl;
 	cout << "8.clear all you want to delete" << endl;
+	cout << "9.write file_name in file" << endl;
 	cout << "*********************************" << endl;
 	cout << "0.exit this system" << endl;
 }
@@ -38,7 +39,7 @@ void test()
 		switch (num)
 		{
 		case 0:
-			exit;
+			return ;
 		case 1:
 		{
 			cout << "input path" << endl;
@@ -77,6 +78,7 @@ void test()
 		case 6:
 		{
 			file.deleteAllSame();
+			break;
 		}
 		case 7:
 		{
@@ -84,6 +86,7 @@ void test()
 			std::string matchName;
 			cin >> matchName;
 			file.delete_match_name(matchName);
+			break;
 		}
 		case 8:
 		{
@@ -91,6 +94,12 @@ void test()
 			std::string matchName;
 			cin >> matchName;
 			file.clear_match_name(matchName);
+			break;
+		}
+		case 9:
+		{
+			file.write_in_file();
+			break;
 		}
 		default:
 			break;

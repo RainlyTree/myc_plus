@@ -1,4 +1,5 @@
 #pragma once
+#include<fstream>
 #include<string>
 #include<unordered_map>
 #include<unordered_set>
@@ -34,6 +35,8 @@ public:
 
 	//判断是是否有这个文件
 	bool Find_File(const std::string& md5);
+
+	bool write_in_file();
 private:
 	//存放所有文件的绝对路径
 	std::unordered_set<std::string> file;

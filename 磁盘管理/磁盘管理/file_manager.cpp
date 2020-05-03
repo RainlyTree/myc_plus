@@ -1,6 +1,30 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include"file_manager.h"
 #include"file_tool.h"
+#include<algorithm>
+#include<set>
+#include<fstream>
+
+bool file_manager::write_in_file()
+{
+	std::set<std::string> sort_file;
+	for (auto& e : file)
+	{
+		sort_file.insert(e);
+	}
+	std::cout << "input your path" << std::endl;
+	std::string path;
+	std::cin >> path;
+	for (auto& e : sort_file)
+	{
+		std::ofstream outfile;
+		outfile.open(path, std::ios::out | std::ios::app);
+		outfile << e << ';' << std::endl;
+		outfile.close();
+	}
+	return true;
+}
+
 
 //对当前盘下内容扫描
 void file_manager::scanning(const std::string & path)
