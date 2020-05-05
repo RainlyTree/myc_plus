@@ -3,12 +3,14 @@
 #include <opencv2/face.hpp>
 #include<opencv2/face/facerec.hpp>
 #include <iostream>
+#include<Windows.h>
 
 using namespace cv;
 using namespace cv::face;
 using namespace std;
 
 int main(int argc, char** argv) {
+	long t1 = GetTickCount();
 	string filename = string("D:/My_file/myc_plus/AI_Face/image/课程配套源代码/orl_faces/image.csv");
 	ifstream file(filename.c_str(), ifstream::in);
 	if (!file) {
@@ -67,7 +69,7 @@ int main(int argc, char** argv) {
 	imshow("Mean Face", dst);
 
 	// show eigen faces
-	for (int i = 0; i < min(10, W.cols); i++) {
+	for (int i = 0; i < W.cols; i++) {
 		Mat ev = W.col(i).clone();
 		Mat grayscale;
 		Mat eigenFace = ev.reshape(1, height);
@@ -102,6 +104,8 @@ int main(int argc, char** argv) {
 		imshow(winTitle, reconstruction);
 	}
 
+	long t2 = GetTickCount();
+	cout << "运行时间:" << t2 - t1 << endl;
 	waitKey(0);
 	return 0;
 }
