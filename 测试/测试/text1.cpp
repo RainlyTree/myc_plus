@@ -1,31 +1,31 @@
-int main() {
-	int num;
-	while (cin >> num) {
-		string str;
-		string word, s;
-		int index;
-		vector<string> vs;
-		for (int i = 0; i < num; ++i) {
-			cin >> str;
-			vs.push_back(str);
-		}
-		sort(vs.begin(), vs.end());  // 因为是字典，一定要排序！！
-		cin >> word;
-		cin >> index;
-		int counts = 0;
+#include<iostream>
+#include<vector>
+#include<algorithm>
+using namespace std;
 
-		for (int i = 0; i < num; ++i) {
-			if (isBrother(word, vs[i])) {
-				counts++;
-				if (counts == index)
-					s = vs[i];
-			}
+int main()
+{
+	int num = 0;
+	while (cin >> num)
+	{
+		vector<int> vec;
+		for (int i = 0; i < num; ++i)
+		{
+			int tmp = 0;
+			cin >> tmp;
+			vec.push_back(tmp);
 		}
-		if (!vs.empty())
-			cout << counts << endl;
-		if (counts >= index)
-			cout << s << endl;
-
+		sort(vec.begin(), vec.end());
+		int min = 0;
+		cin >> min;
+		int index = 0;
+		while (min)
+		{
+			++index;
+			if (vec[index - 1] != vec[index])
+				--min;
+		}
+		cout << vec[index] << endl;
 	}
 	return 0;
 }
