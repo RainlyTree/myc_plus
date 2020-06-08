@@ -1,2 +1,4 @@
 ﻿  text1.cpp
+d:\my_file\myc_plus\测试\测试\text1.cpp(11): warning C4018: “<”: 有符号/无符号不匹配
+d:\my_file\myc_plus\测试\测试\text1.cpp(13): warning C4018: “<”: 有符号/无符号不匹配
   测试.vcxproj -> D:\My_file\myc_plus\测试\Debug\测试.exe

@@ -3,29 +3,30 @@
 #include<algorithm>
 using namespace std;
 
+string countAndSay(int n) {
+	if (n == 1)
+		return "1";
+	string pre = countAndSay(n - 1), ans = "";
+	int count = 1;
+	for (int i = 0; i < pre.size(); ++i)
+	{
+		if (i + 1 < pre.size() && pre[i] == pre[i + 1])
+		{
+			++count;
+		}
+		else
+		{
+			char tmp = '0' + count;
+			ans += tmp;
+			ans += pre[i];
+			count = 1;
+		}
+	}
+	return ans;
+}
+
 int main()
 {
-	int num = 0;
-	while (cin >> num)
-	{
-		vector<int> vec;
-		for (int i = 0; i < num; ++i)
-		{
-			int tmp = 0;
-			cin >> tmp;
-			vec.push_back(tmp);
-		}
-		sort(vec.begin(), vec.end());
-		int min = 0;
-		cin >> min;
-		int index = 0;
-		while (min)
-		{
-			++index;
-			if (vec[index - 1] != vec[index])
-				--min;
-		}
-		cout << vec[index] << endl;
-	}
+	countAndSay(3);
 	return 0;
 }
