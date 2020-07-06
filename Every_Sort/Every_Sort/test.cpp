@@ -142,10 +142,63 @@ void mergesort(int* arr, int begin, int end)
 	}	
 }
 
+void merge1(int* arr, int left1, int right1, int left2, int right2)
+{
+	int start = left1;
+	int len = right2 - left1 + 1;
+	int* tmp = new int[len];
+	int i = 0;
+	while (left1 <= right1 && left2 <= right2)
+	{
+		if (arr[left1] < arr[left2])
+		{
+			tmp[i] = arr[left1];
+			++left1;
+		}
+		else
+		{
+			tmp[i] = arr[left2];
+			++left2;
+		}
+		++i;
+	}
+	while (left1 <= right1)
+	{
+		tmp[i] = arr[left1];
+		++left1;
+		++i;
+	}
+	while (left2 <= right2)
+	{
+		tmp[i] = arr[left2];
+		++left2;
+		++i;
+	}
+	for (int i = 0; i < len; ++i)
+	{
+		arr[start] = tmp[i];
+		++start;
+	}
+	delete tmp;
+	tmp = nullptr;
+}
+
+void mergeSort1(int* arr, int left, int right)
+{
+	if (left < right)
+	{
+		int mid = (right + left) / 2;
+		mergeSort1(arr, left, mid);
+		mergeSort1(arr, mid + 1, right);
+		merge(arr, left, mid, mid + 1, right);
+	}
+}
+
+
 void test()
 {
 	int arr[] = { 5, 2, 4, 6, 1, 3 };
-	mergesort(arr, 0, 5);
+	mergeSort1(arr, 0, 5);
 }
 
 int main()
@@ -153,3 +206,4 @@ int main()
 	test();
 	return 0;
 }
+
