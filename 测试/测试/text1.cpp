@@ -6,50 +6,74 @@
 #include<list>
 #include<vector>
 #include<unordered_map>
+#include<queue>
 using namespace std;
 
-int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
-	vector<vector<int>> fin(obstacleGrid.size(), vector<int>(obstacleGrid[0].size(), 0));
-	int row = obstacleGrid.size();
-	int col = obstacleGrid[0].size();
-	for (int i = 0; i < row; ++i)
-	{
-		cout << obstacleGrid.size() << obstacleGrid[0].size();
-		for (int j = 0; j < col; j++)
-		{
-			if (i == 0)
-			{
-				if (j == 0)
-					fin[i][j] = 1;
-				else if (obstacleGrid[i][j] == 1)
-					fin[i][j] = 0;
-				else
-					fin[i][j] = fin[i][j - 1];
-			}
-			else if (j == 0)
-			{
-				if (i == 0)
-					fin[i][j] = 1;
-				else if (obstacleGrid[i][j] == 1)
-					fin[i][j] = 0;
-				else
-					fin[i][j] = fin[i - 1][j];
-			}
-			else
-			{
-				if (obstacleGrid[i][j] == 1)
-					fin[i][j] = 0;
-				else
-					fin[i][j] = fin[i - 1][j] + fin[i][j - 1];
-			}
-		}
+struct TreeNode {
+	int val;
+	TreeNode *left;
+	TreeNode *right;
+	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
 
+
+vector<int> rightSideView(TreeNode* root) {
+	vector<int> fin;
+	queue<TreeNode*> right_que;
+	right_que.push(root);
+	int num = 1;
+	while (!right_que.empty())
+	{
+		TreeNode* ro = right_que.front();
+		if (ro->left)
+		{
+			right_que.push(root->left);
+		}
+		if (ro->right)
+		{
+			right_que.push(root->right);
+		}
+		if (num == 1)
+		{
+			fin.push_back(ro->val);
+			right_que.pop();
+			num = right_que.size();
+		}
+		else
+		{
+			right_que.pop();
+			--num;
+		}
 	}
-	return fin[obstacleGrid.size() - 1][obstacleGrid[0].size() - 1];
+
+
+	return fin;
 }
+
+int trailingZeroes(int n) {
+	int num2 = 0;
+	int num5 = 0;
+	for (int i = 2; i <= n; ++i)
+	{
+		int tmp = i;
+		while (tmp % 2 == 0)
+		{
+			++num2;
+			tmp /= 2;
+		}
+		while (tmp % 5 == 0)
+		{
+			++num5;
+			tmp /= 5;
+		}
+	}
+	return min(num2, num5);
+}
+
+
+
 int main(int argc, char* argv[])
 {
-	vector<vector<int>> fin = { {0,0} };
-	uniquePathsWithObstacles(fin);
+	trailingZeroes(13);
 	return 0;
 }
