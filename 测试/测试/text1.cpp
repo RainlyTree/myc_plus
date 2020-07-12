@@ -70,10 +70,51 @@ int trailingZeroes(int n) {
 	return min(num2, num5);
 }
 
+vector<int> minSubsequence(vector<int>& nums) {
+	sort(nums.begin(), nums.end());
+	int len = nums.size();
+	if (len <= 1)
+		return nums;
+	vector<int> fin;
+	int sum = 0;
+	int lsum = 0;
+	for (int i = 0; i < len; ++i)
+	{
+		sum += nums[i];
+	}
+	for (int i = len - 1; i >= 0; --i)
+	{
+		sum -= nums[i];
+		lsum += nums[i];
+		if (sum >= lsum)
+		{
+			fin.push_back(nums[i]);
+		}
+	}
+	return fin;
+}
 
-
-int main(int argc, char* argv[])
+#include<iostream>
+#include<set>
+#include<string>
+using namespace std;
+int main()
 {
-	trailingZeroes(13);
+	string s1, s2;
+	getline(cin, s1);
+	getline(cin, s2);
+	set<char> fin;
+	for (int i = 0; i < s2.size(); ++i)
+	{
+		fin.insert(s2[i]);
+	}
+	string use;
+	for (int i = 0; i < s1.size(); ++i)
+	{
+		if (fin.count(s1[i]) == 1)
+			continue;
+		use += s1[i];
+	}
+	s1 = use;
 	return 0;
 }
