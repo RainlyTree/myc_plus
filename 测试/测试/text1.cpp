@@ -97,24 +97,54 @@ vector<int> minSubsequence(vector<int>& nums) {
 #include<iostream>
 #include<set>
 #include<string>
+#include<thread>
 using namespace std;
+
+int numIdenticalPairs(vector<int>& nums) {
+	unordered_map<int, int> fin;
+	for (int i = 0; i < nums.size(); ++i)
+	{
+		fin[nums[i]]++;
+	}
+	int sum = 0;
+	auto it = fin.begin();
+	while (it != fin.end())
+	{
+		if (it->second > 1)
+		{
+			sum += (1 + it->second) * it->second / 2;
+		}
+		++it;
+	}
+	return sum;
+}
+
+int convertInteger(int A, int B) {
+	int num = 0;
+	while (A && B)
+	{
+		if ((A & 1) != (B & 1))
+		{
+			++num;
+		}
+		A = A >> 1;
+		B = B >> 1;
+	}
+	while (A)
+	{
+		A = A & (A - 1);
+		++num;
+	}
+	while (B)
+	{
+		B = B & (B - 1);
+		++num;
+	}
+	return num;
+}
+
 int main()
 {
-	string s1, s2;
-	getline(cin, s1);
-	getline(cin, s2);
-	set<char> fin;
-	for (int i = 0; i < s2.size(); ++i)
-	{
-		fin.insert(s2[i]);
-	}
-	string use;
-	for (int i = 0; i < s1.size(); ++i)
-	{
-		if (fin.count(s1[i]) == 1)
-			continue;
-		use += s1[i];
-	}
-	s1 = use;
+	convertInteger(15, 29);
 	return 0;
 }
