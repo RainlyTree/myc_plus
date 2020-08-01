@@ -1,150 +1,206 @@
-#include<iostream>
-#include<new>
-#include<cstddef>
-#include<cstdlib>
-#include<climits>
-#include<list>
-#include<vector>
-#include<unordered_map>
-#include<queue>
+#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+//#include <string.h>
+//#include <iostream>
+//
+//using namespace std;
+//
+//enum color {
+//	NONE, WHITE, BLACK,         //棋子颜色，NONE表示未落子
+//};
+//struct weiqi {
+//	enum color board[19][19];   //棋盘上每个位置的落子
+//};
+//
+//int _calc(struct weiqi* wq, int x, int y, int need, int* sum)
+//{
+//	if (x < 0 || y < 0 || x > 18 || y > 18)
+//		return 0;
+//	if (wq->board[y][x] == NONE)
+//		return 0;
+//	if (wq->board[y][x] == need)
+//	{
+//		wq->board[y][x] = NONE;
+//		++(*sum);
+//	}
+//	else
+//		return 0;
+//	return _calc(wq, x + 1, y, need, sum) + _calc(wq, x - 1, y, need, sum) +
+//		_calc(wq, x, y + 1, need, sum) + _calc(wq, x, y - 1, need, sum);
+//}
+//
+//int calc(struct weiqi *wq, int x, int y)
+//{
+//	TODO:
+//	int sum = 0;
+//	_calc(wq, x, y, wq->board[y][x], &sum);
+//	return sum;
+//}
+//
+//
+//
+//int input(struct weiqi *wq, int *x, int *y)
+//{
+//	int row, col;
+//	int ret;
+//	char buf[80];
+//
+//	for (row = 0; row < 19; ++row) {
+//		if (fgets(buf, sizeof(buf), stdin) == NULL)
+//			return -1;
+//		if (strlen(buf) < 19)
+//			return -1;
+//		for (col = 0; col < 19; ++col) {
+//			switch (buf[col]) {
+//			case '0':
+//				wq->board[row][col] = NONE;
+//				break;
+//			case '1':
+//				wq->board[row][col] = WHITE;
+//				break;
+//			case '2':
+//				wq->board[row][col] = BLACK;
+//				break;
+//			default:
+//				return -1;
+//			}
+//		}
+//	}
+//	ret = fscanf(stdin, "%d,%d\n", x, y);
+//	if (ret != 2)
+//		return -1;
+//	for (row = 0; row < 19; ++row) {
+//		for (col = 0; col < 19; ++col) {
+//			fprintf(stderr, "%d ", wq->board[row][col]);
+//		}
+//		fprintf(stderr, "\n");
+//	}
+//	fprintf(stderr, "x = %d, y = %d\n", *x, *y);
+//	return 0;
+//}
+//
+//int main()
+//{
+//	struct weiqi wq;
+//	int x = 0, y = 0;
+//	int cnt;
+//
+//	memset(&wq, 0, sizeof(wq));
+//	if (input(&wq, &x, &y) < 0) {
+//		fprintf(stderr, "error!\n");
+//		return 1;
+//	}
+//	cnt = calc(&wq, x, y);
+//
+//	printf("%d\n", cnt);
+//	return 0;
+//}
+
+
+#include <stdio.h>
+#include <malloc.h>
+#include <iostream>
 using namespace std;
 
-struct TreeNode {
+struct node {
 	int val;
-	TreeNode *left;
-	TreeNode *right;
-	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+	struct node *next;
 };
 
-
-vector<int> rightSideView(TreeNode* root) {
-	vector<int> fin;
-	queue<TreeNode*> right_que;
-	right_que.push(root);
-	int num = 1;
-	while (!right_que.empty())
-	{
-		TreeNode* ro = right_que.front();
-		if (ro->left)
-		{
-			right_que.push(root->left);
-		}
-		if (ro->right)
-		{
-			right_que.push(root->right);
-		}
-		if (num == 1)
-		{
-			fin.push_back(ro->val);
-			right_que.pop();
-			num = right_que.size();
-		}
-		else
-		{
-			right_que.pop();
-			--num;
-		}
-	}
+static void list_sort(struct node *head);
 
 
-	return fin;
-}
-
-int trailingZeroes(int n) {
-	int num2 = 0;
-	int num5 = 0;
-	for (int i = 2; i <= n; ++i)
-	{
-		int tmp = i;
-		while (tmp % 2 == 0)
-		{
-			++num2;
-			tmp /= 2;
-		}
-		while (tmp % 5 == 0)
-		{
-			++num5;
-			tmp /= 5;
-		}
-	}
-	return min(num2, num5);
-}
-
-vector<int> minSubsequence(vector<int>& nums) {
-	sort(nums.begin(), nums.end());
-	int len = nums.size();
-	if (len <= 1)
-		return nums;
-	vector<int> fin;
-	int sum = 0;
-	int lsum = 0;
-	for (int i = 0; i < len; ++i)
-	{
-		sum += nums[i];
-	}
-	for (int i = len - 1; i >= 0; --i)
-	{
-		sum -= nums[i];
-		lsum += nums[i];
-		if (sum >= lsum)
-		{
-			fin.push_back(nums[i]);
-		}
-	}
-	return fin;
-}
-
-#include<iostream>
-#include<set>
-#include<string>
-#include<thread>
-using namespace std;
-
-int numIdenticalPairs(vector<int>& nums) {
-	unordered_map<int, int> fin;
-	for (int i = 0; i < nums.size(); ++i)
-	{
-		fin[nums[i]]++;
-	}
-	int sum = 0;
-	auto it = fin.begin();
-	while (it != fin.end())
-	{
-		if (it->second > 1)
-		{
-			sum += (1 + it->second) * it->second / 2;
-		}
-		++it;
-	}
-	return sum;
-}
-
-int convertInteger(int A, int B) {
-	int num = 0;
-	while (A && B)
-	{
-		if ((A & 1) != (B & 1))
-		{
-			++num;
-		}
-		A = A >> 1;
-		B = B >> 1;
-	}
-	while (A)
-	{
-		A = A & (A - 1);
-		++num;
-	}
-	while (B)
-	{
-		B = B & (B - 1);
-		++num;
-	}
-	return num;
-}
-
-int main()
+struct node *list_create(int arr[], int size)
 {
-	convertInteger(15, 29);
+	struct node *head = NULL;
+	int i;
+	for (i = size - 1; i >= 0; --i) {
+		struct node *p = (struct node *)malloc(sizeof(struct node));
+
+		p->val = arr[i];
+		p->next = head;
+		head = p;
+	}
+	return head;
+}
+static void list_print(struct node *head)
+{
+	for (; head; head = head->next) {
+		printf("%d", head->val);
+		if (head->next)
+			printf(" ");
+	}
+	printf("\n");
+}
+static void list_free(struct node *head)
+{
+	struct node *next;
+	while (head) {
+		next = head->next;
+		free(head);
+		head = next;
+	}
+}
+static int input(int **arr, int *size)
+{
+	int i;
+	int ret;
+
+	ret = fscanf(stdin, "%d\n", size);
+	if (ret != 1)
+		return -1;
+	*arr = (int *)malloc(sizeof(int) * (*size));
+	for (i = 0; i < *size; ++i) {
+		fscanf(stdin, "%d ", &(*arr)[i]);
+	}
 	return 0;
+}
+
+int main(int argc, char *argv[])
+{
+	struct node *head;
+	int *arr = NULL;
+	int size = 0;
+
+	if (input(&arr, &size) < 0) {
+		fprintf(stderr, "input error\n");
+		return 0;
+	}
+	head = list_create(arr, size);
+	list_sort(head);
+	list_print(head);
+	list_free(head);
+	free(arr);
+	return 0;
+}
+
+static void list_sort(struct node *head)
+{
+	//TODO:
+	struct node* head1 = head;
+	struct node* head2 = head->next;
+	int len = 0;
+	while (head1 != NULL)
+	{
+		++len;
+		head1 = head1->next;
+	}
+	if (len <= 1)
+		return;
+	head1 = head;
+
+	for (int i = 0; i < len - 1; ++i)
+	{
+		head1 = head;
+		head2 = head->next;
+		for (int j = 0; j < len - i - 2; ++j)
+		{
+			if (head1->val > head2->val)
+			{
+				swap(head1->val, head2->val);
+			}
+			head1 = head1->next;
+			head2 = head2->next;
+		}
+	}
 }
