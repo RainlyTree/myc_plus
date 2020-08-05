@@ -1,0 +1,157 @@
+#use_cache "D:/My_file/opencv4.1/opencv/sources/.cache"
+#do_unpack "ippicv_2019_win_ia32_20180723_general.zip" "0157251a2eb9cd63a3ebc7eed0f3e59e" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/32e315a5b106a7b89dbed51c28f8120a48b368b4/ippicv/ippicv_2019_win_ia32_20180723_general.zip" "D:/My_file/opencv4.1/opencv-bulild/3rdparty/ippicv"
+#check_md5 "D:/My_file/opencv4.1/opencv/sources/.cache/ippicv/0157251a2eb9cd63a3ebc7eed0f3e59e-ippicv_2019_win_ia32_20180723_general.zip"
+#mismatch_md5 "D:/My_file/opencv4.1/opencv/sources/.cache/ippicv/0157251a2eb9cd63a3ebc7eed0f3e59e-ippicv_2019_win_ia32_20180723_general.zip" "d41d8cd98f00b204e9800998ecf8427e"
+#delete "D:/My_file/opencv4.1/opencv/sources/.cache/ippicv/0157251a2eb9cd63a3ebc7eed0f3e59e-ippicv_2019_win_ia32_20180723_general.zip"
+#cmake_download "D:/My_file/opencv4.1/opencv/sources/.cache/ippicv/0157251a2eb9cd63a3ebc7eed0f3e59e-ippicv_2019_win_ia32_20180723_general.zip" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/32e315a5b106a7b89dbed51c28f8120a48b368b4/ippicv/ippicv_2019_win_ia32_20180723_general.zip"
+# timeout on name lookup is not supported
+# getaddrinfo(3) failed for raw.githubusercontent.com:443
+# Couldn't resolve host 'raw.githubusercontent.com'
+# Closing connection 0
+# 
+
+#match_hash_in_cmake_cache "OCV_DOWNLOAD_ADE_HASH_3rdparty_ade_v0_1_1d_zip"
+#do_copy "opencv_ffmpeg.dll" "849286ccc527c99e5a218b67f13c6e8c" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/759a23e24ab787a0979f8a93103dcc3105ec10c1/ffmpeg/opencv_ffmpeg.dll" "D:/My_file/opencv4.1/opencv-bulild/3rdparty/ffmpeg"
+#missing "D:/My_file/opencv4.1/opencv-bulild/3rdparty/ffmpeg/opencv_ffmpeg.dll"
+#check_md5 "D:/My_file/opencv4.1/opencv/sources/.cache/ffmpeg/849286ccc527c99e5a218b67f13c6e8c-opencv_ffmpeg.dll"
+#mismatch_md5 "D:/My_file/opencv4.1/opencv/sources/.cache/ffmpeg/849286ccc527c99e5a218b67f13c6e8c-opencv_ffmpeg.dll" "d41d8cd98f00b204e9800998ecf8427e"
+#delete "D:/My_file/opencv4.1/opencv/sources/.cache/ffmpeg/849286ccc527c99e5a218b67f13c6e8c-opencv_ffmpeg.dll"
+#cmake_download "D:/My_file/opencv4.1/opencv/sources/.cache/ffmpeg/849286ccc527c99e5a218b67f13c6e8c-opencv_ffmpeg.dll" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/759a23e24ab787a0979f8a93103dcc3105ec10c1/ffmpeg/opencv_ffmpeg.dll"
+# timeout on name lookup is not supported
+# getaddrinfo(3) failed for raw.githubusercontent.com:443
+# Couldn't resolve host 'raw.githubusercontent.com'
+# Closing connection 0
+# 
+
+#do_copy "opencv_ffmpeg_64.dll" "96444a4645753aaafa296479665c9185" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/759a23e24ab787a0979f8a93103dcc3105ec10c1/ffmpeg/opencv_ffmpeg_64.dll" "D:/My_file/opencv4.1/opencv-bulild/3rdparty/ffmpeg"
+#missing "D:/My_file/opencv4.1/opencv-bulild/3rdparty/ffmpeg/opencv_ffmpeg_64.dll"
+#check_md5 "D:/My_file/opencv4.1/opencv/sources/.cache/ffmpeg/96444a4645753aaafa296479665c9185-opencv_ffmpeg_64.dll"
+#mismatch_md5 "D:/My_file/opencv4.1/opencv/sources/.cache/ffmpeg/96444a4645753aaafa296479665c9185-opencv_ffmpeg_64.dll" "d41d8cd98f00b204e9800998ecf8427e"
+#delete "D:/My_file/opencv4.1/opencv/sources/.cache/ffmpeg/96444a4645753aaafa296479665c9185-opencv_ffmpeg_64.dll"
+#cmake_download "D:/My_file/opencv4.1/opencv/sources/.cache/ffmpeg/96444a4645753aaafa296479665c9185-opencv_ffmpeg_64.dll" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/759a23e24ab787a0979f8a93103dcc3105ec10c1/ffmpeg/opencv_ffmpeg_64.dll"
+# timeout on name lookup is not supported
+# getaddrinfo(3) failed for raw.githubusercontent.com:443
+# Couldn't resolve host 'raw.githubusercontent.com'
+# Closing connection 0
+# 
+
+#do_copy "ffmpeg_version.cmake" "f710891525a04586d565d0e700e62a9c" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/759a23e24ab787a0979f8a93103dcc3105ec10c1/ffmpeg/ffmpeg_version.cmake" "D:/My_file/opencv4.1/opencv-bulild/3rdparty/ffmpeg"
+#missing "D:/My_file/opencv4.1/opencv-bulild/3rdparty/ffmpeg/ffmpeg_version.cmake"
+#check_md5 "D:/My_file/opencv4.1/opencv/sources/.cache/ffmpeg/f710891525a04586d565d0e700e62a9c-ffmpeg_version.cmake"
+#mismatch_md5 "D:/My_file/opencv4.1/opencv/sources/.cache/ffmpeg/f710891525a04586d565d0e700e62a9c-ffmpeg_version.cmake" "d41d8cd98f00b204e9800998ecf8427e"
+#delete "D:/My_file/opencv4.1/opencv/sources/.cache/ffmpeg/f710891525a04586d565d0e700e62a9c-ffmpeg_version.cmake"
+#cmake_download "D:/My_file/opencv4.1/opencv/sources/.cache/ffmpeg/f710891525a04586d565d0e700e62a9c-ffmpeg_version.cmake" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/759a23e24ab787a0979f8a93103dcc3105ec10c1/ffmpeg/ffmpeg_version.cmake"
+# timeout on name lookup is not supported
+# getaddrinfo(3) failed for raw.githubusercontent.com:443
+# Couldn't resolve host 'raw.githubusercontent.com'
+# Closing connection 0
+# 
+
+#do_copy "boostdesc_bgm.i" "0ea90e7a8f3f7876d450e4149c97c74f" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm.i" "D:/My_file/opencv4.1/opencv-bulild/downloads/xfeatures2d"
+#missing "D:/My_file/opencv4.1/opencv-bulild/downloads/xfeatures2d/boostdesc_bgm.i"
+#cmake_download "D:/My_file/opencv4.1/opencv/sources/.cache/xfeatures2d/boostdesc/0ea90e7a8f3f7876d450e4149c97c74f-boostdesc_bgm.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm.i"
+# timeout on name lookup is not supported
+# getaddrinfo(3) failed for raw.githubusercontent.com:443
+# Couldn't resolve host 'raw.githubusercontent.com'
+# Closing connection 0
+# 
+
+#do_copy "boostdesc_bgm_bi.i" "232c966b13651bd0e46a1497b0852191" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_bi.i" "D:/My_file/opencv4.1/opencv-bulild/downloads/xfeatures2d"
+#missing "D:/My_file/opencv4.1/opencv-bulild/downloads/xfeatures2d/boostdesc_bgm_bi.i"
+#cmake_download "D:/My_file/opencv4.1/opencv/sources/.cache/xfeatures2d/boostdesc/232c966b13651bd0e46a1497b0852191-boostdesc_bgm_bi.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_bi.i"
+# timeout on name lookup is not supported
+# getaddrinfo(3) failed for raw.githubusercontent.com:443
+# Couldn't resolve host 'raw.githubusercontent.com'
+# Closing connection 0
+# 
+
+#do_copy "boostdesc_bgm_hd.i" "324426a24fa56ad9c5b8e3e0b3e5303e" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_hd.i" "D:/My_file/opencv4.1/opencv-bulild/downloads/xfeatures2d"
+#missing "D:/My_file/opencv4.1/opencv-bulild/downloads/xfeatures2d/boostdesc_bgm_hd.i"
+#cmake_download "D:/My_file/opencv4.1/opencv/sources/.cache/xfeatures2d/boostdesc/324426a24fa56ad9c5b8e3e0b3e5303e-boostdesc_bgm_hd.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_hd.i"
+# timeout on name lookup is not supported
+# getaddrinfo(3) failed for raw.githubusercontent.com:443
+# Couldn't resolve host 'raw.githubusercontent.com'
+# Closing connection 0
+# 
+
+#do_copy "boostdesc_binboost_064.i" "202e1b3e9fec871b04da31f7f016679f" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_064.i" "D:/My_file/opencv4.1/opencv-bulild/downloads/xfeatures2d"
+#missing "D:/My_file/opencv4.1/opencv-bulild/downloads/xfeatures2d/boostdesc_binboost_064.i"
+#cmake_download "D:/My_file/opencv4.1/opencv/sources/.cache/xfeatures2d/boostdesc/202e1b3e9fec871b04da31f7f016679f-boostdesc_binboost_064.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_064.i"
+# timeout on name lookup is not supported
+# getaddrinfo(3) failed for raw.githubusercontent.com:443
+# Couldn't resolve host 'raw.githubusercontent.com'
+# Closing connection 0
+# 
+
+#do_copy "boostdesc_binboost_128.i" "98ea99d399965c03d555cef3ea502a0b" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_128.i" "D:/My_file/opencv4.1/opencv-bulild/downloads/xfeatures2d"
+#missing "D:/My_file/opencv4.1/opencv-bulild/downloads/xfeatures2d/boostdesc_binboost_128.i"
+#cmake_download "D:/My_file/opencv4.1/opencv/sources/.cache/xfeatures2d/boostdesc/98ea99d399965c03d555cef3ea502a0b-boostdesc_binboost_128.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_128.i"
+# timeout on name lookup is not supported
+# getaddrinfo(3) failed for raw.githubusercontent.com:443
+# Couldn't resolve host 'raw.githubusercontent.com'
+# Closing connection 0
+# 
+
+#do_copy "boostdesc_binboost_256.i" "e6dcfa9f647779eb1ce446a8d759b6ea" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_256.i" "D:/My_file/opencv4.1/opencv-bulild/downloads/xfeatures2d"
+#missing "D:/My_file/opencv4.1/opencv-bulild/downloads/xfeatures2d/boostdesc_binboost_256.i"
+#cmake_download "D:/My_file/opencv4.1/opencv/sources/.cache/xfeatures2d/boostdesc/e6dcfa9f647779eb1ce446a8d759b6ea-boostdesc_binboost_256.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_256.i"
+# timeout on name lookup is not supported
+# getaddrinfo(3) failed for raw.githubusercontent.com:443
+# Couldn't resolve host 'raw.githubusercontent.com'
+# Closing connection 0
+# 
+
+#do_copy "boostdesc_lbgm.i" "0ae0675534aa318d9668f2a179c2a052" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_lbgm.i" "D:/My_file/opencv4.1/opencv-bulild/downloads/xfeatures2d"
+#missing "D:/My_file/opencv4.1/opencv-bulild/downloads/xfeatures2d/boostdesc_lbgm.i"
+#cmake_download "D:/My_file/opencv4.1/opencv/sources/.cache/xfeatures2d/boostdesc/0ae0675534aa318d9668f2a179c2a052-boostdesc_lbgm.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_lbgm.i"
+# timeout on name lookup is not supported
+# getaddrinfo(3) failed for raw.githubusercontent.com:443
+# Couldn't resolve host 'raw.githubusercontent.com'
+# Closing connection 0
+# 
+
+#do_copy "vgg_generated_48.i" "e8d0dcd54d1bcfdc29203d011a797179" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_48.i" "D:/My_file/opencv4.1/opencv-bulild/downloads/xfeatures2d"
+#missing "D:/My_file/opencv4.1/opencv-bulild/downloads/xfeatures2d/vgg_generated_48.i"
+#cmake_download "D:/My_file/opencv4.1/opencv/sources/.cache/xfeatures2d/vgg/e8d0dcd54d1bcfdc29203d011a797179-vgg_generated_48.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_48.i"
+# timeout on name lookup is not supported
+# getaddrinfo(3) failed for raw.githubusercontent.com:443
+# Couldn't resolve host 'raw.githubusercontent.com'
+# Closing connection 0
+# 
+
+#do_copy "vgg_generated_64.i" "7126a5d9a8884ebca5aea5d63d677225" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_64.i" "D:/My_file/opencv4.1/opencv-bulild/downloads/xfeatures2d"
+#missing "D:/My_file/opencv4.1/opencv-bulild/downloads/xfeatures2d/vgg_generated_64.i"
+#cmake_download "D:/My_file/opencv4.1/opencv/sources/.cache/xfeatures2d/vgg/7126a5d9a8884ebca5aea5d63d677225-vgg_generated_64.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_64.i"
+# timeout on name lookup is not supported
+# getaddrinfo(3) failed for raw.githubusercontent.com:443
+# Couldn't resolve host 'raw.githubusercontent.com'
+# Closing connection 0
+# 
+
+#do_copy "vgg_generated_80.i" "7cd47228edec52b6d82f46511af325c5" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_80.i" "D:/My_file/opencv4.1/opencv-bulild/downloads/xfeatures2d"
+#missing "D:/My_file/opencv4.1/opencv-bulild/downloads/xfeatures2d/vgg_generated_80.i"
+#cmake_download "D:/My_file/opencv4.1/opencv/sources/.cache/xfeatures2d/vgg/7cd47228edec52b6d82f46511af325c5-vgg_generated_80.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_80.i"
+# timeout on name lookup is not supported
+# getaddrinfo(3) failed for raw.githubusercontent.com:443
+# Couldn't resolve host 'raw.githubusercontent.com'
+# Closing connection 0
+# 
+
+#do_copy "vgg_generated_120.i" "151805e03568c9f490a5e3a872777b75" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_120.i" "D:/My_file/opencv4.1/opencv-bulild/downloads/xfeatures2d"
+#missing "D:/My_file/opencv4.1/opencv-bulild/downloads/xfeatures2d/vgg_generated_120.i"
+#cmake_download "D:/My_file/opencv4.1/opencv/sources/.cache/xfeatures2d/vgg/151805e03568c9f490a5e3a872777b75-vgg_generated_120.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_120.i"
+# timeout on name lookup is not supported
+# getaddrinfo(3) failed for raw.githubusercontent.com:443
+# Couldn't resolve host 'raw.githubusercontent.com'
+# Closing connection 0
+# 
+
+#do_copy "face_landmark_model.dat" "7505c44ca4eb54b4ab1e4777cb96ac05" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/8afa57abc8229d611c4937165d20e2a2d9fc5a12/face_landmark_model.dat" "D:/My_file/opencv4.1/opencv-bulild/testdata/cv/face/"
+#missing "D:/My_file/opencv4.1/opencv-bulild/testdata/cv/face//face_landmark_model.dat"
+#cmake_download "D:/My_file/opencv4.1/opencv/sources/.cache/data/7505c44ca4eb54b4ab1e4777cb96ac05-face_landmark_model.dat" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/8afa57abc8229d611c4937165d20e2a2d9fc5a12/face_landmark_model.dat"
+# timeout on name lookup is not supported
+# getaddrinfo(3) failed for raw.githubusercontent.com:443
+# Couldn't resolve host 'raw.githubusercontent.com'
+# Closing connection 0
+# 
+

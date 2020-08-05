@@ -97,110 +97,206 @@
 //}
 
 
-#include <stdio.h>
-#include <malloc.h>
-#include <iostream>
+//#include <stdio.h>
+//#include <malloc.h>
+//#include <iostream>
+//using namespace std;
+//
+//struct node {
+//	int val;
+//	struct node *next;
+//};
+//
+//static void list_sort(struct node *head);
+//
+//
+//struct node *list_create(int arr[], int size)
+//{
+//	struct node *head = NULL;
+//	int i;
+//	for (i = size - 1; i >= 0; --i) {
+//		struct node *p = (struct node *)malloc(sizeof(struct node));
+//
+//		p->val = arr[i];
+//		p->next = head;
+//		head = p;
+//	}
+//	return head;
+//}
+//static void list_print(struct node *head)
+//{
+//	for (; head; head = head->next) {
+//		printf("%d", head->val);
+//		if (head->next)
+//			printf(" ");
+//	}
+//	printf("\n");
+//}
+//static void list_free(struct node *head)
+//{
+//	struct node *next;
+//	while (head) {
+//		next = head->next;
+//		free(head);
+//		head = next;
+//	}
+//}
+//static int input(int **arr, int *size)
+//{
+//	int i;
+//	int ret;
+//
+//	ret = fscanf(stdin, "%d\n", size);
+//	if (ret != 1)
+//		return -1;
+//	*arr = (int *)malloc(sizeof(int) * (*size));
+//	for (i = 0; i < *size; ++i) {
+//		fscanf(stdin, "%d ", &(*arr)[i]);
+//	}
+//	return 0;
+//}
+//
+//int main(int argc, char *argv[])
+//{
+//	struct node *head;
+//	int *arr = NULL;
+//	int size = 0;
+//
+//	if (input(&arr, &size) < 0) {
+//		fprintf(stderr, "input error\n");
+//		return 0;
+//	}
+//	head = list_create(arr, size);
+//	list_sort(head);
+//	list_print(head);
+//	list_free(head);
+//	free(arr);
+//	return 0;
+//}
+//
+//static void list_sort(struct node *head)
+//{
+//	TODO:
+//	struct node* head1 = head;
+//	struct node* head2 = head->next;
+//	int len = 0;
+//	while (head1 != NULL)
+//	{
+//		++len;
+//		head1 = head1->next;
+//	}
+//	if (len <= 1)
+//		return;
+//	head1 = head;
+//
+//	for (int i = 0; i < len - 1; ++i)
+//	{
+//		head1 = head;
+//		head2 = head->next;
+//		for (int j = 0; j < len - i - 2; ++j)
+//		{
+//			if (head1->val > head2->val)
+//			{
+//				swap(head1->val, head2->val);
+//			}
+//			head1 = head1->next;
+//			head2 = head2->next;
+//		}
+//	}
+//}
+
+
+//#include<iostream>
+//#include<vector>
+//
+//using namespace std;
+//
+//int main()
+//{
+//	int num = 0;
+//	while (cin >> num)
+//	{
+//		int sum = 0;
+//		vector<int> fin(num, 0);
+//		for (int i = 0; i < num; ++i)
+//		{
+//			int tmp;
+//			cin >> tmp;
+//			sum += tmp;
+//			fin[i] = tmp;
+//		}
+//		int avg = sum / num;
+//		int number = 0;
+//		bool flag = true;
+//		for (int i = 0; i < num; ++i)
+//		{
+//			if (abs(fin[i] - avg) % 2 != 0)
+//			{
+//				cout << -1 << endl;
+//				flag = false;
+//				break;
+//			}
+//			else
+//			{
+//				number = abs(fin[i] - avg) / 2;
+//			}
+//		}
+//		if (flag)
+//			cout << number / 2 << endl;
+//	}
+//	return 0;
+//}
+
+
+#include<iostream>
+#include<map>
 using namespace std;
-
-struct node {
-	int val;
-	struct node *next;
-};
-
-static void list_sort(struct node *head);
-
-
-struct node *list_create(int arr[], int size)
+int main()
 {
-	struct node *head = NULL;
-	int i;
-	for (i = size - 1; i >= 0; --i) {
-		struct node *p = (struct node *)malloc(sizeof(struct node));
-
-		p->val = arr[i];
-		p->next = head;
-		head = p;
-	}
-	return head;
-}
-static void list_print(struct node *head)
-{
-	for (; head; head = head->next) {
-		printf("%d", head->val);
-		if (head->next)
-			printf(" ");
-	}
-	printf("\n");
-}
-static void list_free(struct node *head)
-{
-	struct node *next;
-	while (head) {
-		next = head->next;
-		free(head);
-		head = next;
-	}
-}
-static int input(int **arr, int *size)
-{
-	int i;
-	int ret;
-
-	ret = fscanf(stdin, "%d\n", size);
-	if (ret != 1)
-		return -1;
-	*arr = (int *)malloc(sizeof(int) * (*size));
-	for (i = 0; i < *size; ++i) {
-		fscanf(stdin, "%d ", &(*arr)[i]);
-	}
-	return 0;
-}
-
-int main(int argc, char *argv[])
-{
-	struct node *head;
-	int *arr = NULL;
-	int size = 0;
-
-	if (input(&arr, &size) < 0) {
-		fprintf(stderr, "input error\n");
-		return 0;
-	}
-	head = list_create(arr, size);
-	list_sort(head);
-	list_print(head);
-	list_free(head);
-	free(arr);
-	return 0;
-}
-
-static void list_sort(struct node *head)
-{
-	//TODO:
-	struct node* head1 = head;
-	struct node* head2 = head->next;
-	int len = 0;
-	while (head1 != NULL)
+	int num = 0;
+	while (cin >> num)
 	{
-		++len;
-		head1 = head1->next;
-	}
-	if (len <= 1)
-		return;
-	head1 = head;
-
-	for (int i = 0; i < len - 1; ++i)
-	{
-		head1 = head;
-		head2 = head->next;
-		for (int j = 0; j < len - i - 2; ++j)
+		int sum = num;
+		map<int, int> fin;
+		for (int i = 0; i < num; ++i)
 		{
-			if (head1->val > head2->val)
+			int tmp;
+			cin >> tmp;
+			++fin[tmp];
+		}
+		int avg = num / 2;
+		auto it = fin.begin();
+		while (it != fin.end())
+		{
+			num -= it->second;
+			if (num == avg)
 			{
-				swap(head1->val, head2->val);
+				cout << it->first << endl;
+				break;
 			}
-			head1 = head1->next;
-			head2 = head2->next;
+			++it;
+		}
+
+		cin >> num;
+		sum += num;
+		for (int i = 0; i < num; ++i)
+		{
+			int tmp;
+			cin >> tmp;
+			++fin[tmp];
+		}
+		avg = sum / 2;
+		it = fin.begin();
+		while (it != fin.end())
+		{
+			sum -= it->second;
+			if (sum == avg)
+			{
+				cout << it->first << endl;
+				break;
+			}
+			++it;
 		}
 	}
+	return 0;
 }

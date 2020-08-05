@@ -1,0 +1,180 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/img_hash/include/opencv2/img_hash.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/img_hash/include/opencv2/img_hash/average_hash.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/img_hash/include/opencv2/img_hash/block_mean_hash.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/img_hash/include/opencv2/img_hash/color_moment_hash.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/img_hash/include/opencv2/img_hash/img_hash_base.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/img_hash/include/opencv2/img_hash/marr_hildreth_hash.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/img_hash/include/opencv2/img_hash/phash.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/img_hash/include/opencv2/img_hash/radial_variance_hash.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/img_hash/src/average_hash.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/img_hash/src/block_mean_hash.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/img_hash/src/color_moment_hash.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/img_hash/src/img_hash_base.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/img_hash/src/marr_hildreth_hash.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/img_hash/src/phash.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/img_hash/src/radial_variance_hash.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/img_hash/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/cvconfig.h"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/img_hash/opencv_img_hash_pch.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/img_hash/vs_version.rc"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/img_hash/opencv_img_hash_main.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_img_hash",
+			"Module"
+		],
+		"name" : "opencv_img_hash"
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/stereo/perf/perf_bm.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_stereo",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/stereo/perf/perf_descriptor.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_stereo",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/stereo/perf/perf_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_stereo",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/stereo/perf/perf_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_stereo",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/stereo/opencv_perf_stereo_pch.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_stereo",
+				"PerfTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_stereo",
+			"PerfTest"
+		],
+		"name" : "opencv_perf_stereo"
+	}
+}

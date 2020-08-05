@@ -1,0 +1,17 @@
+# Target labels
+ Extra
+ opencv_rapid
+ AccuracyTest
+# Source files and their labels
+D:/My_file/opencv_contrib/modules/rapid/test/test_main.cpp
+ Extra
+ opencv_rapid
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/rapid/test/test_precomp.hpp
+ Extra
+ opencv_rapid
+ AccuracyTest
+D:/My_file/opencv4.1/opencv-bulild/modules/rapid/opencv_test_rapid_pch.cpp
+ Extra
+ opencv_rapid
+ AccuracyTest

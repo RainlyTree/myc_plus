@@ -1,0 +1,694 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B0352ACA-8723-3243-8046-D2BB4F0AA26B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\My_file\opencv4.1\opencv-bulild;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\My_file\opencv4.1\opencv-bulild;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\My_file\opencv4.1\opencv\sources\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/My_file/opencv4.1/opencv/sources/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/My_file/opencv4.1/opencv/sources -BD:/My_file/opencv4.1/opencv-bulild --check-stamp-file D:/My_file/opencv4.1/opencv-bulild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeFindJavaCommon.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindJNI.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\ProcessorCount.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.17\Templates\CPackConfig.cmake.in;D:\My_file\opencv4.1\opencv-bulild\CMakeFiles\3.17.0\CMakeCCompiler.cmake;D:\My_file\opencv4.1\opencv-bulild\CMakeFiles\3.17.0\CMakeCXXCompiler.cmake;D:\My_file\opencv4.1\opencv-bulild\CMakeFiles\3.17.0\CMakeRCCompiler.cmake;D:\My_file\opencv4.1\opencv-bulild\CMakeFiles\3.17.0\CMakeSystem.cmake;D:\My_file\opencv4.1\opencv\sources\3rdparty\ippicv\ippicv.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVCRTLinkage.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVCompilerOptimizations.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVCompilerOptions.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVDetectApacheAnt.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVDetectCXXCompiler.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVDetectDirectX.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVDetectOpenCL.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVDetectPython.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVDetectTrace.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVDetectVTK.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVDownload.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVExtraTargets.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVFindFrameworks.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVFindIPP.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVFindLAPACK.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVFindLibsGUI.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVFindLibsGrfmt.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVFindLibsPerf.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVFindLibsVideo.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVFindMKL.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVFindOpenBLAS.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVFindProtobuf.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVGenABI.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVGenAndroidMK.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVGenConfig.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVGenHeaders.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVGenSetupVars.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVMinDepVersions.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVModule.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVPCHSupport.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVPackaging.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVUtils.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVVersion.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\checks\directx.cpp;D:\My_file\opencv4.1\opencv\sources\cmake\checks\opencl.cpp;D:\My_file\opencv4.1\opencv\sources\cmake\checks\win32uitest.cpp;D:\My_file\opencv4.1\opencv\sources\cmake\templates\OpenCVConfig-version.cmake.in;D:\My_file\opencv4.1\opencv\sources\cmake\templates\OpenCVConfig.cmake.in;D:\My_file\opencv4.1\opencv\sources\cmake\templates\OpenCVConfig.root-WIN32.cmake.in;D:\My_file\opencv4.1\opencv\sources\cmake\templates\cmake_uninstall.cmake.in;D:\My_file\opencv4.1\opencv\sources\cmake\templates\custom_hal.hpp.in;D:\My_file\opencv4.1\opencv\sources\cmake\templates\cv_cpu_config.h.in;D:\My_file\opencv4.1\opencv\sources\cmake\templates\cvconfig.h.in;D:\My_file\opencv4.1\opencv\sources\cmake\templates\opencv_modules.hpp.in;D:\My_file\opencv4.1\opencv\sources\cmake\templates\setup_vars_win32.cmd.in;D:\My_file\opencv4.1\opencv\sources\modules\core\include\opencv2\core\version.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\My_file\opencv4.1\opencv-bulild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/My_file/opencv4.1/opencv/sources/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/My_file/opencv4.1/opencv/sources -BD:/My_file/opencv4.1/opencv-bulild --check-stamp-file D:/My_file/opencv4.1/opencv-bulild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeFindJavaCommon.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindJNI.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\ProcessorCount.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.17\Templates\CPackConfig.cmake.in;D:\My_file\opencv4.1\opencv-bulild\CMakeFiles\3.17.0\CMakeCCompiler.cmake;D:\My_file\opencv4.1\opencv-bulild\CMakeFiles\3.17.0\CMakeCXXCompiler.cmake;D:\My_file\opencv4.1\opencv-bulild\CMakeFiles\3.17.0\CMakeRCCompiler.cmake;D:\My_file\opencv4.1\opencv-bulild\CMakeFiles\3.17.0\CMakeSystem.cmake;D:\My_file\opencv4.1\opencv\sources\3rdparty\ippicv\ippicv.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVCRTLinkage.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVCompilerOptimizations.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVCompilerOptions.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVDetectApacheAnt.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVDetectCXXCompiler.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVDetectDirectX.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVDetectOpenCL.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVDetectPython.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVDetectTrace.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVDetectVTK.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVDownload.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVExtraTargets.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVFindFrameworks.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVFindIPP.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVFindLAPACK.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVFindLibsGUI.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVFindLibsGrfmt.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVFindLibsPerf.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVFindLibsVideo.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVFindMKL.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVFindOpenBLAS.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVFindProtobuf.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVGenABI.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVGenAndroidMK.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVGenConfig.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVGenHeaders.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVGenSetupVars.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVMinDepVersions.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVModule.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVPCHSupport.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVPackaging.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVUtils.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\OpenCVVersion.cmake;D:\My_file\opencv4.1\opencv\sources\cmake\checks\directx.cpp;D:\My_file\opencv4.1\opencv\sources\cmake\checks\opencl.cpp;D:\My_file\opencv4.1\opencv\sources\cmake\checks\win32uitest.cpp;D:\My_file\opencv4.1\opencv\sources\cmake\templates\OpenCVConfig-version.cmake.in;D:\My_file\opencv4.1\opencv\sources\cmake\templates\OpenCVConfig.cmake.in;D:\My_file\opencv4.1\opencv\sources\cmake\templates\OpenCVConfig.root-WIN32.cmake.in;D:\My_file\opencv4.1\opencv\sources\cmake\templates\cmake_uninstall.cmake.in;D:\My_file\opencv4.1\opencv\sources\cmake\templates\custom_hal.hpp.in;D:\My_file\opencv4.1\opencv\sources\cmake\templates\cv_cpu_config.h.in;D:\My_file\opencv4.1\opencv\sources\cmake\templates\cvconfig.h.in;D:\My_file\opencv4.1\opencv\sources\cmake\templates\opencv_modules.hpp.in;D:\My_file\opencv4.1\opencv\sources\cmake\templates\setup_vars_win32.cmd.in;D:\My_file\opencv4.1\opencv\sources\modules\core\include\opencv2\core\version.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\My_file\opencv4.1\opencv-bulild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\ZERO_CHECK.vcxproj">
+      <Project>{9AC2EC1D-3AB6-35B3-A6CF-BF068C4374ED}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\3rdparty\openexr\IlmImf.vcxproj">
+      <Project>{D0740298-1FA2-3ABE-A2F7-6C11F663B6EA}</Project>
+      <Name>IlmImf</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\ade.vcxproj">
+      <Project>{755D0114-6CEB-3EA6-87ED-092CFF7D31CD}</Project>
+      <Name>ade</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\3rdparty\ittnotify\ittnotify.vcxproj">
+      <Project>{12B434BB-D656-3071-A8B1-8D374C8B098F}</Project>
+      <Name>ittnotify</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\3rdparty\libjasper\libjasper.vcxproj">
+      <Project>{522E470B-9754-34AF-A5DD-1C90E4DDA203}</Project>
+      <Name>libjasper</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\3rdparty\libjpeg-turbo\libjpeg-turbo.vcxproj">
+      <Project>{F88B920A-7D5D-3A3A-86C7-2564A05158B3}</Project>
+      <Name>libjpeg-turbo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\3rdparty\libpng\libpng.vcxproj">
+      <Project>{6FA8994C-82EB-3531-94B6-4444EFDE665A}</Project>
+      <Name>libpng</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\3rdparty\protobuf\libprotobuf.vcxproj">
+      <Project>{C50CE129-4A1D-32AF-91E4-2C047E93157D}</Project>
+      <Name>libprotobuf</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\3rdparty\libtiff\libtiff.vcxproj">
+      <Project>{E94510B4-63E0-3652-B35E-1663B87483FB}</Project>
+      <Name>libtiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\3rdparty\libwebp\libwebp.vcxproj">
+      <Project>{7246A9AB-2D43-3777-9AA8-7826FA2D6126}</Project>
+      <Name>libwebp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\apps\annotation\opencv_annotation.vcxproj">
+      <Project>{95CA1009-72C9-32E2-B231-2FEED8AC864F}</Project>
+      <Name>opencv_annotation</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\aruco\opencv_aruco.vcxproj">
+      <Project>{7FD31663-2359-3BB8-B08C-CB9798D65DC4}</Project>
+      <Name>opencv_aruco</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\bgsegm\opencv_bgsegm.vcxproj">
+      <Project>{CD617E67-A9AB-30AF-866F-40D2F1F6E138}</Project>
+      <Name>opencv_bgsegm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\bioinspired\opencv_bioinspired.vcxproj">
+      <Project>{5ACEF9D9-39B0-3F66-A216-A2AE57829042}</Project>
+      <Name>opencv_bioinspired</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\calib3d\opencv_calib3d.vcxproj">
+      <Project>{D91C5249-B030-378B-917B-555963B549DA}</Project>
+      <Name>opencv_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\ccalib\opencv_ccalib.vcxproj">
+      <Project>{4F7E6CE7-85FB-3ED3-AF31-8AFCB5976DFC}</Project>
+      <Name>opencv_ccalib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\core\opencv_core.vcxproj">
+      <Project>{34E86C09-0889-3F67-96D5-60829E8B81AE}</Project>
+      <Name>opencv_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\core\opencv_core_AVX.vcxproj">
+      <Project>{6A1F8301-0F7F-3A8C-AA59-63C5588A3B85}</Project>
+      <Name>opencv_core_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\core\opencv_core_SSE4_1.vcxproj">
+      <Project>{1AF982FA-74FD-310E-948B-2319055C5165}</Project>
+      <Name>opencv_core_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\core\opencv_core_SSE4_2.vcxproj">
+      <Project>{2435C091-BCC3-3A93-BA23-7297B7A1001F}</Project>
+      <Name>opencv_core_SSE4_2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\datasets\opencv_datasets.vcxproj">
+      <Project>{B1AA260E-778B-3D2F-A05D-E248DEBBEC6C}</Project>
+      <Name>opencv_datasets</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\dnn\opencv_dnn.vcxproj">
+      <Project>{3BDDBCFF-5600-3157-8DEF-75D13655B34E}</Project>
+      <Name>opencv_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\dnn\opencv_dnn_AVX.vcxproj">
+      <Project>{0B8314A0-7670-3935-9EF6-12656B88E27F}</Project>
+      <Name>opencv_dnn_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\dnn_objdetect\opencv_dnn_objdetect.vcxproj">
+      <Project>{A8621CEE-7C6A-317E-A6B5-E411F9847B19}</Project>
+      <Name>opencv_dnn_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\dnn_superres\opencv_dnn_superres.vcxproj">
+      <Project>{BD67F58E-D735-3A76-B2F4-D26872F7AC0F}</Project>
+      <Name>opencv_dnn_superres</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\dpm\opencv_dpm.vcxproj">
+      <Project>{752798DE-B1F7-38AA-8FA3-C63193115CD6}</Project>
+      <Name>opencv_dpm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\face\opencv_face.vcxproj">
+      <Project>{1B9D2CB6-88EA-3CD0-B6A7-C35E5635C79C}</Project>
+      <Name>opencv_face</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\features2d\opencv_features2d.vcxproj">
+      <Project>{4948DEFC-B627-3AF2-A251-01286F68738D}</Project>
+      <Name>opencv_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\flann\opencv_flann.vcxproj">
+      <Project>{6AEE0535-D1F8-348C-A5E2-2CB6A30DD2A2}</Project>
+      <Name>opencv_flann</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\fuzzy\opencv_fuzzy.vcxproj">
+      <Project>{B5028A61-A7FC-3E02-B811-C34F52A8C119}</Project>
+      <Name>opencv_fuzzy</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\gapi\opencv_gapi.vcxproj">
+      <Project>{1D27606E-18D4-31A1-9135-BD45268A2285}</Project>
+      <Name>opencv_gapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\gapi\opencv_gapi_SSE4_1.vcxproj">
+      <Project>{DA92B2A8-D824-3491-8CEB-A9FFC0AAA4E7}</Project>
+      <Name>opencv_gapi_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\hfs\opencv_hfs.vcxproj">
+      <Project>{BB8981D9-A680-3BA1-97B8-FD724A71736D}</Project>
+      <Name>opencv_hfs</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\highgui\opencv_highgui.vcxproj">
+      <Project>{E972CF65-8162-3F15-9E57-D8AD4383338B}</Project>
+      <Name>opencv_highgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\img_hash\opencv_img_hash.vcxproj">
+      <Project>{8D9A09AF-614B-3830-88F0-F40DD61DFDCD}</Project>
+      <Name>opencv_img_hash</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\imgcodecs\opencv_imgcodecs.vcxproj">
+      <Project>{E51862B8-5362-32A1-9D68-06B603FD96C6}</Project>
+      <Name>opencv_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\imgproc\opencv_imgproc.vcxproj">
+      <Project>{533CA162-9625-361D-B436-2291C845CE9C}</Project>
+      <Name>opencv_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\imgproc\opencv_imgproc_AVX.vcxproj">
+      <Project>{C04308DB-98FD-333A-B977-AA4B2E21C0A0}</Project>
+      <Name>opencv_imgproc_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\imgproc\opencv_imgproc_SSE4_1.vcxproj">
+      <Project>{6E016040-2F95-3F25-9364-CB38B4AC2F60}</Project>
+      <Name>opencv_imgproc_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\intensity_transform\opencv_intensity_transform.vcxproj">
+      <Project>{D05C382C-700C-36E5-A920-22B92B76ABE9}</Project>
+      <Name>opencv_intensity_transform</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\apps\interactive-calibration\opencv_interactive-calibration.vcxproj">
+      <Project>{00F131E7-7917-3F93-95C2-3C410D48D90E}</Project>
+      <Name>opencv_interactive-calibration</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\line_descriptor\opencv_line_descriptor.vcxproj">
+      <Project>{91F56162-8F22-3C36-A804-D17674F4BAF9}</Project>
+      <Name>opencv_line_descriptor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\ml\opencv_ml.vcxproj">
+      <Project>{508CFDAC-2441-309F-925E-14D66B6A8291}</Project>
+      <Name>opencv_ml</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\objdetect\opencv_objdetect.vcxproj">
+      <Project>{F0660290-320D-3EF9-931C-FBA60989ED93}</Project>
+      <Name>opencv_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\optflow\opencv_optflow.vcxproj">
+      <Project>{065FB266-FCA7-3C10-A944-9124557AD913}</Project>
+      <Name>opencv_optflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\bioinspired\opencv_perf_bioinspired.vcxproj">
+      <Project>{9C7001BA-F286-32D9-B433-43497039D2AE}</Project>
+      <Name>opencv_perf_bioinspired</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\calib3d\opencv_perf_calib3d.vcxproj">
+      <Project>{0BB5AC2D-433E-35B7-8D72-B6A7F3AE3621}</Project>
+      <Name>opencv_perf_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\core\opencv_perf_core.vcxproj">
+      <Project>{25535D7A-7566-3CBE-87CB-BEB300D3F089}</Project>
+      <Name>opencv_perf_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\dnn\opencv_perf_dnn.vcxproj">
+      <Project>{26C7FE22-6542-3040-A13A-60B9CDA467C4}</Project>
+      <Name>opencv_perf_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\dnn_superres\opencv_perf_dnn_superres.vcxproj">
+      <Project>{F669A56D-46C3-3684-9293-FEE6DF4F6CC6}</Project>
+      <Name>opencv_perf_dnn_superres</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\features2d\opencv_perf_features2d.vcxproj">
+      <Project>{62D8D77D-237B-3D76-9F17-375DFCCD1DD1}</Project>
+      <Name>opencv_perf_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\gapi\opencv_perf_gapi.vcxproj">
+      <Project>{E65AE526-BEDE-3DED-B2C4-EF9011F9FD08}</Project>
+      <Name>opencv_perf_gapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\imgcodecs\opencv_perf_imgcodecs.vcxproj">
+      <Project>{76CB9678-8045-3098-A3B7-DE4958B52ED4}</Project>
+      <Name>opencv_perf_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\imgproc\opencv_perf_imgproc.vcxproj">
+      <Project>{FA8B1CDC-70B1-3466-8F90-EDC63FE9012D}</Project>
+      <Name>opencv_perf_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\line_descriptor\opencv_perf_line_descriptor.vcxproj">
+      <Project>{17A4C690-A489-3594-A0F4-CB005849BFB1}</Project>
+      <Name>opencv_perf_line_descriptor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\objdetect\opencv_perf_objdetect.vcxproj">
+      <Project>{2FDDFCD9-C80D-3DDF-A8F9-641D254F3103}</Project>
+      <Name>opencv_perf_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\optflow\opencv_perf_optflow.vcxproj">
+      <Project>{E0281977-CB09-33D1-A4C4-036B27F69E5B}</Project>
+      <Name>opencv_perf_optflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\photo\opencv_perf_photo.vcxproj">
+      <Project>{F4E7220A-958A-3691-A2A6-C02656D8269D}</Project>
+      <Name>opencv_perf_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\reg\opencv_perf_reg.vcxproj">
+      <Project>{E9EBAD6C-EC6C-34A9-AD82-3C3F955653F9}</Project>
+      <Name>opencv_perf_reg</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\stereo\opencv_perf_stereo.vcxproj">
+      <Project>{CFB623D6-50DD-36A7-AC94-8CA6635D2789}</Project>
+      <Name>opencv_perf_stereo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\superres\opencv_perf_superres.vcxproj">
+      <Project>{31B5F7F0-4986-3B06-9191-C13DC4AA4595}</Project>
+      <Name>opencv_perf_superres</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\tracking\opencv_perf_tracking.vcxproj">
+      <Project>{83FC2177-2AC1-321D-AD99-0EEEED69F956}</Project>
+      <Name>opencv_perf_tracking</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\video\opencv_perf_video.vcxproj">
+      <Project>{6DEF8B46-2435-31F2-894C-A6C156A602BF}</Project>
+      <Name>opencv_perf_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\videoio\opencv_perf_videoio.vcxproj">
+      <Project>{A4ACDB0F-9838-3182-B995-97E530CF79F7}</Project>
+      <Name>opencv_perf_videoio</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\xfeatures2d\opencv_perf_xfeatures2d.vcxproj">
+      <Project>{0F1EA83D-A791-3242-93BE-4F0AB99CE2F0}</Project>
+      <Name>opencv_perf_xfeatures2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\ximgproc\opencv_perf_ximgproc.vcxproj">
+      <Project>{B2946471-1B67-3D42-9381-B629A56C9740}</Project>
+      <Name>opencv_perf_ximgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\xphoto\opencv_perf_xphoto.vcxproj">
+      <Project>{1D5359A4-B60B-3685-BADF-C493EE68009E}</Project>
+      <Name>opencv_perf_xphoto</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\phase_unwrapping\opencv_phase_unwrapping.vcxproj">
+      <Project>{340E7891-2A93-33CD-B6B7-95211427B990}</Project>
+      <Name>opencv_phase_unwrapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\photo\opencv_photo.vcxproj">
+      <Project>{DAB881CF-B87D-3A82-979B-04332336FCFE}</Project>
+      <Name>opencv_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\plot\opencv_plot.vcxproj">
+      <Project>{B8D7E31A-1C0B-31F0-BDEA-524487A7956B}</Project>
+      <Name>opencv_plot</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\quality\opencv_quality.vcxproj">
+      <Project>{9C94C808-5F86-3CEE-B224-B98901963F8F}</Project>
+      <Name>opencv_quality</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\rapid\opencv_rapid.vcxproj">
+      <Project>{17EE7C51-4865-37A3-9421-8D90BBB52BEB}</Project>
+      <Name>opencv_rapid</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\reg\opencv_reg.vcxproj">
+      <Project>{BFEEB083-36C3-30F9-9877-99F2FB9C2372}</Project>
+      <Name>opencv_reg</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\rgbd\opencv_rgbd.vcxproj">
+      <Project>{E13CB82B-05D0-39CA-BAEE-2593B3AF7403}</Project>
+      <Name>opencv_rgbd</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\saliency\opencv_saliency.vcxproj">
+      <Project>{7EA7337C-DBE4-3F9E-9A92-3D6557F39E6C}</Project>
+      <Name>opencv_saliency</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\shape\opencv_shape.vcxproj">
+      <Project>{ED4467A0-2E80-3D37-809B-B550F98599A6}</Project>
+      <Name>opencv_shape</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\stereo\opencv_stereo.vcxproj">
+      <Project>{8059A5C2-9F92-332D-B910-A3184CC3BA18}</Project>
+      <Name>opencv_stereo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\stitching\opencv_stitching.vcxproj">
+      <Project>{7180C99B-E9AF-368F-823C-9ED8D615736F}</Project>
+      <Name>opencv_stitching</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\structured_light\opencv_structured_light.vcxproj">
+      <Project>{4D5965B1-CE78-3E74-ADF5-75122A1E148E}</Project>
+      <Name>opencv_structured_light</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\superres\opencv_superres.vcxproj">
+      <Project>{F73E624A-BB77-35AC-9BF2-B176B3021473}</Project>
+      <Name>opencv_superres</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\surface_matching\opencv_surface_matching.vcxproj">
+      <Project>{4553BE98-54FB-317D-AA0B-355A205B0B99}</Project>
+      <Name>opencv_surface_matching</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\aruco\opencv_test_aruco.vcxproj">
+      <Project>{19FE06B2-091D-3D25-A0D2-D0ADA3FBA984}</Project>
+      <Name>opencv_test_aruco</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\bgsegm\opencv_test_bgsegm.vcxproj">
+      <Project>{4E12AA13-CB80-3D53-B892-C059E7BF11D5}</Project>
+      <Name>opencv_test_bgsegm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\bioinspired\opencv_test_bioinspired.vcxproj">
+      <Project>{C1F4E22C-C9E5-3D33-A274-9DAC31A6A2BF}</Project>
+      <Name>opencv_test_bioinspired</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\calib3d\opencv_test_calib3d.vcxproj">
+      <Project>{3CF003E0-73E8-3664-935F-696761E9D646}</Project>
+      <Name>opencv_test_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\core\opencv_test_core.vcxproj">
+      <Project>{5BD58526-B580-3D01-98F1-BD93941299E8}</Project>
+      <Name>opencv_test_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\core\opencv_test_core_AVX.vcxproj">
+      <Project>{4782F83B-109B-39EB-AF19-A86E80BC8C46}</Project>
+      <Name>opencv_test_core_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\core\opencv_test_core_FP16.vcxproj">
+      <Project>{E1AD90C4-3225-3044-B125-EF0B3306FC3D}</Project>
+      <Name>opencv_test_core_FP16</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\core\opencv_test_core_SSE4_1.vcxproj">
+      <Project>{6A5E5D65-1D2D-3AD9-B45C-436E9EF4708E}</Project>
+      <Name>opencv_test_core_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\core\opencv_test_core_SSE4_2.vcxproj">
+      <Project>{041724C1-ECFD-3391-8908-108A7B1AB4E2}</Project>
+      <Name>opencv_test_core_SSE4_2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\dnn\opencv_test_dnn.vcxproj">
+      <Project>{82CC1D6E-8315-37A6-9910-3994CACDC527}</Project>
+      <Name>opencv_test_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\dnn_superres\opencv_test_dnn_superres.vcxproj">
+      <Project>{519B1113-B472-352C-937D-A4B922D43554}</Project>
+      <Name>opencv_test_dnn_superres</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\face\opencv_test_face.vcxproj">
+      <Project>{06A090F3-76DD-35AC-B921-5B0D93A02F2A}</Project>
+      <Name>opencv_test_face</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\features2d\opencv_test_features2d.vcxproj">
+      <Project>{FAF0376F-9EEF-32BD-86C9-F27187534711}</Project>
+      <Name>opencv_test_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\flann\opencv_test_flann.vcxproj">
+      <Project>{92CBB543-FED6-3FBA-B9FB-A2A61C47E054}</Project>
+      <Name>opencv_test_flann</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\fuzzy\opencv_test_fuzzy.vcxproj">
+      <Project>{E34AF021-6965-3D51-A874-D0CD5D98BD9A}</Project>
+      <Name>opencv_test_fuzzy</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\gapi\opencv_test_gapi.vcxproj">
+      <Project>{F371E33E-23F2-366B-82D0-4029F09604FF}</Project>
+      <Name>opencv_test_gapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\highgui\opencv_test_highgui.vcxproj">
+      <Project>{9FDAA474-8757-3FEC-AE10-A8AC1D39D13D}</Project>
+      <Name>opencv_test_highgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\img_hash\opencv_test_img_hash.vcxproj">
+      <Project>{38E82C66-79E0-3AD8-B7B1-51F895FBD641}</Project>
+      <Name>opencv_test_img_hash</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\imgcodecs\opencv_test_imgcodecs.vcxproj">
+      <Project>{650CCB92-991A-3F14-921A-3C4632446300}</Project>
+      <Name>opencv_test_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\imgproc\opencv_test_imgproc.vcxproj">
+      <Project>{3BA667C6-3375-39D6-B916-07CF8B6C7E12}</Project>
+      <Name>opencv_test_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\intensity_transform\opencv_test_intensity_transform.vcxproj">
+      <Project>{1D200BEC-AA13-39B8-97AF-F684B7C4F3A8}</Project>
+      <Name>opencv_test_intensity_transform</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\line_descriptor\opencv_test_line_descriptor.vcxproj">
+      <Project>{5BE24AD4-8E9D-3E54-8B86-B03A15D7F2B5}</Project>
+      <Name>opencv_test_line_descriptor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\ml\opencv_test_ml.vcxproj">
+      <Project>{3969477C-14D5-3969-A0DC-414366400010}</Project>
+      <Name>opencv_test_ml</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\objdetect\opencv_test_objdetect.vcxproj">
+      <Project>{F4CD63CF-DCD1-3D9F-A642-5D0BF3642FCE}</Project>
+      <Name>opencv_test_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\optflow\opencv_test_optflow.vcxproj">
+      <Project>{AF03B152-1E16-3822-9BF1-F1BE442148C6}</Project>
+      <Name>opencv_test_optflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\phase_unwrapping\opencv_test_phase_unwrapping.vcxproj">
+      <Project>{10327CCA-0FB8-31A2-A953-0F2CD67D545D}</Project>
+      <Name>opencv_test_phase_unwrapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\photo\opencv_test_photo.vcxproj">
+      <Project>{17FBB503-FB19-39F9-BDD2-B91B9169F04D}</Project>
+      <Name>opencv_test_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\quality\opencv_test_quality.vcxproj">
+      <Project>{D8F4836A-2914-34CA-82C9-27D94C50251C}</Project>
+      <Name>opencv_test_quality</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\rapid\opencv_test_rapid.vcxproj">
+      <Project>{CE356FD6-73C7-30E1-A533-31516B1B27E5}</Project>
+      <Name>opencv_test_rapid</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\reg\opencv_test_reg.vcxproj">
+      <Project>{F5B323CC-8422-3150-BDC7-BE4E76CF5840}</Project>
+      <Name>opencv_test_reg</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\rgbd\opencv_test_rgbd.vcxproj">
+      <Project>{F8F3CBF1-9424-3277-AAC4-9788FB59D9B3}</Project>
+      <Name>opencv_test_rgbd</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\saliency\opencv_test_saliency.vcxproj">
+      <Project>{658F0CF4-D045-31CC-B80E-F9CEB12CD396}</Project>
+      <Name>opencv_test_saliency</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\shape\opencv_test_shape.vcxproj">
+      <Project>{DC25BBDE-96A0-3937-B391-7992F2DCFD75}</Project>
+      <Name>opencv_test_shape</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\stereo\opencv_test_stereo.vcxproj">
+      <Project>{89E46671-C447-339F-B206-5FA39FA3B65D}</Project>
+      <Name>opencv_test_stereo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\structured_light\opencv_test_structured_light.vcxproj">
+      <Project>{FAFA6D5A-9F83-3A1E-B7F7-2FC458C24781}</Project>
+      <Name>opencv_test_structured_light</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\superres\opencv_test_superres.vcxproj">
+      <Project>{CA1E6689-EA11-3799-AD29-B0D6EFFD5A92}</Project>
+      <Name>opencv_test_superres</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\text\opencv_test_text.vcxproj">
+      <Project>{397AEEC8-BA80-338D-A506-DFE57B5B8930}</Project>
+      <Name>opencv_test_text</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\tracking\opencv_test_tracking.vcxproj">
+      <Project>{5FE981EF-4A4C-33ED-AC2F-A1F8CE2241A8}</Project>
+      <Name>opencv_test_tracking</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\video\opencv_test_video.vcxproj">
+      <Project>{E702C78B-671D-342B-94FB-F969AEA14979}</Project>
+      <Name>opencv_test_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\videoio\opencv_test_videoio.vcxproj">
+      <Project>{BB3A5C60-52A3-3E3C-B64B-62C532A77782}</Project>
+      <Name>opencv_test_videoio</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\videostab\opencv_test_videostab.vcxproj">
+      <Project>{FDDF44E5-398D-353E-9AFB-A0AA5F28C630}</Project>
+      <Name>opencv_test_videostab</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\xfeatures2d\opencv_test_xfeatures2d.vcxproj">
+      <Project>{0C5A2571-C752-3E52-A764-7BE9B70B4936}</Project>
+      <Name>opencv_test_xfeatures2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\ximgproc\opencv_test_ximgproc.vcxproj">
+      <Project>{90F61FEB-7190-36BA-8DF5-63DB36B47900}</Project>
+      <Name>opencv_test_ximgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\xphoto\opencv_test_xphoto.vcxproj">
+      <Project>{11206682-8733-3865-AE4E-AA0C574910C4}</Project>
+      <Name>opencv_test_xphoto</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\text\opencv_text.vcxproj">
+      <Project>{83C47954-C90A-3F43-9271-6784DEDD3B34}</Project>
+      <Name>opencv_text</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\tracking\opencv_tracking.vcxproj">
+      <Project>{6DF6A186-74C1-3AEA-8075-6015CFCFC540}</Project>
+      <Name>opencv_tracking</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\ts\opencv_ts.vcxproj">
+      <Project>{74D46FED-9C69-3089-B2B9-079F87808185}</Project>
+      <Name>opencv_ts</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\apps\version\opencv_version.vcxproj">
+      <Project>{ABA7F4F1-79E1-3596-925D-89AF6D0F0431}</Project>
+      <Name>opencv_version</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\apps\version\opencv_version_win32.vcxproj">
+      <Project>{F267AFB1-AF5E-34DA-9460-B69B6FBBF295}</Project>
+      <Name>opencv_version_win32</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\video\opencv_video.vcxproj">
+      <Project>{F63A9590-1864-37B5-92A1-B5CCF8B49D9C}</Project>
+      <Name>opencv_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\videoio\opencv_videoio.vcxproj">
+      <Project>{67BD3665-AC71-3A59-8C5A-BA7B14FC0652}</Project>
+      <Name>opencv_videoio</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\.firstpass\videoio\opencv_videoio_plugins.vcxproj">
+      <Project>{86841973-A876-335B-928E-E333A7670CD4}</Project>
+      <Name>opencv_videoio_plugins</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\videostab\opencv_videostab.vcxproj">
+      <Project>{5C7332D4-AB7A-3EFD-BFD0-E20D3B260EE5}</Project>
+      <Name>opencv_videostab</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\apps\visualisation\opencv_visualisation.vcxproj">
+      <Project>{7CADFE3C-E5BB-306F-A24C-C4975590E813}</Project>
+      <Name>opencv_visualisation</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\xobjdetect\tools\waldboost_detector\opencv_waldboost_detector.vcxproj">
+      <Project>{4D11188D-AACC-3FB6-B3DE-B97663A1CB14}</Project>
+      <Name>opencv_waldboost_detector</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\xfeatures2d\opencv_xfeatures2d.vcxproj">
+      <Project>{F336C4AC-3735-34C6-A01C-223A63609121}</Project>
+      <Name>opencv_xfeatures2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\ximgproc\opencv_ximgproc.vcxproj">
+      <Project>{E837916A-799C-32EF-9A0E-2317F0BD70D6}</Project>
+      <Name>opencv_ximgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\xobjdetect\opencv_xobjdetect.vcxproj">
+      <Project>{799532A4-D504-3FEE-BF16-2CFBA789D618}</Project>
+      <Name>opencv_xobjdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\xphoto\opencv_xphoto.vcxproj">
+      <Project>{BDE68EA9-98F9-3C93-B734-404F5209F10B}</Project>
+      <Name>opencv_xphoto</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\3rdparty\quirc\quirc.vcxproj">
+      <Project>{906A2616-D432-333A-A4C6-39D3519A5E93}</Project>
+      <Name>quirc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\3rdparty\zlib\zlib.vcxproj">
+      <Project>{8F4A4902-7A62-3F46-BFDA-359260F79C31}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

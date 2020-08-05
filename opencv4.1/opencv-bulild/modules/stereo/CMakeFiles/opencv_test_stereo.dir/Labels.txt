@@ -1,0 +1,25 @@
+# Target labels
+ Extra
+ opencv_stereo
+ AccuracyTest
+# Source files and their labels
+D:/My_file/opencv_contrib/modules/stereo/test/test_block_matching.cpp
+ Extra
+ opencv_stereo
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/stereo/test/test_descriptors.cpp
+ Extra
+ opencv_stereo
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/stereo/test/test_main.cpp
+ Extra
+ opencv_stereo
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/stereo/test/test_precomp.hpp
+ Extra
+ opencv_stereo
+ AccuracyTest
+D:/My_file/opencv4.1/opencv-bulild/modules/stereo/opencv_test_stereo_pch.cpp
+ Extra
+ opencv_stereo
+ AccuracyTest

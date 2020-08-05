@@ -1,0 +1,87 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/features2d/perf/opencl/perf_brute_force_matcher.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_features2d",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/features2d/perf/opencl/perf_feature2d.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_features2d",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/features2d/perf/perf_batchDistance.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_features2d",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/features2d/perf/perf_feature2d.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_features2d",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/features2d/perf/perf_main.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_features2d",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/features2d/perf/perf_feature2d.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_features2d",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/features2d/perf/perf_precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_features2d",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/features2d/opencv_perf_features2d_pch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_features2d",
+				"PerfTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_features2d",
+			"PerfTest"
+		],
+		"name" : "opencv_perf_features2d"
+	}
+}

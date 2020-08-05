@@ -1,0 +1,25 @@
+# Target labels
+ Main
+ opencv_videoio
+ PerfTest
+# Source files and their labels
+D:/My_file/opencv4.1/opencv/sources/modules/videoio/perf/perf_input.cpp
+ Main
+ opencv_videoio
+ PerfTest
+D:/My_file/opencv4.1/opencv/sources/modules/videoio/perf/perf_main.cpp
+ Main
+ opencv_videoio
+ PerfTest
+D:/My_file/opencv4.1/opencv/sources/modules/videoio/perf/perf_output.cpp
+ Main
+ opencv_videoio
+ PerfTest
+D:/My_file/opencv4.1/opencv/sources/modules/videoio/perf/perf_precomp.hpp
+ Main
+ opencv_videoio
+ PerfTest
+D:/My_file/opencv4.1/opencv-bulild/modules/videoio/opencv_perf_videoio_pch.cpp
+ Main
+ opencv_videoio
+ PerfTest

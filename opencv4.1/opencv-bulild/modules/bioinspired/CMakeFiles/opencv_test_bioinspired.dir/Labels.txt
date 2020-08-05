@@ -1,0 +1,21 @@
+# Target labels
+ Extra
+ opencv_bioinspired
+ AccuracyTest
+# Source files and their labels
+D:/My_file/opencv_contrib/modules/bioinspired/test/test_main.cpp
+ Extra
+ opencv_bioinspired
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/bioinspired/test/test_retina_ocl.cpp
+ Extra
+ opencv_bioinspired
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/bioinspired/test/test_precomp.hpp
+ Extra
+ opencv_bioinspired
+ AccuracyTest
+D:/My_file/opencv4.1/opencv-bulild/modules/bioinspired/opencv_test_bioinspired_pch.cpp
+ Extra
+ opencv_bioinspired
+ AccuracyTest

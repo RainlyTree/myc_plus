@@ -1,0 +1,60 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/text/test/test_detection.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_text",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/text/test/test_detection_swt.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_text",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/text/test/test_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_text",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/text/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_text",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/text/opencv_test_text_pch.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_text",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_text",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_text"
+	}
+}

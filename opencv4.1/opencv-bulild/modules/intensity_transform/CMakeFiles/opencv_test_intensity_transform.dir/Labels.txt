@@ -1,0 +1,21 @@
+# Target labels
+ Extra
+ opencv_intensity_transform
+ AccuracyTest
+# Source files and their labels
+D:/My_file/opencv_contrib/modules/intensity_transform/test/test_intensity_transform.cpp
+ Extra
+ opencv_intensity_transform
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/intensity_transform/test/test_main.cpp
+ Extra
+ opencv_intensity_transform
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/intensity_transform/test/test_precomp.hpp
+ Extra
+ opencv_intensity_transform
+ AccuracyTest
+D:/My_file/opencv4.1/opencv-bulild/modules/intensity_transform/opencv_test_intensity_transform_pch.cpp
+ Extra
+ opencv_intensity_transform
+ AccuracyTest

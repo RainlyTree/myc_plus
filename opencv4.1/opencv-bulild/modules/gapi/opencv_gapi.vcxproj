@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1D27606E-18D4-31A1-9135-BD45268A2285}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>opencv_gapi</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\My_file\opencv4.1\opencv-bulild\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_gapi.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_gapi410d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\My_file\opencv4.1\opencv-bulild\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencv_gapi.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencv_gapi410</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\My_file\opencv4.1\opencv\sources\modules\gapi\src;D:\My_file\opencv4.1\opencv\sources\modules\gapi\include;D:\My_file\opencv4.1\opencv-bulild\modules\gapi;D:\My_file\opencv4.1\opencv\sources\modules\core\include;D:\My_file\opencv4.1\opencv\sources\modules\imgproc\include;D:\My_file\opencv4.1\opencv-bulild\3rdparty\ade\ade-0.1.1d\sources\ade\include;D:\My_file\opencv4.1\opencv-bulild;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>8</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR="Debug";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:\My_file\opencv4.1\opencv-bulild\lib\Debug\opencv_gapi410d.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR=\"Debug\";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\My_file\opencv4.1\opencv\sources\modules\gapi\src;D:\My_file\opencv4.1\opencv\sources\modules\gapi\include;D:\My_file\opencv4.1\opencv-bulild\modules\gapi;D:\My_file\opencv4.1\opencv\sources\modules\core\include;D:\My_file\opencv4.1\opencv\sources\modules\imgproc\include;D:\My_file\opencv4.1\opencv-bulild\3rdparty\ade\ade-0.1.1d\sources\ade\include;D:\My_file\opencv4.1\opencv-bulild;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\My_file\opencv4.1\opencv\sources\modules\gapi\src;D:\My_file\opencv4.1\opencv\sources\modules\gapi\include;D:\My_file\opencv4.1\opencv-bulild\modules\gapi;D:\My_file\opencv4.1\opencv\sources\modules\core\include;D:\My_file\opencv4.1\opencv\sources\modules\imgproc\include;D:\My_file\opencv4.1\opencv-bulild\3rdparty\ade\ade-0.1.1d\sources\ade\include;D:\My_file\opencv4.1\opencv-bulild;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\opencv_imgproc410d.lib;..\..\lib\Debug\ade.lib;..\..\lib\Debug\opencv_core410d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/My_file/opencv4.1/opencv-bulild/lib/Debug/opencv_gapi410d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/My_file/opencv4.1/opencv-bulild/bin/Debug/opencv_gapi410d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\My_file\opencv4.1\opencv\sources\modules\gapi\src;D:\My_file\opencv4.1\opencv\sources\modules\gapi\include;D:\My_file\opencv4.1\opencv-bulild\modules\gapi;D:\My_file\opencv4.1\opencv\sources\modules\core\include;D:\My_file\opencv4.1\opencv\sources\modules\imgproc\include;D:\My_file\opencv4.1\opencv-bulild\3rdparty\ade\ade-0.1.1d\sources\ade\include;D:\My_file\opencv4.1\opencv-bulild;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>8</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR="Release";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>D:\My_file\opencv4.1\opencv-bulild\lib\Release\opencv_gapi410.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR=\"Release\";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\My_file\opencv4.1\opencv\sources\modules\gapi\src;D:\My_file\opencv4.1\opencv\sources\modules\gapi\include;D:\My_file\opencv4.1\opencv-bulild\modules\gapi;D:\My_file\opencv4.1\opencv\sources\modules\core\include;D:\My_file\opencv4.1\opencv\sources\modules\imgproc\include;D:\My_file\opencv4.1\opencv-bulild\3rdparty\ade\ade-0.1.1d\sources\ade\include;D:\My_file\opencv4.1\opencv-bulild;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\My_file\opencv4.1\opencv\sources\modules\gapi\src;D:\My_file\opencv4.1\opencv\sources\modules\gapi\include;D:\My_file\opencv4.1\opencv-bulild\modules\gapi;D:\My_file\opencv4.1\opencv\sources\modules\core\include;D:\My_file\opencv4.1\opencv\sources\modules\imgproc\include;D:\My_file\opencv4.1\opencv-bulild\3rdparty\ade\ade-0.1.1d\sources\ade\include;D:\My_file\opencv4.1\opencv-bulild;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\opencv_imgproc410.lib;..\..\lib\Release\ade.lib;..\..\lib\Release\opencv_core410.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/My_file/opencv4.1/opencv-bulild/lib/Release/opencv_gapi410.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/My_file/opencv4.1/opencv-bulild/bin/Release/opencv_gapi410.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/My_file/opencv4.1/opencv/sources/modules/gapi/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/My_file/opencv4.1/opencv/sources -BD:/My_file/opencv4.1/opencv-bulild --check-stamp-file D:/My_file/opencv4.1/opencv-bulild/modules/gapi/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\My_file\opencv4.1\opencv\sources\cmake\templates\dllmain.cpp.in;D:\My_file\opencv4.1\opencv\sources\cmake\templates\vs_version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\My_file\opencv4.1\opencv-bulild\modules\gapi\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/My_file/opencv4.1/opencv/sources/modules/gapi/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/My_file/opencv4.1/opencv/sources -BD:/My_file/opencv4.1/opencv-bulild --check-stamp-file D:/My_file/opencv4.1/opencv-bulild/modules/gapi/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\My_file\opencv4.1\opencv\sources\cmake\templates\dllmain.cpp.in;D:\My_file\opencv4.1\opencv\sources\cmake\templates\vs_version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\My_file\opencv4.1\opencv-bulild\modules\gapi\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\core.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\cpu\core.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\cpu\gcpukernel.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\cpu\imgproc.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\fluid\core.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\fluid\gfluidbuffer.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\fluid\gfluidkernel.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\fluid\imgproc.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\garg.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\garray.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\gcall.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\gcommon.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\gcompiled.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\gcompoundkernel.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\gcomputation.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\gkernel.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\gmat.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\gmetaarg.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\gproto.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\gpu\core.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\gpu\ggpukernel.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\gpu\imgproc.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\gscalar.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\gtype_traits.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\gtyped.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\imgproc.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\ocl\core.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\ocl\goclkernel.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\ocl\imgproc.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\opencv_includes.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\operators.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\own\assert.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\own\convert.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\own\cvdefs.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\own\exports.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\own\mat.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\own\saturate.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\own\scalar.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\own\types.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\util\any.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\util\compiler_hints.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\util\optional.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\util\throw.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\util\util.hpp" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\include\opencv2\gapi\util\variant.hpp" />
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\api\gapi_priv.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\api\gmat.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\api\garray.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\api\gscalar.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\api\gkernel.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\api\gbackend.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\api\gproto.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\api\gnode.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\api\gcall.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\api\gcomputation.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\api\operators.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\api\kernels_core.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\api\kernels_imgproc.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\compiler\gmodel.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\compiler\gmodelbuilder.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\compiler\gislandmodel.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\compiler\gcompiler.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\compiler\gcompiled.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\compiler\passes\helpers.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\compiler\passes\dump_dot.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\compiler\passes\islands.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\compiler\passes\meta.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\compiler\passes\kernels.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\compiler\passes\exec.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\executor\gexecutor.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\backends\cpu\gcpubackend.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\backends\cpu\gcpukernel.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\backends\cpu\gcpuimgproc.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\backends\cpu\gcpucore.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\backends\fluid\gfluidbuffer.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\backends\fluid\gfluidbackend.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\backends\fluid\gfluidimgproc.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\backends\fluid\gfluidimgproc_func.dispatch.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\backends\fluid\gfluidcore.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\backends\ocl\goclbackend.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\backends\ocl\goclkernel.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\backends\ocl\goclimgproc.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\backends\ocl\goclcore.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\backends\common\gcompoundbackend.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\gapi\src\backends\common\gcompoundkernel.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <Object Include="D:\My_file\opencv4.1\opencv-bulild\modules\gapi\opencv_gapi_SSE4_1.dir\$(Configuration)\gfluidimgproc_func.sse4_1.obj" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv-bulild\cvconfig.h" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv-bulild\opencv2\opencv_modules.hpp" />
+    <ClCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\gapi\opencv_gapi_pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ResourceCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\gapi\vs_version.rc" />
+    <ClCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\gapi\opencv_gapi_main.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/My_file/opencv4.1/opencv/sources/modules/gapi/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\ZERO_CHECK.vcxproj">
+      <Project>{9AC2EC1D-3AB6-35B3-A6CF-BF068C4374ED}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\ade.vcxproj">
+      <Project>{755D0114-6CEB-3EA6-87ED-092CFF7D31CD}</Project>
+      <Name>ade</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\core\opencv_core.vcxproj">
+      <Project>{34E86C09-0889-3F67-96D5-60829E8B81AE}</Project>
+      <Name>opencv_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\gapi\opencv_gapi_SSE4_1.vcxproj">
+      <Project>{DA92B2A8-D824-3491-8CEB-A9FFC0AAA4E7}</Project>
+      <Name>opencv_gapi_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\imgproc\opencv_imgproc.vcxproj">
+      <Project>{533CA162-9625-361D-B436-2291C845CE9C}</Project>
+      <Name>opencv_imgproc</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

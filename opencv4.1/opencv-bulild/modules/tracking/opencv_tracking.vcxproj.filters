@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\augmented_unscented_kalman.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\feature.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\featureColorName.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\gtrTracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\gtrUtils.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\kuhn_munkres.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\mosseTracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\multiTracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\multiTracker_alt.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\onlineBoosting.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\onlineMIL.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\tldDataset.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\tldDetector.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\tldEnsembleClassifier.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\tldModel.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\tldTracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\tldUtils.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\tracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\trackerBoosting.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\trackerBoostingModel.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\trackerCSRT.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\trackerCSRTScaleEstimation.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\trackerCSRTSegmentation.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\trackerCSRTUtils.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\trackerFeature.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\trackerFeatureSet.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\trackerKCF.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\trackerMIL.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\trackerMILModel.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\trackerMedianFlow.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\trackerModel.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\trackerSampler.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\trackerSamplerAlgorithm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\trackerStateEstimator.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\tracking_by_matching.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\tracking_utils.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\tracking\src\unscented_kalman.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\tracking\opencl_kernels_tracking.cpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\tracking\opencv_tracking_pch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\tracking\opencv_tracking_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\include\opencv2\tracking.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\include\opencv2\tracking\feature.hpp">
+      <Filter>Include\opencv2\tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\include\opencv2\tracking\kalman_filters.hpp">
+      <Filter>Include\opencv2\tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\include\opencv2\tracking\onlineBoosting.hpp">
+      <Filter>Include\opencv2\tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\include\opencv2\tracking\onlineMIL.hpp">
+      <Filter>Include\opencv2\tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\include\opencv2\tracking\tldDataset.hpp">
+      <Filter>Include\opencv2\tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\include\opencv2\tracking\tracker.hpp">
+      <Filter>Include\opencv2\tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\include\opencv2\tracking\tracking.hpp">
+      <Filter>Include\opencv2\tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\include\opencv2\tracking\tracking_by_matching.hpp">
+      <Filter>Include\opencv2\tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv-bulild\modules\tracking\opencl_kernels_tracking.hpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\src\PFSolver.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\src\TrackingFunctionPF.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\src\gtrTracker.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\src\gtrUtils.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\src\kuhn_munkres.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\src\multiTracker.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\src\tldDetector.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\src\tldEnsembleClassifier.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\src\tldModel.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\src\tldTracker.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\src\tldUtils.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\src\trackerBoostingModel.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\src\trackerCSRTScaleEstimation.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\src\trackerCSRTSegmentation.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\src\trackerCSRTUtils.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\src\trackerMILModel.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\tracking\src\tracking_utils.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv-bulild\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv-bulild\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\My_file\opencv4.1\opencv-bulild\CMakeFiles\2f9ae883af010dedd4eaf8578579b4fb\opencl_kernels_tracking.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\My_file\opencv_contrib\modules\tracking\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\My_file\opencv_contrib\modules\tracking\src\opencl\tldDetector.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv_contrib\modules\tracking\src\opencl\tmm.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\tracking\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{608D5983-D0B2-3DB4-B2E3-9049DAF62CB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{F05F0D06-2DC5-3D75-B987-448915EDDB80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{766F4EAB-37E9-3242-ACF8-9F35D303A390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\tracking">
+      <UniqueIdentifier>{E64102E8-9340-3E89-B018-5E2704B5155B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8E90F656-D8AC-305A-B235-8AB2E6E22006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{17A87201-C451-369D-A32B-C00D68873E1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl">
+      <UniqueIdentifier>{88090175-C1EB-31F5-BB67-A770C6483317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels">
+      <UniqueIdentifier>{48E29CDE-E7EC-3B6E-8EA9-65A20E25ADE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{33F37EC3-C884-3B97-A6C9-0B0554303CBE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

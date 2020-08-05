@@ -1,0 +1,51 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/phase_unwrapping/test/test_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_phase_unwrapping",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/phase_unwrapping/test/test_unwrapping.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_phase_unwrapping",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/phase_unwrapping/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_phase_unwrapping",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/phase_unwrapping/opencv_test_phase_unwrapping_pch.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_phase_unwrapping",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_phase_unwrapping",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_phase_unwrapping"
+	}
+}

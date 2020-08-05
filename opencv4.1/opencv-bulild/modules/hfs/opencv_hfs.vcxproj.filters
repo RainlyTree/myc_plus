@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\hfs\src\hfs.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\hfs\src\hfs_core.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\hfs\src\magnitude\magnitude.cpp">
+      <Filter>Src\magnitude</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\hfs\src\merge\merge.cpp">
+      <Filter>Src\merge</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\hfs\src\slic\gslic_engine.cpp">
+      <Filter>Src\slic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\hfs\src\slic\slic.cpp">
+      <Filter>Src\slic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\hfs\opencv_hfs_pch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\hfs\opencv_hfs_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\hfs\include\opencv2\hfs.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\hfs\src\hfs_core.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\hfs\src\magnitude\magnitude.hpp">
+      <Filter>Src\magnitude</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\hfs\src\merge\merge.hpp">
+      <Filter>Src\merge</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\hfs\src\or_utils\or_image.hpp">
+      <Filter>Src\or_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\hfs\src\or_utils\or_memory_block.hpp">
+      <Filter>Src\or_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\hfs\src\or_utils\or_types.hpp">
+      <Filter>Src\or_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\hfs\src\or_utils\or_vector.hpp">
+      <Filter>Src\or_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\hfs\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\hfs\src\slic\slic.hpp">
+      <Filter>Src\slic</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv-bulild\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv-bulild\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\My_file\opencv_contrib\modules\hfs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\hfs\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{F05F0D06-2DC5-3D75-B987-448915EDDB80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{766F4EAB-37E9-3242-ACF8-9F35D303A390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8E90F656-D8AC-305A-B235-8AB2E6E22006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{17A87201-C451-369D-A32B-C00D68873E1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\magnitude">
+      <UniqueIdentifier>{455513C5-AC73-3BA9-90D9-CFCF3A645544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\merge">
+      <UniqueIdentifier>{7FD0C020-D387-3352-9E4E-D69963382AC4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\or_utils">
+      <UniqueIdentifier>{772EF2AC-BD07-3B1E-B125-B0EF12E4E3E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\slic">
+      <UniqueIdentifier>{DA626FD2-02A1-32FD-A696-701784FDD35B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

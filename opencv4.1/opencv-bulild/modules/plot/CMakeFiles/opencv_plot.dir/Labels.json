@@ -1,0 +1,63 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/plot/include/opencv2/plot.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_plot",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/plot/src/plot.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_plot",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/plot/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_plot",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/cvconfig.h"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/plot/opencv_plot_pch.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_plot",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/plot/vs_version.rc"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/plot/opencv_plot_main.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_plot",
+			"Module"
+		],
+		"name" : "opencv_plot"
+	}
+}

@@ -1,0 +1,21 @@
+# Target labels
+ Extra
+ opencv_shape
+ AccuracyTest
+# Source files and their labels
+D:/My_file/opencv_contrib/modules/shape/test/test_main.cpp
+ Extra
+ opencv_shape
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/shape/test/test_shape.cpp
+ Extra
+ opencv_shape
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/shape/test/test_precomp.hpp
+ Extra
+ opencv_shape
+ AccuracyTest
+D:/My_file/opencv4.1/opencv-bulild/modules/shape/opencv_test_shape_pch.cpp
+ Extra
+ opencv_shape
+ AccuracyTest

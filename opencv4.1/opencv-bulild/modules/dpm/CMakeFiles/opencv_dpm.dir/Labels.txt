@@ -1,0 +1,65 @@
+# Target labels
+ Extra
+ opencv_dpm
+ Module
+# Source files and their labels
+D:/My_file/opencv_contrib/modules/dpm/include/opencv2/dpm.hpp
+ Extra
+ opencv_dpm
+ Module
+D:/My_file/opencv_contrib/modules/dpm/src/dpm_cascade.cpp
+ Extra
+ opencv_dpm
+ Module
+D:/My_file/opencv_contrib/modules/dpm/src/dpm_cascade_detector.cpp
+ Extra
+ opencv_dpm
+ Module
+D:/My_file/opencv_contrib/modules/dpm/src/dpm_convolution.cpp
+ Extra
+ opencv_dpm
+ Module
+D:/My_file/opencv_contrib/modules/dpm/src/dpm_feature.cpp
+ Extra
+ opencv_dpm
+ Module
+D:/My_file/opencv_contrib/modules/dpm/src/dpm_model.cpp
+ Extra
+ opencv_dpm
+ Module
+D:/My_file/opencv_contrib/modules/dpm/src/dpm_nms.cpp
+ Extra
+ opencv_dpm
+ Module
+D:/My_file/opencv_contrib/modules/dpm/src/dpm_cascade.hpp
+ Extra
+ opencv_dpm
+ Module
+D:/My_file/opencv_contrib/modules/dpm/src/dpm_convolution.hpp
+ Extra
+ opencv_dpm
+ Module
+D:/My_file/opencv_contrib/modules/dpm/src/dpm_feature.hpp
+ Extra
+ opencv_dpm
+ Module
+D:/My_file/opencv_contrib/modules/dpm/src/dpm_model.hpp
+ Extra
+ opencv_dpm
+ Module
+D:/My_file/opencv_contrib/modules/dpm/src/dpm_nms.hpp
+ Extra
+ opencv_dpm
+ Module
+D:/My_file/opencv_contrib/modules/dpm/src/precomp.hpp
+ Extra
+ opencv_dpm
+ Module
+D:/My_file/opencv4.1/opencv-bulild/cvconfig.h
+D:/My_file/opencv4.1/opencv-bulild/opencv2/opencv_modules.hpp
+D:/My_file/opencv4.1/opencv-bulild/modules/dpm/opencv_dpm_pch.cpp
+ Extra
+ opencv_dpm
+ Module
+D:/My_file/opencv4.1/opencv-bulild/modules/dpm/vs_version.rc
+D:/My_file/opencv4.1/opencv-bulild/modules/dpm/opencv_dpm_main.cpp

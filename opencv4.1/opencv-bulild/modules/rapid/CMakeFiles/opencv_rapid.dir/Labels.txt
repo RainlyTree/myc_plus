@@ -1,0 +1,25 @@
+# Target labels
+ Extra
+ opencv_rapid
+ Module
+# Source files and their labels
+D:/My_file/opencv_contrib/modules/rapid/include/opencv2/rapid.hpp
+ Extra
+ opencv_rapid
+ Module
+D:/My_file/opencv_contrib/modules/rapid/src/rapid.cpp
+ Extra
+ opencv_rapid
+ Module
+D:/My_file/opencv_contrib/modules/rapid/src/precomp.hpp
+ Extra
+ opencv_rapid
+ Module
+D:/My_file/opencv4.1/opencv-bulild/cvconfig.h
+D:/My_file/opencv4.1/opencv-bulild/opencv2/opencv_modules.hpp
+D:/My_file/opencv4.1/opencv-bulild/modules/rapid/opencv_rapid_pch.cpp
+ Extra
+ opencv_rapid
+ Module
+D:/My_file/opencv4.1/opencv-bulild/modules/rapid/vs_version.rc
+D:/My_file/opencv4.1/opencv-bulild/modules/rapid/opencv_rapid_main.cpp

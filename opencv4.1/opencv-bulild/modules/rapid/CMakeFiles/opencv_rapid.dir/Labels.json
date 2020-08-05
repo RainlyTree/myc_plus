@@ -1,0 +1,63 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/rapid/include/opencv2/rapid.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_rapid",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/rapid/src/rapid.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_rapid",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/rapid/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_rapid",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/cvconfig.h"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/rapid/opencv_rapid_pch.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_rapid",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/rapid/vs_version.rc"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/rapid/opencv_rapid_main.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_rapid",
+			"Module"
+		],
+		"name" : "opencv_rapid"
+	}
+}

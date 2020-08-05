@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\face\src\bif.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\face\src\eigen_faces.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\face\src\face_alignment.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\face\src\face_basic.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\face\src\facemark.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\face\src\facemarkAAM.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\face\src\facemarkLBF.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\face\src\facerec.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\face\src\fisher_faces.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\face\src\getlandmarks.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\face\src\lbph_faces.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\face\src\mace.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\face\src\predict_collector.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\face\src\regtree.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\face\src\trainFacemark.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\face\opencv_face_pch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\face\opencv_face_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\face\include\opencv2\face.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\face\include\opencv2\face\bif.hpp">
+      <Filter>Include\opencv2\face</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\face\include\opencv2\face\face_alignment.hpp">
+      <Filter>Include\opencv2\face</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\face\include\opencv2\face\facemark.hpp">
+      <Filter>Include\opencv2\face</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\face\include\opencv2\face\facemarkAAM.hpp">
+      <Filter>Include\opencv2\face</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\face\include\opencv2\face\facemarkLBF.hpp">
+      <Filter>Include\opencv2\face</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\face\include\opencv2\face\facemark_train.hpp">
+      <Filter>Include\opencv2\face</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\face\include\opencv2\face\facerec.hpp">
+      <Filter>Include\opencv2\face</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\face\include\opencv2\face\mace.hpp">
+      <Filter>Include\opencv2\face</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\face\include\opencv2\face\predict_collector.hpp">
+      <Filter>Include\opencv2\face</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\face\src\face_alignmentimpl.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\face\src\face_utils.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\face\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv-bulild\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv-bulild\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\My_file\opencv_contrib\modules\face\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\face\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{F05F0D06-2DC5-3D75-B987-448915EDDB80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{766F4EAB-37E9-3242-ACF8-9F35D303A390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\face">
+      <UniqueIdentifier>{9A3D544F-F2EB-3749-BD9C-914927A0DE00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8E90F656-D8AC-305A-B235-8AB2E6E22006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{17A87201-C451-369D-A32B-C00D68873E1A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+# Target labels
+ Main
+ opencv_highgui
+ AccuracyTest
+# Source files and their labels
+D:/My_file/opencv4.1/opencv/sources/modules/highgui/test/test_gui.cpp
+ Main
+ opencv_highgui
+ AccuracyTest
+D:/My_file/opencv4.1/opencv/sources/modules/highgui/test/test_main.cpp
+ Main
+ opencv_highgui
+ AccuracyTest
+D:/My_file/opencv4.1/opencv/sources/modules/highgui/test/test_precomp.hpp
+ Main
+ opencv_highgui
+ AccuracyTest
+D:/My_file/opencv4.1/opencv-bulild/modules/highgui/opencv_test_highgui_pch.cpp
+ Main
+ opencv_highgui
+ AccuracyTest

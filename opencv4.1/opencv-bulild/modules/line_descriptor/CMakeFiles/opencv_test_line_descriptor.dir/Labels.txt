@@ -1,0 +1,29 @@
+# Target labels
+ Extra
+ opencv_line_descriptor
+ AccuracyTest
+# Source files and their labels
+D:/My_file/opencv_contrib/modules/line_descriptor/test/test_descriptors_regression.cpp
+ Extra
+ opencv_line_descriptor
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/line_descriptor/test/test_detector_regression.cpp
+ Extra
+ opencv_line_descriptor
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/line_descriptor/test/test_main.cpp
+ Extra
+ opencv_line_descriptor
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/line_descriptor/test/test_matcher_regression.cpp
+ Extra
+ opencv_line_descriptor
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/line_descriptor/test/test_precomp.hpp
+ Extra
+ opencv_line_descriptor
+ AccuracyTest
+D:/My_file/opencv4.1/opencv-bulild/modules/line_descriptor/opencv_test_line_descriptor_pch.cpp
+ Extra
+ opencv_line_descriptor
+ AccuracyTest

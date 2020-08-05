@@ -1,0 +1,171 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/aruco/include/opencv2/aruco.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/aruco/include/opencv2/aruco/charuco.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/aruco/include/opencv2/aruco/dictionary.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/aruco/src/apriltag_quad_thresh.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/aruco/src/aruco.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/aruco/src/charuco.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/aruco/src/dictionary.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/aruco/src/zmaxheap.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/aruco/src/apriltag_quad_thresh.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/aruco/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/aruco/src/predefined_dictionaries.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/aruco/src/predefined_dictionaries_apriltag.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/aruco/src/unionfind.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/aruco/src/zarray.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/aruco/src/zmaxheap.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/cvconfig.h"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/aruco/opencv_aruco_pch.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/aruco/vs_version.rc"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/aruco/opencv_aruco_main.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_aruco",
+			"Module"
+		],
+		"name" : "opencv_aruco"
+	}
+}

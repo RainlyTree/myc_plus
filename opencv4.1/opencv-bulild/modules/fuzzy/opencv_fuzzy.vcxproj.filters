@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\fuzzy\src\fuzzy_F0_math.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\fuzzy\src\fuzzy_F1_math.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\fuzzy\src\fuzzy_image.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\fuzzy\opencv_fuzzy_pch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\fuzzy\opencv_fuzzy_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\fuzzy\include\opencv2\fuzzy.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\fuzzy\include\opencv2\fuzzy\fuzzy_F0_math.hpp">
+      <Filter>Include\opencv2\fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\fuzzy\include\opencv2\fuzzy\fuzzy_F1_math.hpp">
+      <Filter>Include\opencv2\fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\fuzzy\include\opencv2\fuzzy\fuzzy_image.hpp">
+      <Filter>Include\opencv2\fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\fuzzy\include\opencv2\fuzzy\types.hpp">
+      <Filter>Include\opencv2\fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\fuzzy\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv-bulild\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv-bulild\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\My_file\opencv_contrib\modules\fuzzy\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\fuzzy\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{F05F0D06-2DC5-3D75-B987-448915EDDB80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{766F4EAB-37E9-3242-ACF8-9F35D303A390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\fuzzy">
+      <UniqueIdentifier>{4B60CAB8-B677-352F-9E18-E981387521AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8E90F656-D8AC-305A-B235-8AB2E6E22006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{17A87201-C451-369D-A32B-C00D68873E1A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,29 @@
+# Target labels
+ Extra
+ opencv_structured_light
+ AccuracyTest
+# Source files and their labels
+D:/My_file/opencv_contrib/modules/structured_light/test/test_faps.cpp
+ Extra
+ opencv_structured_light
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/structured_light/test/test_getProjPixel.cpp
+ Extra
+ opencv_structured_light
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/structured_light/test/test_main.cpp
+ Extra
+ opencv_structured_light
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/structured_light/test/test_plane.cpp
+ Extra
+ opencv_structured_light
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/structured_light/test/test_precomp.hpp
+ Extra
+ opencv_structured_light
+ AccuracyTest
+D:/My_file/opencv4.1/opencv-bulild/modules/structured_light/opencv_test_structured_light_pch.cpp
+ Extra
+ opencv_structured_light
+ AccuracyTest

@@ -1,0 +1,117 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/ccalib/include/opencv2/ccalib.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_ccalib",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/ccalib/include/opencv2/ccalib/multicalib.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_ccalib",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/ccalib/include/opencv2/ccalib/omnidir.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_ccalib",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/ccalib/include/opencv2/ccalib/randpattern.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_ccalib",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/ccalib/src/ccalib.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_ccalib",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/ccalib/src/multicalib.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_ccalib",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/ccalib/src/omnidir.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_ccalib",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/ccalib/src/randpattern.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_ccalib",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/ccalib/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_ccalib",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/cvconfig.h"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/ccalib/opencv_ccalib_pch.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_ccalib",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/ccalib/vs_version.rc"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/ccalib/opencv_ccalib_main.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_ccalib",
+			"Module"
+		],
+		"name" : "opencv_ccalib"
+	}
+}

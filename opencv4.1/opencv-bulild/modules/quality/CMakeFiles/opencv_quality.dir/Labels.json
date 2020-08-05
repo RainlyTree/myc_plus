@@ -1,0 +1,153 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/quality/include/opencv2/quality.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/quality/include/opencv2/quality/quality_utils.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/quality/include/opencv2/quality/qualitybase.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/quality/include/opencv2/quality/qualitybrisque.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/quality/include/opencv2/quality/qualitygmsd.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/quality/include/opencv2/quality/qualitymse.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/quality/include/opencv2/quality/qualitypsnr.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/quality/include/opencv2/quality/qualityssim.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/quality/src/qualitybrisque.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/quality/src/qualitygmsd.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/quality/src/qualitymse.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/quality/src/qualityssim.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/quality/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/cvconfig.h"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/quality/opencv_quality_pch.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/quality/vs_version.rc"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/quality/opencv_quality_main.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_quality",
+			"Module"
+		],
+		"name" : "opencv_quality"
+	}
+}

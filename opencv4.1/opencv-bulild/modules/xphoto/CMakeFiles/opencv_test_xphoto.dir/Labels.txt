@@ -1,0 +1,49 @@
+# Target labels
+ Extra
+ opencv_xphoto
+ AccuracyTest
+# Source files and their labels
+D:/My_file/opencv_contrib/modules/xphoto/test/dct_image_denoising.cpp
+ Extra
+ opencv_xphoto
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/xphoto/test/simple_color_balance.cpp
+ Extra
+ opencv_xphoto
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/xphoto/test/test_denoise_bm3d.cpp
+ Extra
+ opencv_xphoto
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/xphoto/test/test_grayworld.cpp
+ Extra
+ opencv_xphoto
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/xphoto/test/test_hdr.cpp
+ Extra
+ opencv_xphoto
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/xphoto/test/test_inpainting.cpp
+ Extra
+ opencv_xphoto
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/xphoto/test/test_learning_based_color_balance.cpp
+ Extra
+ opencv_xphoto
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/xphoto/test/test_main.cpp
+ Extra
+ opencv_xphoto
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/xphoto/test/test_oil_painting.cpp
+ Extra
+ opencv_xphoto
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/xphoto/test/test_precomp.hpp
+ Extra
+ opencv_xphoto
+ AccuracyTest
+D:/My_file/opencv4.1/opencv-bulild/modules/xphoto/opencv_test_xphoto_pch.cpp
+ Extra
+ opencv_xphoto
+ AccuracyTest

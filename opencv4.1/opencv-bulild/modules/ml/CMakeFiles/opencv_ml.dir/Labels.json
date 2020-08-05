@@ -1,0 +1,216 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/include/opencv2/ml.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/include/opencv2/ml/ml.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/include/opencv2/ml/ml.inl.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/src/ann_mlp.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/src/boost.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/src/data.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/src/em.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/src/gbt.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/src/inner_functions.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/src/kdtree.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/src/knearest.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/src/lr.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/src/nbayes.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/src/rtrees.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/src/svm.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/src/svmsgd.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/src/testset.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/src/tree.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/src/kdtree.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/src/precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/cvconfig.h"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/ml/opencv_ml_pch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/ml/vs_version.rc"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/ml/opencv_ml_main.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_ml",
+			"Module"
+		],
+		"name" : "opencv_ml"
+	}
+}

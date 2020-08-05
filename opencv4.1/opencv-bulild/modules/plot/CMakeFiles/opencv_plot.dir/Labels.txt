@@ -1,0 +1,25 @@
+# Target labels
+ Extra
+ opencv_plot
+ Module
+# Source files and their labels
+D:/My_file/opencv_contrib/modules/plot/include/opencv2/plot.hpp
+ Extra
+ opencv_plot
+ Module
+D:/My_file/opencv_contrib/modules/plot/src/plot.cpp
+ Extra
+ opencv_plot
+ Module
+D:/My_file/opencv_contrib/modules/plot/src/precomp.hpp
+ Extra
+ opencv_plot
+ Module
+D:/My_file/opencv4.1/opencv-bulild/cvconfig.h
+D:/My_file/opencv4.1/opencv-bulild/opencv2/opencv_modules.hpp
+D:/My_file/opencv4.1/opencv-bulild/modules/plot/opencv_plot_pch.cpp
+ Extra
+ opencv_plot
+ Module
+D:/My_file/opencv4.1/opencv-bulild/modules/plot/vs_version.rc
+D:/My_file/opencv4.1/opencv-bulild/modules/plot/opencv_plot_main.cpp

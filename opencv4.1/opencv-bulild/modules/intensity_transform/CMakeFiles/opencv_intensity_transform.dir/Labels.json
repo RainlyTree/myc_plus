@@ -1,0 +1,72 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/intensity_transform/include/opencv2/intensity_transform.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_intensity_transform",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/intensity_transform/src/bimef.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_intensity_transform",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/intensity_transform/src/intensity_transform.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_intensity_transform",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/intensity_transform/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_intensity_transform",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/cvconfig.h"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/intensity_transform/opencv_intensity_transform_pch.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_intensity_transform",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/intensity_transform/vs_version.rc"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/intensity_transform/opencv_intensity_transform_main.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_intensity_transform",
+			"Module"
+		],
+		"name" : "opencv_intensity_transform"
+	}
+}

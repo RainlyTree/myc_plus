@@ -1,0 +1,51 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/tracking/perf/perf_Tracker.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_tracking",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/tracking/perf/perf_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_tracking",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/tracking/perf/perf_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_tracking",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/tracking/opencv_perf_tracking_pch.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_tracking",
+				"PerfTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_tracking",
+			"PerfTest"
+		],
+		"name" : "opencv_perf_tracking"
+	}
+}

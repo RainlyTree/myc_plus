@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\ar_hmdb.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\ar_sports.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\dataset.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\fr_adience.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\fr_lfw.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\gr_chalearn.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\gr_skig.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\hpe_humaneva.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\hpe_parse.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\ir_affine.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\ir_robot.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\is_bsds.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\is_weizmann.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\msm_epfl.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\msm_middlebury.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\or_imagenet.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\or_mnist.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\or_pascal.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\or_sun.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\pd_caltech.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\pd_inria.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\slam_kitti.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\slam_tumindoor.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\sr_bsds.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\sr_div2k.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\sr_general100.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\tinyxml2\tinyxml2.cpp">
+      <Filter>Src\tinyxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\tr_chars.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\tr_icdar.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\tr_svt.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\track_alov.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\track_vot.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\util.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\datasets\opencv_datasets_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\ar_hmdb.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\ar_sports.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\dataset.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\fr_adience.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\fr_lfw.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\gr_chalearn.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\gr_skig.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\hpe_humaneva.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\hpe_parse.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\ir_affine.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\ir_robot.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\is_bsds.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\is_weizmann.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\msm_epfl.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\msm_middlebury.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\or_imagenet.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\or_mnist.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\or_pascal.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\or_sun.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\pd_caltech.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\pd_inria.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\slam_kitti.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\slam_tumindoor.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\sr_bsds.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\sr_div2k.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\sr_general100.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\tr_chars.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\tr_icdar.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\tr_svt.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\track_alov.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\track_vot.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\util.hpp">
+      <Filter>Include\opencv2\datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\src\tinyxml2\tinyxml2.h">
+      <Filter>Src\tinyxml2</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv-bulild\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv-bulild\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\My_file\opencv_contrib\modules\datasets\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\datasets\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{F05F0D06-2DC5-3D75-B987-448915EDDB80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{766F4EAB-37E9-3242-ACF8-9F35D303A390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\datasets">
+      <UniqueIdentifier>{2809383E-0508-3477-88C2-7F7AFC24BC75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8E90F656-D8AC-305A-B235-8AB2E6E22006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{17A87201-C451-369D-A32B-C00D68873E1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\tinyxml2">
+      <UniqueIdentifier>{F1B14904-F679-3192-AB0E-A810C8080044}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

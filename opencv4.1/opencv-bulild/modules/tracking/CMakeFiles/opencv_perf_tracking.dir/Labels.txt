@@ -1,0 +1,21 @@
+# Target labels
+ Extra
+ opencv_tracking
+ PerfTest
+# Source files and their labels
+D:/My_file/opencv_contrib/modules/tracking/perf/perf_Tracker.cpp
+ Extra
+ opencv_tracking
+ PerfTest
+D:/My_file/opencv_contrib/modules/tracking/perf/perf_main.cpp
+ Extra
+ opencv_tracking
+ PerfTest
+D:/My_file/opencv_contrib/modules/tracking/perf/perf_precomp.hpp
+ Extra
+ opencv_tracking
+ PerfTest
+D:/My_file/opencv4.1/opencv-bulild/modules/tracking/opencv_perf_tracking_pch.cpp
+ Extra
+ opencv_tracking
+ PerfTest

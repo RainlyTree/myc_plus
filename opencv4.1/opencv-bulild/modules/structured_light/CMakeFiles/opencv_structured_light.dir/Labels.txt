@@ -1,0 +1,41 @@
+# Target labels
+ Extra
+ opencv_structured_light
+ Module
+# Source files and their labels
+D:/My_file/opencv_contrib/modules/structured_light/include/opencv2/structured_light.hpp
+ Extra
+ opencv_structured_light
+ Module
+D:/My_file/opencv_contrib/modules/structured_light/include/opencv2/structured_light/graycodepattern.hpp
+ Extra
+ opencv_structured_light
+ Module
+D:/My_file/opencv_contrib/modules/structured_light/include/opencv2/structured_light/sinusoidalpattern.hpp
+ Extra
+ opencv_structured_light
+ Module
+D:/My_file/opencv_contrib/modules/structured_light/include/opencv2/structured_light/structured_light.hpp
+ Extra
+ opencv_structured_light
+ Module
+D:/My_file/opencv_contrib/modules/structured_light/src/graycodepattern.cpp
+ Extra
+ opencv_structured_light
+ Module
+D:/My_file/opencv_contrib/modules/structured_light/src/sinusoidalpattern.cpp
+ Extra
+ opencv_structured_light
+ Module
+D:/My_file/opencv_contrib/modules/structured_light/src/precomp.hpp
+ Extra
+ opencv_structured_light
+ Module
+D:/My_file/opencv4.1/opencv-bulild/cvconfig.h
+D:/My_file/opencv4.1/opencv-bulild/opencv2/opencv_modules.hpp
+D:/My_file/opencv4.1/opencv-bulild/modules/structured_light/opencv_structured_light_pch.cpp
+ Extra
+ opencv_structured_light
+ Module
+D:/My_file/opencv4.1/opencv-bulild/modules/structured_light/vs_version.rc
+D:/My_file/opencv4.1/opencv-bulild/modules/structured_light/opencv_structured_light_main.cpp

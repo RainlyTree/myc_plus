@@ -1,0 +1,60 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/stereo/test/test_block_matching.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_stereo",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/stereo/test/test_descriptors.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_stereo",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/stereo/test/test_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_stereo",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/stereo/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_stereo",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/stereo/opencv_test_stereo_pch.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_stereo",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_stereo",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_stereo"
+	}
+}

@@ -1,0 +1,51 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/intensity_transform/test/test_intensity_transform.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_intensity_transform",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/intensity_transform/test/test_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_intensity_transform",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/intensity_transform/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_intensity_transform",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/intensity_transform/opencv_test_intensity_transform_pch.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_intensity_transform",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_intensity_transform",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_intensity_transform"
+	}
+}

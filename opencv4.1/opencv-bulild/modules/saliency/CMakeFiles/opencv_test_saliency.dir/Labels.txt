@@ -1,0 +1,21 @@
+# Target labels
+ Extra
+ opencv_saliency
+ AccuracyTest
+# Source files and their labels
+D:/My_file/opencv_contrib/modules/saliency/test/test_main.cpp
+ Extra
+ opencv_saliency
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/saliency/test/test_static_saliency_spectral_residual.cpp
+ Extra
+ opencv_saliency
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/saliency/test/test_precomp.hpp
+ Extra
+ opencv_saliency
+ AccuracyTest
+D:/My_file/opencv4.1/opencv-bulild/modules/saliency/opencv_test_saliency_pch.cpp
+ Extra
+ opencv_saliency
+ AccuracyTest

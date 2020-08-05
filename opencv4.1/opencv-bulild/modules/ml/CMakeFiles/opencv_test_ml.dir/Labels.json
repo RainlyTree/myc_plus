@@ -1,0 +1,114 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/test/test_emknearestkmeans.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/test/test_gbttest.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/test/test_lr.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/test/test_main.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/test/test_mltests.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/test/test_mltests2.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/test/test_save_load.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/test/test_svmsgd.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/test/test_svmtrainauto.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/ml/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/ml/opencv_test_ml_pch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_ml",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_ml",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_ml"
+	}
+}

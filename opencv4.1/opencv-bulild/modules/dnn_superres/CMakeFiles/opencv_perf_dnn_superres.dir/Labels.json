@@ -1,0 +1,51 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/dnn_superres/perf/perf_dnn_superres.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dnn_superres",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/dnn_superres/perf/perf_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dnn_superres",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/dnn_superres/perf/perf_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dnn_superres",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/dnn_superres/opencv_perf_dnn_superres_pch.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dnn_superres",
+				"PerfTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_dnn_superres",
+			"PerfTest"
+		],
+		"name" : "opencv_perf_dnn_superres"
+	}
+}

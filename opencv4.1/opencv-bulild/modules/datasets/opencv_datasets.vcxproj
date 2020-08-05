@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B1AA260E-778B-3D2F-A05D-E248DEBBEC6C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>opencv_datasets</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\My_file\opencv4.1\opencv-bulild\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_datasets.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_datasets410d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\My_file\opencv4.1\opencv-bulild\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencv_datasets.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencv_datasets410</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\My_file\opencv_contrib\modules\datasets\src;D:\My_file\opencv_contrib\modules\datasets\include;D:\My_file\opencv4.1\opencv-bulild\modules\datasets;D:\My_file\opencv4.1\opencv\sources\modules\core\include;D:\My_file\opencv4.1\opencv\sources\modules\flann\include;D:\My_file\opencv4.1\opencv\sources\modules\imgproc\include;D:\My_file\opencv4.1\opencv\sources\modules\ml\include;D:\My_file\opencv4.1\opencv\sources\modules\dnn\include;D:\My_file\opencv4.1\opencv\sources\modules\imgcodecs\include;D:\My_file\opencv4.1\opencv\sources\modules\videoio\include;D:\My_file\opencv4.1\opencv\sources\modules\highgui\include;D:\My_file\opencv4.1\opencv\sources\modules\features2d\include;D:\My_file\opencv_contrib\modules\text\include;D:\My_file\opencv4.1\opencv-bulild;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4267</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>8</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR="Debug";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:\My_file\opencv4.1\opencv-bulild\lib\Debug\opencv_datasets410d.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR=\"Debug\";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\My_file\opencv_contrib\modules\datasets\src;D:\My_file\opencv_contrib\modules\datasets\include;D:\My_file\opencv4.1\opencv-bulild\modules\datasets;D:\My_file\opencv4.1\opencv\sources\modules\core\include;D:\My_file\opencv4.1\opencv\sources\modules\flann\include;D:\My_file\opencv4.1\opencv\sources\modules\imgproc\include;D:\My_file\opencv4.1\opencv\sources\modules\ml\include;D:\My_file\opencv4.1\opencv\sources\modules\dnn\include;D:\My_file\opencv4.1\opencv\sources\modules\imgcodecs\include;D:\My_file\opencv4.1\opencv\sources\modules\videoio\include;D:\My_file\opencv4.1\opencv\sources\modules\highgui\include;D:\My_file\opencv4.1\opencv\sources\modules\features2d\include;D:\My_file\opencv_contrib\modules\text\include;D:\My_file\opencv4.1\opencv-bulild;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\My_file\opencv_contrib\modules\datasets\src;D:\My_file\opencv_contrib\modules\datasets\include;D:\My_file\opencv4.1\opencv-bulild\modules\datasets;D:\My_file\opencv4.1\opencv\sources\modules\core\include;D:\My_file\opencv4.1\opencv\sources\modules\flann\include;D:\My_file\opencv4.1\opencv\sources\modules\imgproc\include;D:\My_file\opencv4.1\opencv\sources\modules\ml\include;D:\My_file\opencv4.1\opencv\sources\modules\dnn\include;D:\My_file\opencv4.1\opencv\sources\modules\imgcodecs\include;D:\My_file\opencv4.1\opencv\sources\modules\videoio\include;D:\My_file\opencv4.1\opencv\sources\modules\highgui\include;D:\My_file\opencv4.1\opencv\sources\modules\features2d\include;D:\My_file\opencv_contrib\modules\text\include;D:\My_file\opencv4.1\opencv-bulild;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\opencv_text410d.lib;..\..\lib\Debug\opencv_ml410d.lib;..\..\lib\Debug\opencv_dnn410d.lib;..\..\lib\Debug\opencv_features2d410d.lib;..\..\lib\Debug\opencv_flann410d.lib;..\..\lib\Debug\opencv_highgui410d.lib;..\..\lib\Debug\opencv_videoio410d.lib;..\..\lib\Debug\opencv_imgcodecs410d.lib;..\..\lib\Debug\opencv_imgproc410d.lib;..\..\lib\Debug\opencv_core410d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/My_file/opencv4.1/opencv-bulild/lib/Debug/opencv_datasets410d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/My_file/opencv4.1/opencv-bulild/bin/Debug/opencv_datasets410d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\My_file\opencv_contrib\modules\datasets\src;D:\My_file\opencv_contrib\modules\datasets\include;D:\My_file\opencv4.1\opencv-bulild\modules\datasets;D:\My_file\opencv4.1\opencv\sources\modules\core\include;D:\My_file\opencv4.1\opencv\sources\modules\flann\include;D:\My_file\opencv4.1\opencv\sources\modules\imgproc\include;D:\My_file\opencv4.1\opencv\sources\modules\ml\include;D:\My_file\opencv4.1\opencv\sources\modules\dnn\include;D:\My_file\opencv4.1\opencv\sources\modules\imgcodecs\include;D:\My_file\opencv4.1\opencv\sources\modules\videoio\include;D:\My_file\opencv4.1\opencv\sources\modules\highgui\include;D:\My_file\opencv4.1\opencv\sources\modules\features2d\include;D:\My_file\opencv_contrib\modules\text\include;D:\My_file\opencv4.1\opencv-bulild;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4267</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>8</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR="Release";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>D:\My_file\opencv4.1\opencv-bulild\lib\Release\opencv_datasets410.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR=\"Release\";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\My_file\opencv_contrib\modules\datasets\src;D:\My_file\opencv_contrib\modules\datasets\include;D:\My_file\opencv4.1\opencv-bulild\modules\datasets;D:\My_file\opencv4.1\opencv\sources\modules\core\include;D:\My_file\opencv4.1\opencv\sources\modules\flann\include;D:\My_file\opencv4.1\opencv\sources\modules\imgproc\include;D:\My_file\opencv4.1\opencv\sources\modules\ml\include;D:\My_file\opencv4.1\opencv\sources\modules\dnn\include;D:\My_file\opencv4.1\opencv\sources\modules\imgcodecs\include;D:\My_file\opencv4.1\opencv\sources\modules\videoio\include;D:\My_file\opencv4.1\opencv\sources\modules\highgui\include;D:\My_file\opencv4.1\opencv\sources\modules\features2d\include;D:\My_file\opencv_contrib\modules\text\include;D:\My_file\opencv4.1\opencv-bulild;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\My_file\opencv_contrib\modules\datasets\src;D:\My_file\opencv_contrib\modules\datasets\include;D:\My_file\opencv4.1\opencv-bulild\modules\datasets;D:\My_file\opencv4.1\opencv\sources\modules\core\include;D:\My_file\opencv4.1\opencv\sources\modules\flann\include;D:\My_file\opencv4.1\opencv\sources\modules\imgproc\include;D:\My_file\opencv4.1\opencv\sources\modules\ml\include;D:\My_file\opencv4.1\opencv\sources\modules\dnn\include;D:\My_file\opencv4.1\opencv\sources\modules\imgcodecs\include;D:\My_file\opencv4.1\opencv\sources\modules\videoio\include;D:\My_file\opencv4.1\opencv\sources\modules\highgui\include;D:\My_file\opencv4.1\opencv\sources\modules\features2d\include;D:\My_file\opencv_contrib\modules\text\include;D:\My_file\opencv4.1\opencv-bulild;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\opencv_text410.lib;..\..\lib\Release\opencv_ml410.lib;..\..\lib\Release\opencv_dnn410.lib;..\..\lib\Release\opencv_features2d410.lib;..\..\lib\Release\opencv_flann410.lib;..\..\lib\Release\opencv_highgui410.lib;..\..\lib\Release\opencv_videoio410.lib;..\..\lib\Release\opencv_imgcodecs410.lib;..\..\lib\Release\opencv_imgproc410.lib;..\..\lib\Release\opencv_core410.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/My_file/opencv4.1/opencv-bulild/lib/Release/opencv_datasets410.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/My_file/opencv4.1/opencv-bulild/bin/Release/opencv_datasets410.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\My_file\opencv_contrib\modules\datasets\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/My_file/opencv_contrib/modules/datasets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/My_file/opencv4.1/opencv/sources -BD:/My_file/opencv4.1/opencv-bulild --check-stamp-file D:/My_file/opencv4.1/opencv-bulild/modules/datasets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\My_file\opencv4.1\opencv\sources\cmake\templates\dllmain.cpp.in;D:\My_file\opencv4.1\opencv\sources\cmake\templates\vs_version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\My_file\opencv4.1\opencv-bulild\modules\datasets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/My_file/opencv_contrib/modules/datasets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/My_file/opencv4.1/opencv/sources -BD:/My_file/opencv4.1/opencv-bulild --check-stamp-file D:/My_file/opencv4.1/opencv-bulild/modules/datasets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\My_file\opencv4.1\opencv\sources\cmake\templates\dllmain.cpp.in;D:\My_file\opencv4.1\opencv\sources\cmake\templates\vs_version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\My_file\opencv4.1\opencv-bulild\modules\datasets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\ar_hmdb.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\ar_sports.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\dataset.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\fr_adience.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\fr_lfw.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\gr_chalearn.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\gr_skig.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\hpe_humaneva.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\hpe_parse.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\ir_affine.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\ir_robot.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\is_bsds.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\is_weizmann.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\msm_epfl.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\msm_middlebury.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\or_imagenet.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\or_mnist.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\or_pascal.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\or_sun.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\pd_caltech.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\pd_inria.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\slam_kitti.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\slam_tumindoor.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\sr_bsds.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\sr_div2k.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\sr_general100.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\tr_chars.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\tr_icdar.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\tr_svt.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\track_alov.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\track_vot.hpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\include\opencv2\datasets\util.hpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\ar_hmdb.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\ar_sports.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\dataset.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\fr_adience.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\fr_lfw.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\gr_chalearn.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\gr_skig.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\hpe_humaneva.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\hpe_parse.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\ir_affine.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\ir_robot.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\is_bsds.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\is_weizmann.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\msm_epfl.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\msm_middlebury.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\or_imagenet.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\or_mnist.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\or_pascal.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\or_sun.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\pd_caltech.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\pd_inria.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\slam_kitti.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\slam_tumindoor.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\sr_bsds.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\sr_div2k.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\sr_general100.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\tinyxml2\tinyxml2.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\tr_chars.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\tr_icdar.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\tr_svt.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\track_alov.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\track_vot.cpp" />
+    <ClCompile Include="D:\My_file\opencv_contrib\modules\datasets\src\util.cpp" />
+    <ClInclude Include="D:\My_file\opencv_contrib\modules\datasets\src\tinyxml2\tinyxml2.h" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv-bulild\cvconfig.h" />
+    <ClInclude Include="D:\My_file\opencv4.1\opencv-bulild\opencv2\opencv_modules.hpp" />
+    <ResourceCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\datasets\vs_version.rc" />
+    <ClCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\datasets\opencv_datasets_main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\ZERO_CHECK.vcxproj">
+      <Project>{9AC2EC1D-3AB6-35B3-A6CF-BF068C4374ED}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\core\opencv_core.vcxproj">
+      <Project>{34E86C09-0889-3F67-96D5-60829E8B81AE}</Project>
+      <Name>opencv_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\dnn\opencv_dnn.vcxproj">
+      <Project>{3BDDBCFF-5600-3157-8DEF-75D13655B34E}</Project>
+      <Name>opencv_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\features2d\opencv_features2d.vcxproj">
+      <Project>{4948DEFC-B627-3AF2-A251-01286F68738D}</Project>
+      <Name>opencv_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\flann\opencv_flann.vcxproj">
+      <Project>{6AEE0535-D1F8-348C-A5E2-2CB6A30DD2A2}</Project>
+      <Name>opencv_flann</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\highgui\opencv_highgui.vcxproj">
+      <Project>{E972CF65-8162-3F15-9E57-D8AD4383338B}</Project>
+      <Name>opencv_highgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\imgcodecs\opencv_imgcodecs.vcxproj">
+      <Project>{E51862B8-5362-32A1-9D68-06B603FD96C6}</Project>
+      <Name>opencv_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\imgproc\opencv_imgproc.vcxproj">
+      <Project>{533CA162-9625-361D-B436-2291C845CE9C}</Project>
+      <Name>opencv_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\ml\opencv_ml.vcxproj">
+      <Project>{508CFDAC-2441-309F-925E-14D66B6A8291}</Project>
+      <Name>opencv_ml</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\text\opencv_text.vcxproj">
+      <Project>{83C47954-C90A-3F43-9271-6784DEDD3B34}</Project>
+      <Name>opencv_text</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\My_file\opencv4.1\opencv-bulild\modules\videoio\opencv_videoio.vcxproj">
+      <Project>{67BD3665-AC71-3A59-8C5A-BA7B14FC0652}</Project>
+      <Name>opencv_videoio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

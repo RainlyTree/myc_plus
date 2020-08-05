@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\My_file\opencv4.1\opencv-bulild\CMakeFiles\42d5f47f843a1ba3a2df97bcaeccf684\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{608D5983-D0B2-3DB4-B2E3-9049DAF62CB0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

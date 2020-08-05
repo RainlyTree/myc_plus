@@ -1,0 +1,60 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/videostab/test/test_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_videostab",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/videostab/test/test_motion_estimation.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_videostab",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/videostab/test/test_stabilizer.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_videostab",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/videostab/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_videostab",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/videostab/opencv_test_videostab_pch.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_videostab",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_videostab",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_videostab"
+	}
+}

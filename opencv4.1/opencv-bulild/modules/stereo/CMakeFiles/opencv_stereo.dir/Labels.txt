@@ -1,0 +1,57 @@
+# Target labels
+ Extra
+ opencv_stereo
+ Module
+# Source files and their labels
+D:/My_file/opencv_contrib/modules/stereo/include/opencv2/stereo.hpp
+ Extra
+ opencv_stereo
+ Module
+D:/My_file/opencv_contrib/modules/stereo/include/opencv2/stereo/descriptor.hpp
+ Extra
+ opencv_stereo
+ Module
+D:/My_file/opencv_contrib/modules/stereo/include/opencv2/stereo/quasi_dense_stereo.hpp
+ Extra
+ opencv_stereo
+ Module
+D:/My_file/opencv_contrib/modules/stereo/include/opencv2/stereo/stereo.hpp
+ Extra
+ opencv_stereo
+ Module
+D:/My_file/opencv_contrib/modules/stereo/src/descriptor.cpp
+ Extra
+ opencv_stereo
+ Module
+D:/My_file/opencv_contrib/modules/stereo/src/quasi_dense_stereo.cpp
+ Extra
+ opencv_stereo
+ Module
+D:/My_file/opencv_contrib/modules/stereo/src/stereo_binary_bm.cpp
+ Extra
+ opencv_stereo
+ Module
+D:/My_file/opencv_contrib/modules/stereo/src/stereo_binary_sgbm.cpp
+ Extra
+ opencv_stereo
+ Module
+D:/My_file/opencv_contrib/modules/stereo/src/descriptor.hpp
+ Extra
+ opencv_stereo
+ Module
+D:/My_file/opencv_contrib/modules/stereo/src/matching.hpp
+ Extra
+ opencv_stereo
+ Module
+D:/My_file/opencv_contrib/modules/stereo/src/precomp.hpp
+ Extra
+ opencv_stereo
+ Module
+D:/My_file/opencv4.1/opencv-bulild/cvconfig.h
+D:/My_file/opencv4.1/opencv-bulild/opencv2/opencv_modules.hpp
+D:/My_file/opencv4.1/opencv-bulild/modules/stereo/opencv_stereo_pch.cpp
+ Extra
+ opencv_stereo
+ Module
+D:/My_file/opencv4.1/opencv-bulild/modules/stereo/vs_version.rc
+D:/My_file/opencv4.1/opencv-bulild/modules/stereo/opencv_stereo_main.cpp

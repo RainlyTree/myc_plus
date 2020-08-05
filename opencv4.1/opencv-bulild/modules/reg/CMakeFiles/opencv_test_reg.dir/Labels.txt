@@ -1,0 +1,21 @@
+# Target labels
+ Extra
+ opencv_reg
+ AccuracyTest
+# Source files and their labels
+D:/My_file/opencv_contrib/modules/reg/test/test_main.cpp
+ Extra
+ opencv_reg
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/reg/test/test_reg.cpp
+ Extra
+ opencv_reg
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/reg/test/test_precomp.hpp
+ Extra
+ opencv_reg
+ AccuracyTest
+D:/My_file/opencv4.1/opencv-bulild/modules/reg/opencv_test_reg_pch.cpp
+ Extra
+ opencv_reg
+ AccuracyTest

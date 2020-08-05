@@ -1,0 +1,171 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/shape/include/opencv2/shape.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_shape",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/shape/include/opencv2/shape/emdL1.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_shape",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/shape/include/opencv2/shape/hist_cost.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_shape",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/shape/include/opencv2/shape/shape.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_shape",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/shape/include/opencv2/shape/shape_distance.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_shape",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/shape/include/opencv2/shape/shape_transformer.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_shape",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/shape/src/aff_trans.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_shape",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/shape/src/emdL1.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_shape",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/shape/src/haus_dis.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_shape",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/shape/src/hist_cost.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_shape",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/shape/src/sc_dis.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_shape",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/shape/src/tps_trans.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_shape",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/shape/src/emdL1_def.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_shape",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/shape/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_shape",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/shape/src/scd_def.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_shape",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/cvconfig.h"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/shape/opencv_shape_pch.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_shape",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/shape/vs_version.rc"
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/shape/opencv_shape_main.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_shape",
+			"Module"
+		],
+		"name" : "opencv_shape"
+	}
+}

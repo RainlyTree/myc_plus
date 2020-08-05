@@ -1,0 +1,70 @@
+# Target labels
+ Extra
+ opencv_superres
+ Module
+# Source files and their labels
+D:/My_file/opencv_contrib/modules/superres/include/opencv2/superres.hpp
+ Extra
+ opencv_superres
+ Module
+D:/My_file/opencv_contrib/modules/superres/include/opencv2/superres/optical_flow.hpp
+ Extra
+ opencv_superres
+ Module
+D:/My_file/opencv_contrib/modules/superres/src/btv_l1.cpp
+ Extra
+ opencv_superres
+ Module
+D:/My_file/opencv_contrib/modules/superres/src/btv_l1_cuda.cpp
+ Extra
+ opencv_superres
+ Module
+D:/My_file/opencv_contrib/modules/superres/src/frame_source.cpp
+ Extra
+ opencv_superres
+ Module
+D:/My_file/opencv_contrib/modules/superres/src/input_array_utility.cpp
+ Extra
+ opencv_superres
+ Module
+D:/My_file/opencv_contrib/modules/superres/src/optical_flow.cpp
+ Extra
+ opencv_superres
+ Module
+D:/My_file/opencv_contrib/modules/superres/src/super_resolution.cpp
+ Extra
+ opencv_superres
+ Module
+D:/My_file/opencv_contrib/modules/superres/src/opencl/superres_btvl1.cl
+ Extra
+ opencv_superres
+ Module
+D:/My_file/opencv4.1/opencv-bulild/modules/superres/opencl_kernels_superres.cpp
+ Extra
+ opencv_superres
+ Module
+D:/My_file/opencv4.1/opencv-bulild/modules/superres/opencl_kernels_superres.hpp
+ Extra
+ opencv_superres
+ Module
+D:/My_file/opencv_contrib/modules/superres/src/input_array_utility.hpp
+ Extra
+ opencv_superres
+ Module
+D:/My_file/opencv_contrib/modules/superres/src/precomp.hpp
+ Extra
+ opencv_superres
+ Module
+D:/My_file/opencv_contrib/modules/superres/src/ring_buffer.hpp
+ Extra
+ opencv_superres
+ Module
+D:/My_file/opencv4.1/opencv-bulild/cvconfig.h
+D:/My_file/opencv4.1/opencv-bulild/opencv2/opencv_modules.hpp
+D:/My_file/opencv4.1/opencv-bulild/modules/superres/opencv_superres_pch.cpp
+ Extra
+ opencv_superres
+ Module
+D:/My_file/opencv4.1/opencv-bulild/modules/superres/vs_version.rc
+D:/My_file/opencv4.1/opencv-bulild/modules/superres/opencv_superres_main.cpp
+D:/My_file/opencv4.1/opencv-bulild/CMakeFiles/7b6094af94c732151187b6033c680225/opencl_kernels_superres.cpp.rule

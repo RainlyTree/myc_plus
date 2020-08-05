@@ -1,0 +1,25 @@
+# Target labels
+ Extra
+ opencv_stereo
+ PerfTest
+# Source files and their labels
+D:/My_file/opencv_contrib/modules/stereo/perf/perf_bm.cpp
+ Extra
+ opencv_stereo
+ PerfTest
+D:/My_file/opencv_contrib/modules/stereo/perf/perf_descriptor.cpp
+ Extra
+ opencv_stereo
+ PerfTest
+D:/My_file/opencv_contrib/modules/stereo/perf/perf_main.cpp
+ Extra
+ opencv_stereo
+ PerfTest
+D:/My_file/opencv_contrib/modules/stereo/perf/perf_precomp.hpp
+ Extra
+ opencv_stereo
+ PerfTest
+D:/My_file/opencv4.1/opencv-bulild/modules/stereo/opencv_perf_stereo_pch.cpp
+ Extra
+ opencv_stereo
+ PerfTest

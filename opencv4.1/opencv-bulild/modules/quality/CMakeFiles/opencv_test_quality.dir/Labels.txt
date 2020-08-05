@@ -1,0 +1,37 @@
+# Target labels
+ Extra
+ opencv_quality
+ AccuracyTest
+# Source files and their labels
+D:/My_file/opencv_contrib/modules/quality/test/test_brisque.cpp
+ Extra
+ opencv_quality
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/quality/test/test_gmsd.cpp
+ Extra
+ opencv_quality
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/quality/test/test_main.cpp
+ Extra
+ opencv_quality
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/quality/test/test_mse.cpp
+ Extra
+ opencv_quality
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/quality/test/test_psnr.cpp
+ Extra
+ opencv_quality
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/quality/test/test_ssim.cpp
+ Extra
+ opencv_quality
+ AccuracyTest
+D:/My_file/opencv_contrib/modules/quality/test/test_precomp.hpp
+ Extra
+ opencv_quality
+ AccuracyTest
+D:/My_file/opencv4.1/opencv-bulild/modules/quality/opencv_test_quality_pch.cpp
+ Extra
+ opencv_quality
+ AccuracyTest

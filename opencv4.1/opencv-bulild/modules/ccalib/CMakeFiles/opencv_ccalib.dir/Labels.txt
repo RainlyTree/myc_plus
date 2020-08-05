@@ -1,0 +1,49 @@
+# Target labels
+ Extra
+ opencv_ccalib
+ Module
+# Source files and their labels
+D:/My_file/opencv_contrib/modules/ccalib/include/opencv2/ccalib.hpp
+ Extra
+ opencv_ccalib
+ Module
+D:/My_file/opencv_contrib/modules/ccalib/include/opencv2/ccalib/multicalib.hpp
+ Extra
+ opencv_ccalib
+ Module
+D:/My_file/opencv_contrib/modules/ccalib/include/opencv2/ccalib/omnidir.hpp
+ Extra
+ opencv_ccalib
+ Module
+D:/My_file/opencv_contrib/modules/ccalib/include/opencv2/ccalib/randpattern.hpp
+ Extra
+ opencv_ccalib
+ Module
+D:/My_file/opencv_contrib/modules/ccalib/src/ccalib.cpp
+ Extra
+ opencv_ccalib
+ Module
+D:/My_file/opencv_contrib/modules/ccalib/src/multicalib.cpp
+ Extra
+ opencv_ccalib
+ Module
+D:/My_file/opencv_contrib/modules/ccalib/src/omnidir.cpp
+ Extra
+ opencv_ccalib
+ Module
+D:/My_file/opencv_contrib/modules/ccalib/src/randpattern.cpp
+ Extra
+ opencv_ccalib
+ Module
+D:/My_file/opencv_contrib/modules/ccalib/src/precomp.hpp
+ Extra
+ opencv_ccalib
+ Module
+D:/My_file/opencv4.1/opencv-bulild/cvconfig.h
+D:/My_file/opencv4.1/opencv-bulild/opencv2/opencv_modules.hpp
+D:/My_file/opencv4.1/opencv-bulild/modules/ccalib/opencv_ccalib_pch.cpp
+ Extra
+ opencv_ccalib
+ Module
+D:/My_file/opencv4.1/opencv-bulild/modules/ccalib/vs_version.rc
+D:/My_file/opencv4.1/opencv-bulild/modules/ccalib/opencv_ccalib_main.cpp

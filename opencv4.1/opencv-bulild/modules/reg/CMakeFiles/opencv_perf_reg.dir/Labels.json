@@ -1,0 +1,51 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/reg/perf/perf_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/reg/perf/perf_reg.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/reg/perf/perf_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/reg/opencv_perf_reg_pch.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"PerfTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_reg",
+			"PerfTest"
+		],
+		"name" : "opencv_perf_reg"
+	}
+}

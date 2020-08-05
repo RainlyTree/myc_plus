@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\misc\caffe\opencv-caffe.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\misc\onnx\opencv-onnx.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\misc\tensorflow\attr_value.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\misc\tensorflow\function.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\misc\tensorflow\graph.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\misc\tensorflow\op_def.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\misc\tensorflow\tensor.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\misc\tensorflow\tensor_shape.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\misc\tensorflow\types.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\misc\tensorflow\versions.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\caffe\caffe_importer.cpp">
+      <Filter>Src\caffe</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\caffe\caffe_io.cpp">
+      <Filter>Src\caffe</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\caffe\caffe_shrinker.cpp">
+      <Filter>Src\caffe</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\darknet\darknet_importer.cpp">
+      <Filter>Src\darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\darknet\darknet_io.cpp">
+      <Filter>Src\darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\dnn.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\halide_scheduler.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\init.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\batch_norm_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\blank_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\concat_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\const_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\convolution_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\crop_and_resize_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\crop_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\detection_output_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\elementwise_layers.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\eltwise_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\flatten_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\fully_connected_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\layers_common.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\lrn_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\max_unpooling_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\mvn_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\normalize_bbox_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\padding_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\permute_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\pooling_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\prior_box_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\proposal_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\recurrent_layers.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\region_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\reorg_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\reshape_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\resize_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\scale_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\shuffle_channel_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\slice_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\softmax_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\split_layer.cpp">
+      <Filter>Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\nms.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\ocl4dnn\src\common.cpp">
+      <Filter>Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\ocl4dnn\src\math_functions.cpp">
+      <Filter>Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\ocl4dnn\src\ocl4dnn_conv_spatial.cpp">
+      <Filter>Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\ocl4dnn\src\ocl4dnn_inner_product.cpp">
+      <Filter>Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\ocl4dnn\src\ocl4dnn_lrn.cpp">
+      <Filter>Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\ocl4dnn\src\ocl4dnn_pool.cpp">
+      <Filter>Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\ocl4dnn\src\ocl4dnn_softmax.cpp">
+      <Filter>Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\onnx\onnx_importer.cpp">
+      <Filter>Src\onnx</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\op_halide.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\op_inf_engine.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\op_vkcom.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\tensorflow\tf_graph_simplifier.cpp">
+      <Filter>Src\tensorflow</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\tensorflow\tf_importer.cpp">
+      <Filter>Src\tensorflow</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\tensorflow\tf_io.cpp">
+      <Filter>Src\tensorflow</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\torch\THDiskFile.cpp">
+      <Filter>Src\torch</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\torch\THFile.cpp">
+      <Filter>Src\torch</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\torch\THGeneral.cpp">
+      <Filter>Src\torch</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\torch\torch_importer.cpp">
+      <Filter>Src\torch</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\shader\avg_pool_spv.cpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\shader\concat_spv.cpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\shader\conv48_spv.cpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\shader\conv_spv.cpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\shader\dw_conv_spv.cpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\shader\lrn_spv.cpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\shader\max_pool_spv.cpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\shader\permute_spv.cpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\shader\prior_box_spv.cpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\shader\relu_spv.cpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\shader\softmax_spv.cpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\src\buffer.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\src\context.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\src\internal.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\src\op_base.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\src\op_concat.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\src\op_conv.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\src\op_lrn.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\src\op_permute.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\src\op_pool.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\src\op_prior_box.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\src\op_relu.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\src\op_softmax.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\src\tensor.cpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\vulkan\vk_functions.cpp">
+      <Filter>Src\vkcom\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\vulkan\vk_loader.cpp">
+      <Filter>Src\vkcom\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\dnn\opencl_kernels_dnn.cpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\dnn\opencv_dnn_pch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\dnn\opencv_dnn_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\include\opencv2\dnn.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\include\opencv2\dnn\all_layers.hpp">
+      <Filter>Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\include\opencv2\dnn\dict.hpp">
+      <Filter>Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\include\opencv2\dnn\dnn.hpp">
+      <Filter>Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\include\opencv2\dnn\dnn.inl.hpp">
+      <Filter>Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\include\opencv2\dnn\layer.details.hpp">
+      <Filter>Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\include\opencv2\dnn\layer.hpp">
+      <Filter>Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\include\opencv2\dnn\shape_utils.hpp">
+      <Filter>Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\include\opencv2\dnn\utils\inference_engine.hpp">
+      <Filter>Include\opencv2\dnn\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\include\opencv2\dnn\version.hpp">
+      <Filter>Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv-bulild\modules\dnn\opencl_kernels_dnn.hpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\caffe\caffe_io.hpp">
+      <Filter>Src\caffe</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\caffe\glog_emulator.hpp">
+      <Filter>Src\caffe</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\darknet\darknet_io.hpp">
+      <Filter>Src\darknet</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\halide_scheduler.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\layers_common.hpp">
+      <Filter>Src\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\layers\layers_common.simd.hpp">
+      <Filter>Src\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\nms.inl.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\ocl4dnn\include\common.hpp">
+      <Filter>Src\ocl4dnn\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\ocl4dnn\include\default_kernel_config.hpp">
+      <Filter>Src\ocl4dnn\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\ocl4dnn\include\math_functions.hpp">
+      <Filter>Src\ocl4dnn\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\ocl4dnn\include\ocl4dnn.hpp">
+      <Filter>Src\ocl4dnn\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\op_halide.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\op_inf_engine.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\op_vkcom.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\tensorflow\tf_graph_simplifier.hpp">
+      <Filter>Src\tensorflow</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\tensorflow\tf_io.hpp">
+      <Filter>Src\tensorflow</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\torch\THDiskFile.h">
+      <Filter>Src\torch</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\torch\THFile.h">
+      <Filter>Src\torch</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\torch\THFilePrivate.h">
+      <Filter>Src\torch</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\torch\THGeneral.h">
+      <Filter>Src\torch</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\include\buffer.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\include\op_base.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\include\op_concat.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\include\op_conv.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\include\op_lrn.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\include\op_permute.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\include\op_pool.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\include\op_prior_box.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\include\op_relu.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\include\op_softmax.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\include\tensor.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\include\vkcom.hpp">
+      <Filter>Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\shader\spv_shader.hpp">
+      <Filter>Src\vkcom\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\src\common.hpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\src\context.hpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\src\internal.hpp">
+      <Filter>Src\vkcom\src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\vulkan\function_list.inl.hpp">
+      <Filter>Src\vkcom\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\vulkan\vk_functions.hpp">
+      <Filter>Src\vkcom\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\vkcom\vulkan\vk_loader.hpp">
+      <Filter>Src\vkcom\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv-bulild\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\My_file\opencv4.1\opencv-bulild\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\My_file\opencv4.1\opencv-bulild\CMakeFiles\7fa3955d8b738eaa4e127de5e0c04043\opencl_kernels_dnn.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\activations.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\batchnorm.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\col2im.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\concat.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\conv_layer_spatial.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\conv_spatial_helper.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\detection_output.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\dummy.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\eltwise.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\gemm_buffer.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\gemm_image.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\im2col.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\lrn.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\math.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\matvec_mul.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\mvn.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\ocl4dnn_lrn.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\ocl4dnn_pooling.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\permute.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\pooling.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\prior_box.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\region.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\slice.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\softmax.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="D:\My_file\opencv4.1\opencv\sources\modules\dnn\src\opencl\softmax_loss.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\My_file\opencv4.1\opencv-bulild\modules\dnn\opencv_dnn_AVX.dir\$(Configuration)\layers_common.avx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\My_file\opencv4.1\opencv-bulild\modules\dnn\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{608D5983-D0B2-3DB4-B2E3-9049DAF62CB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{F05F0D06-2DC5-3D75-B987-448915EDDB80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{766F4EAB-37E9-3242-ACF8-9F35D303A390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\dnn">
+      <UniqueIdentifier>{A1FA489E-ABE0-385E-8844-9A1D2BA0F13D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\dnn\utils">
+      <UniqueIdentifier>{985E0099-709F-3CB8-BF4A-26012EAA3F91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{08266CEB-8DC5-3157-9F8C-2E67D0F843AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8E90F656-D8AC-305A-B235-8AB2E6E22006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{17A87201-C451-369D-A32B-C00D68873E1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\caffe">
+      <UniqueIdentifier>{552D2E12-0E03-3E35-8652-8FE3014CA433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\darknet">
+      <UniqueIdentifier>{16223288-E7F7-3C52-8D34-6DABA41C0309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\layers">
+      <UniqueIdentifier>{AF5C6EAE-0F26-30EF-8732-549359FA0F95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\ocl4dnn">
+      <UniqueIdentifier>{96FA92C5-0D4D-36A0-A06E-D89045885B4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\ocl4dnn\include">
+      <UniqueIdentifier>{9311C23C-BBD5-3F0B-A2A4-39F9656F31FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\ocl4dnn\src">
+      <UniqueIdentifier>{83ED4229-458D-3A3C-A41C-017217899F38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\onnx">
+      <UniqueIdentifier>{72DA8677-9909-31C2-BFAD-93A2B105EC21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl">
+      <UniqueIdentifier>{88090175-C1EB-31F5-BB67-A770C6483317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels">
+      <UniqueIdentifier>{48E29CDE-E7EC-3B6E-8EA9-65A20E25ADE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{33F37EC3-C884-3B97-A6C9-0B0554303CBE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\tensorflow">
+      <UniqueIdentifier>{A9F74B2C-A25E-3640-ADBA-F8A3BBB6FA1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\torch">
+      <UniqueIdentifier>{4DAA3E4C-8F5A-3F8B-B8E3-2BBF652ABE44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\vkcom">
+      <UniqueIdentifier>{A4F3A9DD-8215-3D1B-967B-92C821C70B7B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\vkcom\include">
+      <UniqueIdentifier>{F4C98604-611E-30F8-BE5A-EF6A03691476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\vkcom\shader">
+      <UniqueIdentifier>{FE5DB6DF-2DC8-31E8-9B10-502B9AC4BFF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\vkcom\src">
+      <UniqueIdentifier>{5A7AF351-3580-3D94-9D88-31BA805591BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\vkcom\vulkan">
+      <UniqueIdentifier>{393ADE85-0D80-3D90-87D2-2AF5CD77AD10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

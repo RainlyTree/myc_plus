@@ -1,0 +1,25 @@
+# Target labels
+ Extra
+ opencv_xphoto
+ PerfTest
+# Source files and their labels
+D:/My_file/opencv_contrib/modules/xphoto/perf/perf_grayworld.cpp
+ Extra
+ opencv_xphoto
+ PerfTest
+D:/My_file/opencv_contrib/modules/xphoto/perf/perf_learning_based_color_balance.cpp
+ Extra
+ opencv_xphoto
+ PerfTest
+D:/My_file/opencv_contrib/modules/xphoto/perf/perf_main.cpp
+ Extra
+ opencv_xphoto
+ PerfTest
+D:/My_file/opencv_contrib/modules/xphoto/perf/perf_precomp.hpp
+ Extra
+ opencv_xphoto
+ PerfTest
+D:/My_file/opencv4.1/opencv-bulild/modules/xphoto/opencv_perf_xphoto_pch.cpp
+ Extra
+ opencv_xphoto
+ PerfTest

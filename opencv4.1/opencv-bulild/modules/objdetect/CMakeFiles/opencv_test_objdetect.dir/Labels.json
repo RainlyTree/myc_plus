@@ -1,0 +1,69 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/objdetect/test/opencl/test_hogdetector.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/objdetect/test/test_cascadeandhog.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/objdetect/test/test_main.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/objdetect/test/test_qrcode.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/objdetect/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/objdetect/opencv_test_objdetect_pch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_objdetect",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_objdetect"
+	}
+}

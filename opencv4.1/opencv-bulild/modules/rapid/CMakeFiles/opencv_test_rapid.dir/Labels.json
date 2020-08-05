@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/rapid/test/test_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_rapid",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv_contrib/modules/rapid/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_rapid",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/rapid/opencv_test_rapid_pch.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_rapid",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_rapid",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_rapid"
+	}
+}

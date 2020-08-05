@@ -1,0 +1,21 @@
+# Target labels
+ Extra
+ opencv_dnn_superres
+ PerfTest
+# Source files and their labels
+D:/My_file/opencv_contrib/modules/dnn_superres/perf/perf_dnn_superres.cpp
+ Extra
+ opencv_dnn_superres
+ PerfTest
+D:/My_file/opencv_contrib/modules/dnn_superres/perf/perf_main.cpp
+ Extra
+ opencv_dnn_superres
+ PerfTest
+D:/My_file/opencv_contrib/modules/dnn_superres/perf/perf_precomp.hpp
+ Extra
+ opencv_dnn_superres
+ PerfTest
+D:/My_file/opencv4.1/opencv-bulild/modules/dnn_superres/opencv_perf_dnn_superres_pch.cpp
+ Extra
+ opencv_dnn_superres
+ PerfTest

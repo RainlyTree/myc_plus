@@ -1,0 +1,78 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/stitching/test/ocl/test_warpers.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/stitching/test/test_blenders.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/stitching/test/test_blenders.cuda.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/stitching/test/test_main.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/stitching/test/test_matchers.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv/sources/modules/stitching/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "D:/My_file/opencv4.1/opencv-bulild/modules/stitching/opencv_test_stitching_pch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_stitching",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_stitching"
+	}
+}

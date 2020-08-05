@@ -1,0 +1,73 @@
+# Target labels
+ Extra
+ opencv_shape
+ Module
+# Source files and their labels
+D:/My_file/opencv_contrib/modules/shape/include/opencv2/shape.hpp
+ Extra
+ opencv_shape
+ Module
+D:/My_file/opencv_contrib/modules/shape/include/opencv2/shape/emdL1.hpp
+ Extra
+ opencv_shape
+ Module
+D:/My_file/opencv_contrib/modules/shape/include/opencv2/shape/hist_cost.hpp
+ Extra
+ opencv_shape
+ Module
+D:/My_file/opencv_contrib/modules/shape/include/opencv2/shape/shape.hpp
+ Extra
+ opencv_shape
+ Module
+D:/My_file/opencv_contrib/modules/shape/include/opencv2/shape/shape_distance.hpp
+ Extra
+ opencv_shape
+ Module
+D:/My_file/opencv_contrib/modules/shape/include/opencv2/shape/shape_transformer.hpp
+ Extra
+ opencv_shape
+ Module
+D:/My_file/opencv_contrib/modules/shape/src/aff_trans.cpp
+ Extra
+ opencv_shape
+ Module
+D:/My_file/opencv_contrib/modules/shape/src/emdL1.cpp
+ Extra
+ opencv_shape
+ Module
+D:/My_file/opencv_contrib/modules/shape/src/haus_dis.cpp
+ Extra
+ opencv_shape
+ Module
+D:/My_file/opencv_contrib/modules/shape/src/hist_cost.cpp
+ Extra
+ opencv_shape
+ Module
+D:/My_file/opencv_contrib/modules/shape/src/sc_dis.cpp
+ Extra
+ opencv_shape
+ Module
+D:/My_file/opencv_contrib/modules/shape/src/tps_trans.cpp
+ Extra
+ opencv_shape
+ Module
+D:/My_file/opencv_contrib/modules/shape/src/emdL1_def.hpp
+ Extra
+ opencv_shape
+ Module
+D:/My_file/opencv_contrib/modules/shape/src/precomp.hpp
+ Extra
+ opencv_shape
+ Module
+D:/My_file/opencv_contrib/modules/shape/src/scd_def.hpp
+ Extra
+ opencv_shape
+ Module
+D:/My_file/opencv4.1/opencv-bulild/cvconfig.h
+D:/My_file/opencv4.1/opencv-bulild/opencv2/opencv_modules.hpp
+D:/My_file/opencv4.1/opencv-bulild/modules/shape/opencv_shape_pch.cpp
+ Extra
+ opencv_shape
+ Module
+D:/My_file/opencv4.1/opencv-bulild/modules/shape/vs_version.rc
+D:/My_file/opencv4.1/opencv-bulild/modules/shape/opencv_shape_main.cpp

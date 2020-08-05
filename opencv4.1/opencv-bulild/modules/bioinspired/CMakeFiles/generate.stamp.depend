@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+D:/My_file/opencv4.1/opencv/sources/cmake/templates/dllmain.cpp.in
+D:/My_file/opencv4.1/opencv/sources/cmake/templates/vs_version.rc.in
+D:/My_file/opencv_contrib/modules/bioinspired/CMakeLists.txt
