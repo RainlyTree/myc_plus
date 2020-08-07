@@ -248,55 +248,73 @@
 //}
 
 
+//#include<iostream>
+//#include<map>
+//using namespace std;
+//int main()
+//{
+//	int num = 0;
+//	while (cin >> num)
+//	{
+//		int sum = num;
+//		map<int, int> fin;
+//		for (int i = 0; i < num; ++i)
+//		{
+//			int tmp;
+//			cin >> tmp;
+//			++fin[tmp];
+//		}
+//		int avg = num / 2;
+//		auto it = fin.begin();
+//		while (it != fin.end())
+//		{
+//			num -= it->second;
+//			if (num == avg)
+//			{
+//				cout << it->first << endl;
+//				break;
+//			}
+//			++it;
+//		}
+//
+//		cin >> num;
+//		sum += num;
+//		for (int i = 0; i < num; ++i)
+//		{
+//			int tmp;
+//			cin >> tmp;
+//			++fin[tmp];
+//		}
+//		avg = sum / 2;
+//		it = fin.begin();
+//		while (it != fin.end())
+//		{
+//			sum -= it->second;
+//			if (sum == avg)
+//			{
+//				cout << it->first << endl;
+//				break;
+//			}
+//			++it;
+//		}
+//	}
+//	return 0;
+//}
+
 #include<iostream>
-#include<map>
+#include<mutex>
+#include<thread>
 using namespace std;
+
 int main()
 {
-	int num = 0;
-	while (cin >> num)
-	{
-		int sum = num;
-		map<int, int> fin;
-		for (int i = 0; i < num; ++i)
-		{
-			int tmp;
-			cin >> tmp;
-			++fin[tmp];
-		}
-		int avg = num / 2;
-		auto it = fin.begin();
-		while (it != fin.end())
-		{
-			num -= it->second;
-			if (num == avg)
-			{
-				cout << it->first << endl;
-				break;
-			}
-			++it;
-		}
+	const int ci = 20;
+	const int* pci = &ci;
+	int* pci2 = const_cast<int*> (&ci);
+	*pci2 = 30;
 
-		cin >> num;
-		sum += num;
-		for (int i = 0; i < num; ++i)
-		{
-			int tmp;
-			cin >> tmp;
-			++fin[tmp];
-		}
-		avg = sum / 2;
-		it = fin.begin();
-		while (it != fin.end())
-		{
-			sum -= it->second;
-			if (sum == avg)
-			{
-				cout << it->first << endl;
-				break;
-			}
-			++it;
-		}
-	}
+	cout << ci << endl;
+	cout << *pci << endl;
+	cout << *pci2 << endl;
 	return 0;
 }
