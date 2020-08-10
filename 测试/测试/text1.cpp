@@ -301,20 +301,43 @@
 //	return 0;
 //}
 
-#include<iostream>
-#include<mutex>
-#include<thread>
-using namespace std;
+//#include<iostream>
+//#include<mutex>
+//#include<thread>
+//using namespace std;
+//
+//int main()
+//{
+//	const int ci = 20;
+//	const int* pci = &ci;
+//	int* pci2 = const_cast<int*> (&ci);
+//	*pci2 = 30;
+//
+//	cout << ci << endl;
+//	cout << *pci << endl;
+//	cout << *pci2 << endl;
+//	return 0;
+//}
 
+//
+//#include<iostream>
+//#include<string>
+//using namespace std;
+//int main() {
+//	string str;
+//	while (cin >> str);
+//	cout << str.size() << endl;
+//	return 0;
+//}
+
+#include<stdio.h>
+#include<string.h>
+unsigned char i = 0;
 int main()
 {
-	const int ci = 20;
-	const int* pci = &ci;
-	int* pci2 = const_cast<int*> (&ci);
-	*pci2 = 30;
-
-	cout << ci << endl;
-	cout << *pci << endl;
-	cout << *pci2 << endl;
+	for (i = 0; i <= 255; i++)
+	{
+		printf("hello world\n");
+	}
 	return 0;
 }
